@@ -1,0 +1,40 @@
+title: "AI Tech Articles"
+description: "Independent articles on artificial intelligence, AI technology, tools, models, research, trends, and analysis."
+url: "https://aitecharticles.com"
+baseurl: ""
+lang: "en-US"
+timezone: "UTC"
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 10
+paginate_path: "/page:num/"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: "AI Tech Articles"
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
