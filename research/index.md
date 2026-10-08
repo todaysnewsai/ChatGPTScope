@@ -1,17 +1,12 @@
 ---
 layout: page
-title: Research
-permalink: /research/
+title: "AI Research"
 ---
-<p>This section will collect our latest research coverage.</p>
 
-<div class="post-list">
-{% assign items = site.posts | where_exp: "post", "post.categories contains 'research'" %}
-{% for post in items %}
-<article class="post-card">
-  <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-</article>
-{% endfor %}
-</div>
+The Research section follows advances in machine learning, reasoning, multimodal systems, agents, robotics, AI for science, evaluation, and safety.
+
+## Reading research responsibly
+
+A paper, preprint, benchmark, or demonstration is evidence of a particular result under particular conditions. It is not automatically proof that a system generalizes to every real-world task.
+
+We explain methods and limitations in accessible language while preserving important technical distinctions.
