@@ -19,7 +19,7 @@ a { color: inherit; }
 .container { width: min(calc(100% - 40px), var(--max)); margin-inline: auto; }
 .site-header { border-bottom: 1px solid var(--line); background: rgba(247,245,239,.96); }
 .header-inner { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
-.brand { font-family: Georgia, serif; font-size: 1.35rem; font-weight: 700; text-decoration: none; }
+.brand { font-family: Georgia, serif; font-size: 1.35rem; font-weight: 700; text-decoration: none; letter-spacing: -.02em; white-space: nowrap; }\n.brand span { color: var(--accent); }
 nav { display: flex; flex-wrap: wrap; gap: 18px; }
 nav a { font-size: .9rem; text-decoration: none; }
 .hero { padding: 100px 20px 90px; text-align: center; border-bottom: 1px solid var(--line); }
