@@ -1,4 +1,5 @@
 ---
+category: guides
 layout: page
 title: "AI Guides"
 ---
