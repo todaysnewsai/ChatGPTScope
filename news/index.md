@@ -1,17 +1,18 @@
 ---
 layout: page
-title: News
-permalink: /news/
+title: "AI News"
 ---
-<p>This section will collect our latest news coverage.</p>
 
-<div class="post-list">
-{% assign items = site.posts | where_exp: "post", "post.categories contains 'news'" %}
-{% for post in items %}
-<article class="post-card">
-  <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-</article>
-{% endfor %}
-</div>
+The News section covers significant developments across artificial intelligence, AI companies, models, agents, tools, research, and policy.
+
+## What belongs here
+
+News articles focus on confirmed developments that have clear reader value: product launches, major model releases, important research announcements, company decisions, regulatory developments, and meaningful changes in how AI is being deployed.
+
+## How we report breaking stories
+
+We prioritize primary sources and independent confirmation. Early reports can change, so developing stories are updated when material facts become clearer.
+
+## Latest coverage
+
+Browse the latest AI developments on the homepage and individual article pages.
