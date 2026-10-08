@@ -1,4 +1,5 @@
 ---
+category: analysis
 layout: page
 title: "AI Analysis"
 ---
