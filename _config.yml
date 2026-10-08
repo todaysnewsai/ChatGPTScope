@@ -1,6 +1,7 @@
 title: "AI Tech Articles"
 description: "Independent articles on artificial intelligence, AI technology, tools, models, research, trends, and analysis."
-url: "https://aitecharticles.com"
+url: "https://todaysnewsai.github.io"
+repository: "todaysnewsai/ai-tech-articles"
 baseurl: ""
 lang: "en-US"
 timezone: "UTC"
