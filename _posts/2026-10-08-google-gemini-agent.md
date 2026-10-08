@@ -87,3 +87,16 @@ Readers should judge each new AI capability by the same standard: what problem d
 ### Source
 
 [Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026)
+
+
+## What to check before relying on the technology
+
+A useful AI system needs more than an impressive demonstration. Teams should define the task, establish a baseline, test representative examples, and decide what level of error is acceptable. The evaluation should include ordinary requests as well as difficult and ambiguous cases.
+
+Data quality is central. Verify where information comes from, how current it is, and whether the application is allowed to process it. For business systems, confidential documents and customer information require explicit controls rather than assumptions.
+
+Actions need stronger controls than answers. If software can modify records, send messages, execute code, or make purchases, permissions should be narrow and consequential actions should normally require confirmation. Logging is important because teams need to understand what happened when a workflow fails.
+
+Cost and latency also shape product quality. A system that is accurate but too slow or expensive may not work at scale. Compare complete task cost, including retries, tools, infrastructure, and human review. Smaller or specialized models can sometimes provide better economics for repetitive workloads.
+
+Finally, monitor the system after launch. Models and surrounding services change, users discover new edge cases, and data sources evolve. Continuous evaluation and clear documentation make it possible to improve the system without losing track of what changed.
