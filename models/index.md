@@ -1,4 +1,5 @@
 ---
+category: models
 layout: page
 title: "AI Models"
 ---
