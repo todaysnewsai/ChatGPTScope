@@ -3,22 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
   {% seo %}
   {% feed_meta %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="{{ '/' | relative_url }}" aria-label="ATA — AI Tech Articles">ATA</a>
-      <nav aria-label="Primary navigation">
+      <a class="brand-lockup" href="{{ '/' | relative_url }}" aria-label="ATA — AI Tech Articles">
+        <span class="ata-logo" aria-hidden="true">ATA</span>
+        <span class="brand-copy">
+          <strong>AI TECH ARTICLES</strong>
+          <small>NEWS · INSIGHTS · TOOLS · RESEARCH</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a class="active" href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/news/' | relative_url }}">News</a>
         <a href="{{ '/tools/' | relative_url }}">AI Tools</a>
         <a href="{{ '/models/' | relative_url }}">AI Models</a>
         <a href="{{ '/guides/' | relative_url }}">Guides</a>
         <a href="{{ '/research/' | relative_url }}">Research</a>
         <a href="{{ '/analysis/' | relative_url }}">Analysis</a>
+        <a href="{{ '/companies/' | relative_url }}">Companies</a>
       </nav>
+
+      <div class="header-actions">
+        <label class="search-box" aria-label="Search articles">
+          <span aria-hidden="true">⌕</span>
+          <input type="search" placeholder="Search articles..." />
+        </label>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
+      </div>
     </div>
   </header>
 
@@ -26,7 +49,10 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© {{ 'now' | date: "%Y" }} AI Tech Articles</p>
+      <div>
+        <span class="footer-logo">ATA</span>
+        <p>AI Tech Articles — independent coverage of artificial intelligence and the technology shaping what comes next.</p>
+      </div>
       <nav aria-label="Footer navigation">
         <a href="{{ '/about/' | relative_url }}">About</a>
         <a href="{{ '/contact/' | relative_url }}">Contact</a>
@@ -35,5 +61,23 @@
       </nav>
     </div>
   </footer>
+
+  <script>
+    const toggle = document.querySelector('.theme-toggle');
+    const menu = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.site-nav');
+
+    if (localStorage.getItem('ata-theme') === 'dark') document.documentElement.classList.add('dark');
+
+    toggle?.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('ata-theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    });
+
+    menu?.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      menu.setAttribute('aria-expanded', open);
+    });
+  </script>
 </body>
 </html>
