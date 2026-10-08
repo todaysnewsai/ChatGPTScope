@@ -1,0 +1,33 @@
+---
+layout: default
+title: "AI Tech Articles"
+description: "Independent articles on artificial intelligence and the technology shaping the future."
+---
+
+<section class="hero">
+  <p class="eyebrow">ARTIFICIAL INTELLIGENCE & TECHNOLOGY</p>
+  <h1>AI Tech Articles</h1>
+  <p class="hero-copy">Clear, useful reporting, explainers, analysis, and research on artificial intelligence.</p>
+</section>
+
+<section class="section">
+  <div class="section-heading">
+    <h2>Latest Articles</h2>
+  </div>
+  {% if site.posts.size > 0 %}
+    <div class="post-list">
+      {% for post in site.posts limit:10 %}
+        <article class="post-card">
+          <p class="meta">{{ post.date | date: "%B %-d, %Y" }} · {{ post.categories | join: ", " }}</p>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="empty-state">
+      <h3>Articles are coming soon.</h3>
+      <p>We are building the publication before the first article is published.</p>
+    </div>
+  {% endif %}
+</section>
