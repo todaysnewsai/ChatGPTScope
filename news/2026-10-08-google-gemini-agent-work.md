@@ -10,13 +10,13 @@ author: "AI Tech Articles"
 
 Google has introduced a new Gemini agent for work as the technology industry pushes AI assistants beyond chat and toward software that can complete multi-step tasks.
 
-According to Reuters, the new agent is designed to help with tasks including answering questions, managing work, generating content, and coding. Google is positioning the system as part of the growing market for autonomous AI agents that can operate across applications. citeturn0news57
+According to Reuters, the new agent is designed to help with tasks including answering questions, managing work, generating content, and coding. Google is positioning the system as part of the growing market for autonomous AI agents that can operate across applications.
 
 ## Why AI agents are becoming the next battleground
 
 Traditional chatbots mainly respond to prompts. Agentic systems aim to take a series of actions on a user's behalf, potentially moving between applications, gathering information, producing outputs, and completing workflows.
 
-Google's announcement arrives as Microsoft, OpenAI, and Meta are also developing agent-oriented products. Reuters described the launches as part of an intensifying competition to make AI useful across everyday work rather than limiting it to conversation. citeturn0news57
+Google's announcement arrives as Microsoft, OpenAI, and Meta are also developing agent-oriented products. Reuters described the launches as part of an intensifying competition to make AI useful across everyday work rather than limiting it to conversation.
 
 ## What Google's approach means for businesses
 
@@ -32,5 +32,5 @@ For businesses, the practical question will be whether these agents save enough 
 
 ### Sources
 
-- Google Cloud announcement and product documentation
-- Reuters, October 8, 2026
+- [Google Cloud: Welcome to Gemini at Work 2026](https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026)
+- [Reuters, October 8, 2026](https://www.reuters.com/business/google-cloud-introduces-gemini-agent-work-ai-race-heats-up/)
