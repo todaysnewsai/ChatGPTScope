@@ -50,3 +50,24 @@ Regularly, and especially after changes to models, prompts, tools, data, policie
 
 ### What should readers watch next?
 Watch real adoption, independent evaluations, operating costs, reliability, security practices, and whether users continue to rely on the system after the initial excitement fades.
+
+
+## Building a dependable workflow
+
+Begin with a narrow, repeatable task. Define the input, output, quality threshold, and failure consequences. Compare the AI workflow with the existing process so the team can measure actual improvement.
+
+### Context matters
+
+Provide relevant information and remove unnecessary material. Use current sources and preserve provenance when factual accuracy matters. Clear instructions should identify goals, constraints, and the expected output rather than relying on vague requests.
+
+### Verification matters more as stakes rise
+
+Use tests, source checks, structured validation, or human review before important results are accepted. If an AI system can take actions, separate recommendation from execution and add approval for irreversible operations.
+
+### Keep the system observable
+
+Monitor quality, latency, cost, failures, and user corrections. Maintain examples of previous failures and rerun them after major changes. This provides a practical way to detect regressions as models and surrounding software evolve.
+
+### Optimize for outcomes
+
+The purpose of AI is not to produce more AI output. It is to improve the underlying task. Measure time saved, quality, throughput, cost, or another outcome that matters to the user. A smaller system that reliably improves a workflow can be more valuable than a larger system used inconsistently.
