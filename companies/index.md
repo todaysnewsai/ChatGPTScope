@@ -1,4 +1,5 @@
 ---
+category: companies
 layout: page
 title: "AI Companies"
 ---
