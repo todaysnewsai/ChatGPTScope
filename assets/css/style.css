@@ -147,9 +147,9 @@
   .view-all{display:inline-block;margin-top:18px}
   .latest h2{font-size:2.25rem}
   .news-grid{grid-template-columns:1fr}
-  .news-card{display:grid;grid-template-columns:40% 60%}
-  .news-image{height:100%;min-height:160px}
-  .news-body{padding:16px}
+  .news-card{display:block}
+  .news-image{display:block;width:100%;height:210px;min-height:210px}
+  .news-body{padding:18px 18px 20px}
   .desktop-only{display:none}
 
   .editorial-note{display:block}
