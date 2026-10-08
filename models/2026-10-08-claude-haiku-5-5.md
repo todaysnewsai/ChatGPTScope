@@ -10,7 +10,7 @@ author: "AI Tech Articles"
 
 Anthropic has introduced Claude Haiku 5.5, describing it as its fastest, cheapest, and most capable small model to date.
 
-The company's newsroom says Haiku 5.5 is designed for high-volume, cost-sensitive work. Anthropic lists use cases including summarization, data compaction, database querying, and classification. citeturn0search15
+The company's newsroom says Haiku 5.5 is designed for high-volume, cost-sensitive work. Anthropic lists use cases including summarization, data compaction, database querying, and classification.
 
 ## Where Haiku 5.5 fits
 
@@ -26,7 +26,7 @@ For developers, a fast model with lower operating costs can make it easier to de
 
 ## A faster model race
 
-Anthropic's release comes shortly after its introductions of Claude Sonnet 5.5 and Claude Opus 5.5. The company's September announcement said Sonnet 5.5 was faster and less expensive than its predecessor, while Opus 5.5 was also positioned around improved efficiency. citeturn0search11
+Anthropic's release comes shortly after its introductions of Claude Sonnet 5.5 and Claude Opus 5.5. The company's September announcement said Sonnet 5.5 was faster and less expensive than its predecessor, while Opus 5.5 was also positioned around improved efficiency.
 
 The pattern highlights a broader shift: AI model competition is increasingly about the combination of capability, latency, and cost rather than benchmark performance alone.
 
