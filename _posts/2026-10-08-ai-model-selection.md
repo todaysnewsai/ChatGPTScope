@@ -54,3 +54,40 @@ Use real examples from the workflow, including difficult and ambiguous cases, an
 
 ### What is the biggest mistake?
 Automating an unclear process before defining success and failure conditions.
+
+
+## Deeper considerations for real-world use
+
+The difference between an interesting AI capability and dependable software is usually found in the details around the model. Real users provide incomplete context, change their minds, use unfamiliar terminology, and expect the system to work even when external services are slow or unavailable. A production design therefore needs explicit assumptions and clear recovery paths.
+
+### Start with a measurable baseline
+
+Before introducing AI, record how the current process works. Measure time per task, error rates, throughput, and the amount of manual effort. This makes later comparisons meaningful. If an AI system produces a faster result but requires extensive correction, the apparent productivity gain may disappear. A baseline also helps identify which parts of a workflow actually need intelligence and which parts should remain conventional software.
+
+### Treat context as a product resource
+
+AI systems perform best when they receive the information required for the task without being overwhelmed by irrelevant material. Good context engineering involves selecting useful documents, metadata, examples, instructions, and previous decisions. More context is not automatically better. Irrelevant or contradictory information can make a system less reliable, while missing context can cause confident errors.
+
+### Design for uncertainty
+
+A useful AI interface should make uncertainty manageable. The system can expose sources, show intermediate results, request clarification, or route difficult cases to a human. In high-impact workflows, the user should understand which parts are generated, which are retrieved from external sources, and which actions have actually been executed. Clear boundaries improve trust because users can distinguish assistance from authority.
+
+### Monitor after launch
+
+Evaluation does not end when an application ships. Real-world inputs change. Models are updated. Data sources evolve. Users discover unexpected workflows. Monitoring should therefore track quality and operational behavior over time. Teams can sample outputs, review failures, watch latency and cost, and maintain a regression set for important tasks. A system that worked well during a pilot can degrade if its surrounding environment changes.
+
+### Build graceful failure modes
+
+AI systems should have a useful response when they cannot complete a task. That may mean asking for more information, returning a partial result, escalating to a person, or declining to take an action. Silent failure is particularly dangerous because it can make an incomplete operation look successful. Applications should record tool failures and distinguish them from model refusals or ordinary user errors.
+
+### Think about maintenance
+
+Prompts, retrieval pipelines, model versions, tool integrations, and evaluation data all become software assets that need maintenance. Document important assumptions and version changes. If an application depends on a particular model behavior, test that behavior before changing models. When several models are supported, compare them using the same evaluation set rather than assuming that a newer model will automatically be better for every workload.
+
+### Measure the complete system
+
+The final metric should be the outcome the user actually cares about. For a coding workflow that might be successfully merged software rather than lines of generated code. For research it might be a correct, well-supported answer rather than a long summary. For customer support it might be resolution quality rather than response length. Measuring the end result keeps teams focused on value rather than impressive intermediate outputs.
+
+### A practical decision rule
+
+Adopt an AI capability when it produces a measurable improvement at an acceptable level of risk and cost. Do not adopt it simply because competitors have announced something similar. Small, reliable improvements often create more durable value than ambitious automation that fails unpredictably. The best AI systems are usually the ones that fit naturally into a workflow and make the user's next decision easier.
