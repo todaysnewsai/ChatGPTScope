@@ -3,12 +3,12 @@ layout: page
 title: "AI Models"
 ---
 
-The AI Models section explains new and established foundation models from OpenAI, Google, Anthropic, Meta, NVIDIA, open-model developers, and other research organizations.
+This section explains foundation models from OpenAI, Google, Anthropic, Meta, NVIDIA, open-model developers, and research organizations.
 
-## What matters beyond benchmarks
+## Beyond benchmarks
 
-Model selection depends on capability, latency, cost, context handling, tool use, reliability, privacy, and the specific workload. A benchmark result alone does not determine which model is best for a real application.
+Model selection depends on capability, latency, cost, context handling, tool use, reliability, privacy, and workload. A benchmark alone does not determine which model is best.
 
-## Model coverage
+## Evidence
 
-We distinguish official specifications from independent testing and explain where evidence remains limited.
+Official specifications are distinguished from independent testing and analysis.
