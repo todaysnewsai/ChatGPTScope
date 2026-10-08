@@ -1,33 +1,81 @@
 ---
 layout: default
 title: "AI Tech Articles"
-description: "Independent articles on artificial intelligence and the technology shaping the future."
+description: "Independent reporting, explainers, tools, research, and analysis about artificial intelligence."
 ---
 
-<section class="hero">
-  <p class="eyebrow">ARTIFICIAL INTELLIGENCE & TECHNOLOGY</p>
-  <h1>AI Tech Articles</h1>
-  <p class="hero-copy">Clear, useful reporting, explainers, analysis, and research on artificial intelligence.</p>
+<section class="hero-feature">
+  <div class="hero-copy-panel">
+    <span class="feature-label">FEATURED</span>
+    <p class="story-kicker">AI & TECHNOLOGY <span>·</span> THE FUTURE OF AI</p>
+    <h1>The next generation of artificial intelligence is already taking shape.</h1>
+    <p class="hero-description">Clear reporting, practical explainers, model coverage, tools, research, and analysis for readers who want to understand what is actually changing.</p>
+    <a class="primary-button" href="{{ '/news/' | relative_url }}">Explore AI coverage <span>→</span></a>
+  </div>
+  <div class="hero-art" aria-label="Abstract artificial intelligence visual">
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <div class="ai-face">
+      <div class="face-eye"></div>
+      <div class="face-line"></div>
+      <div class="face-jaw"></div>
+    </div>
+    <div class="tech-grid"></div>
+  </div>
+  <aside class="feature-sidebar" aria-label="Featured sections">
+    <a href="{{ '/models/' | relative_url }}" class="side-story">
+      <span class="side-thumb thumb-models">AI</span>
+      <span><small>AI MODELS</small><strong>Understand the models shaping the AI landscape</strong><em>Explore models →</em></span>
+    </a>
+    <a href="{{ '/tools/' | relative_url }}" class="side-story">
+      <span class="side-thumb thumb-tools">TOOLS</span>
+      <span><small>AI TOOLS</small><strong>Practical tools for work, research, and creation</strong><em>Explore tools →</em></span>
+    </a>
+    <a href="{{ '/guides/' | relative_url }}" class="side-story">
+      <span class="side-thumb thumb-guides">&lt;/&gt;</span>
+      <span><small>AI GUIDES</small><strong>Useful guides that explain how AI works</strong><em>Read guides →</em></span>
+    </a>
+    <a href="{{ '/research/' | relative_url }}" class="side-story">
+      <span class="side-thumb thumb-research">R</span>
+      <span><small>RESEARCH</small><strong>Research, papers, and important technical ideas</strong><em>Read research →</em></span>
+    </a>
+  </aside>
 </section>
 
-<section class="section">
-  <div class="section-heading">
-    <h2>Latest Articles</h2>
+<section class="latest-section">
+  <div class="section-intro">
+    <div>
+      <p class="section-kicker">LATEST COVERAGE</p>
+      <h2>The Latest in AI</h2>
+      <p>Stay informed with useful coverage of artificial intelligence, models, tools, research, and the companies building them.</p>
+    </div>
+    <a class="outline-button" href="{{ '/news/' | relative_url }}">View all news <span>→</span></a>
   </div>
-  {% if site.posts.size > 0 %}
-    <div class="post-list">
-      {% for post in site.posts limit:10 %}
-        <article class="post-card">
-          <p class="meta">{{ post.date | date: "%B %-d, %Y" }} · {{ post.categories | join: ", " }}</p>
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-        </article>
-      {% endfor %}
-    </div>
-  {% else %}
-    <div class="empty-state">
-      <h3>Articles are coming soon.</h3>
-      <p>We are building the publication before the first article is published.</p>
-    </div>
-  {% endif %}
+
+  <div class="category-grid">
+    <a class="category-card" href="{{ '/news/' | relative_url }}">
+      <div class="card-art art-news"><span>NEWS</span><i>AI</i></div>
+      <div class="card-content"><small>AI NEWS</small><h3>What matters in artificial intelligence right now</h3><p>Follow major launches, announcements, and developments.</p></div>
+    </a>
+    <a class="category-card" href="{{ '/models/' | relative_url }}">
+      <div class="card-art art-models"><span>MODELS</span><i>01</i></div>
+      <div class="card-content"><small>AI MODELS</small><h3>New models, capabilities, and how they compare</h3><p>Understand what changes when a new generation arrives.</p></div>
+    </a>
+    <a class="category-card" href="{{ '/tools/' | relative_url }}">
+      <div class="card-art art-tools"><span>TOOLS</span><i>✦</i></div>
+      <div class="card-content"><small>AI TOOLS</small><h3>Tools worth knowing for everyday work</h3><p>Practical coverage focused on usefulness, not hype.</p></div>
+    </a>
+    <a class="category-card" href="{{ '/research/' | relative_url }}">
+      <div class="card-art art-research"><span>RESEARCH</span><i>∑</i></div>
+      <div class="card-content"><small>AI RESEARCH</small><h3>Research explained for curious readers</h3><p>Clear context around papers, methods, and breakthroughs.</p></div>
+    </a>
+  </div>
+</section>
+
+<section class="editorial-strip">
+  <div>
+    <p class="section-kicker">THE ATA EDITORIAL STANDARD</p>
+    <h2>Useful over noisy.</h2>
+  </div>
+  <p>We focus on accuracy, context, search intent, and original explanation — so every article has a reason to exist.</p>
 </section>
