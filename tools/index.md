@@ -1,17 +1,14 @@
 ---
 layout: page
-title: AI Tools
-permalink: /tools/
+title: "AI Tools"
 ---
-<p>This section will collect our latest ai tools coverage.</p>
 
-<div class="post-list">
-{% assign items = site.posts | where_exp: "post", "post.categories contains 'tools'" %}
-{% for post in items %}
-<article class="post-card">
-  <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-</article>
-{% endfor %}
-</div>
+AI tools are becoming part of everyday work, from writing and coding to research, design, automation, and data analysis.
+
+## What we evaluate
+
+Our tool coverage focuses on what a product actually does, who it is for, major limitations, workflow fit, pricing when verified, privacy considerations, and alternatives.
+
+## Practical guides
+
+Tool articles aim to answer a practical question rather than simply list features. We explain when a tool is useful, when another approach is better, and what users should check before relying on it for important work.
