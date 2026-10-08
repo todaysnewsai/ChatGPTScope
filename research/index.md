@@ -1,4 +1,5 @@
 ---
+category: research
 layout: page
 title: "AI Research"
 ---
