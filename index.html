@@ -6,6 +6,7 @@ description: "AI news, model coverage, tools, research, guides, and analysis."
 
 <section class="home-hero">
   {% assign featured = site.posts | first %}
+  {% assign featured_image = featured.image | default: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1600&q=85" %}
   <div class="hero-main">
     <div class="hero-text">
       <span class="feature-pill">FEATURED</span>
@@ -14,12 +15,13 @@ description: "AI news, model coverage, tools, research, guides, and analysis."
       <p>{{ featured.description }}</p>
       <a class="hero-button" href="{{ featured.url | relative_url }}">Read the full article <span>→</span></a>
     </div>
-    <div class="hero-image hero-robot" style="background-image:linear-gradient(90deg,rgba(5,14,26,.05),rgba(5,14,26,.1)),url('{{ featured.image }}')"></div>
+    <div class="hero-image hero-robot" style="background-image:linear-gradient(90deg,rgba(5,14,26,.05),rgba(5,14,26,.1)),url('{{ featured_image }}')"></div>
   </div>
   <aside class="hero-list">
     {% for post in site.posts limit:4 %}
+    {% assign post_image = post.image | default: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=80" %}
     <a href="{{ post.url | relative_url }}" class="hero-list-item">
-      <div class="mini-image" style="background-image:url('{{ post.image }}')"></div>
+      <div class="mini-image" style="background-image:url('{{ post_image }}')"></div>
       <div><span>{{ post.categories | first | upcase }}</span><strong>{{ post.title }}</strong><time>{{ post.date | date: "%b %-d, %Y" | upcase }}</time></div>
     </a>
     {% endfor %}
@@ -37,8 +39,9 @@ description: "AI news, model coverage, tools, research, guides, and analysis."
   </div>
   <div class="news-grid">
     {% for post in site.posts limit:8 %}
+    {% assign post_image = post.image | default: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=80" %}
     <a class="news-card" href="{{ post.url | relative_url }}">
-      <div class="news-image" style="background-image:url('{{ post.image }}')"></div>
+      <div class="news-image" style="background-image:url('{{ post_image }}')"></div>
       <div class="news-body"><span>{{ post.categories | first | upcase }}</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p><small>{{ post.date | date: "%b %-d, %Y" | upcase }}</small></div>
     </a>
     {% endfor %}
