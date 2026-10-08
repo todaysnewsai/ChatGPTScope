@@ -1,17 +1,14 @@
 ---
 layout: page
-title: Guides
-permalink: /guides/
+title: "AI Guides"
 ---
-<p>This section will collect our latest guides coverage.</p>
 
-<div class="post-list">
-{% assign items = site.posts | where_exp: "post", "post.categories contains 'guides'" %}
-{% for post in items %}
-<article class="post-card">
-  <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-</article>
-{% endfor %}
-</div>
+Our guides turn AI capabilities into practical workflows.
+
+## Topics
+
+Expect tutorials covering prompting, AI agents, coding assistants, research workflows, AI search, automation, model selection, and responsible use.
+
+## Our approach
+
+A useful guide should explain prerequisites, steps, expected results, limitations, and common mistakes. Where software changes quickly, we identify the version or date relevant to the instructions.
