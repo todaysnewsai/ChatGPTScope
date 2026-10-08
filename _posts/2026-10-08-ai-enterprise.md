@@ -63,3 +63,24 @@ Actions need stronger controls than answers. If software can modify records, sen
 Cost and latency also shape product quality. A system that is accurate but too slow or expensive may not work at scale. Compare complete task cost, including retries, tools, infrastructure, and human review. Smaller or specialized models can sometimes provide better economics for repetitive workloads.
 
 Finally, monitor the system after launch. Models and surrounding services change, users discover new edge cases, and data sources evolve. Continuous evaluation and clear documentation make it possible to improve the system without losing track of what changed.
+
+
+## Practical implementation notes
+
+The strongest way to assess an AI capability is to connect it to a clearly defined task and measure the complete workflow. Establish a baseline, test realistic examples, and decide what level of error is acceptable before deployment.
+
+### Context and evidence
+
+Give the system the information it actually needs. Relevant documents, metadata, examples, and instructions are more useful than indiscriminate context. When factual accuracy matters, preserve source information and make important evidence easy to inspect.
+
+### Controls and permissions
+
+An AI that can take action requires stronger controls than one that only produces text. Separate reading from writing, limit access to the minimum necessary, and require confirmation for consequential or irreversible actions. Keep logs for important operations.
+
+### Evaluation and maintenance
+
+Monitor quality, latency, cost, failures, and human corrections after launch. Models, tools, data, and policies change, so an evaluation that was successful during a pilot should be repeated after significant updates.
+
+### Measuring value
+
+The final measure should be the outcome users care about: a correct result, faster workflow, lower cost, better software, improved research, or another measurable benefit. AI output volume is not a useful substitute for real value.
