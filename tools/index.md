@@ -1,4 +1,5 @@
 ---
+category: tools
 layout: page
 title: "AI Tools"
 ---
