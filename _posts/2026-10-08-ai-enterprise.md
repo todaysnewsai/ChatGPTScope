@@ -23,8 +23,6 @@ A simplified workflow looks like this:
 
 **Goal → plan → use a tool → inspect result → choose next step → complete or ask for approval.**
 
-The model remains important, but it is only one component. A useful agent also needs access to tools, data, permissions, memory or state, and mechanisms for evaluating whether its work is correct.
-
 That distinction explains why an agent can be impressive even when the underlying model is not the only source of the capability. Search, retrieval, APIs, code execution, browser automation, business applications, and carefully designed workflows can turn a model into a much more useful system.
 
 ## What Can AI Agents Actually Do in 2026?
@@ -143,8 +141,6 @@ Document what the agent is allowed to access. Separate low-risk tasks from high-
 
 Then run a limited pilot and compare it with the existing process.
 
-The important metric is not the number of AI features launched. It is whether the workflow becomes measurably better: faster, cheaper, more accurate, or easier to operate without creating unacceptable new risks.
-
 ## The Future of AI Agents
 
 The most important change in 2026 is not simply that AI can generate better text. It is that AI systems are increasingly being connected to the software and information needed to turn generated reasoning into actions.
@@ -154,8 +150,6 @@ That creates a new product category, but it also changes the engineering discipl
 The winning systems will not necessarily be the ones that perform the most actions. They will be the ones that can perform useful actions reliably, operate within narrow permissions, recover from failure, and give humans meaningful control.
 
 AI agents are therefore best understood as **software systems**, rather than magical digital employees.
-
-The model provides intelligence. Tools provide capabilities. Data provides context. Permissions define boundaries. Evaluation measures reliability. Security limits damage. Human oversight determines where the machine should stop.
 
 That is the real agent stack.
 
