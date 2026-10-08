@@ -10,7 +10,7 @@ author: "AI Tech Articles"
 
 OpenAI has published new results on the use of advanced AI systems in mathematical research, including formalized proofs and research details intended for further study.
 
-OpenAI's research update, published October 6, says the company is sharing progress on open problems in mathematics and providing Lean proof formalizations and related research material on GitHub. citeturn0search12turn0search14
+OpenAI's research update, published October 6, says the company is sharing progress on open problems in mathematics and providing Lean proof formalizations and related research material on GitHub.
 
 ## Why formal proofs matter
 
@@ -34,5 +34,5 @@ OpenAI's latest work is therefore worth watching not only as a mathematics story
 
 ### Sources
 
-- OpenAI Newsroom, October 6, 2026
-- OpenAI Research, October 2026
+- [OpenAI: Sharing AI progress in mathematics](https://openai.com/index/sharing-ai-progress-in-mathematics/)
+- [OpenAI Research](https://openai.com/research/index/publication/)
