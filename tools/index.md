@@ -7,8 +7,8 @@ AI tools are becoming part of everyday work, from writing and coding to research
 
 ## What we evaluate
 
-Our tool coverage focuses on what a product actually does, who it is for, major limitations, workflow fit, pricing when verified, privacy considerations, and alternatives.
+Coverage focuses on actual capabilities, audience, limitations, workflow fit, pricing when verified, privacy, and alternatives.
 
-## Practical guides
+## Practical coverage
 
-Tool articles aim to answer a practical question rather than simply list features. We explain when a tool is useful, when another approach is better, and what users should check before relying on it for important work.
+A useful tool article explains when a product helps, when another approach is better, and what users should check before relying on it.
