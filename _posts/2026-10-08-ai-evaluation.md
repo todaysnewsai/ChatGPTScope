@@ -54,3 +54,32 @@ Use real examples from the workflow, including difficult and ambiguous cases, an
 
 ### What is the biggest mistake?
 Automating an unclear process before defining success and failure conditions.
+
+
+## Practical implementation notes
+
+AI systems need to be designed for real operating conditions, not only ideal prompts. Start by defining the user problem, the expected result, and the consequences of failure. Establish a baseline before automation so improvements can be measured rather than assumed.
+
+### Context and data
+
+Give the system the information it actually needs. Relevant documents, metadata, examples, and instructions are more valuable than indiscriminate context. Keep important sources current and establish ownership for data quality. If information can be stale, show its date or source and provide a way to refresh it.
+
+### Verification
+
+Use structured checks wherever possible. Generated content can be validated against schemas, source documents, tests, business rules, or human review. Verification should happen before consequential actions, not after the damage is done. For research and knowledge tasks, source quality is as important as the fluency of the answer.
+
+### Permissions
+
+Access should be limited to the minimum required. Separate reading information from changing it, and separate reversible actions from irreversible ones. High-impact operations should normally have an explicit approval step. Logs should record important actions so failures can be investigated.
+
+### Monitoring
+
+Production behavior changes over time. Track task success, error patterns, latency, cost, and human corrections. Maintain a regression set and rerun it after model, prompt, tool, or data changes. Monitoring turns AI reliability from a one-time claim into an ongoing engineering process.
+
+### Human factors
+
+Interfaces should help users understand what the AI knows, what it inferred, and what it actually did. Make evidence accessible and make correction easy. A system that hides uncertainty can encourage over-trust; a system that communicates limits clearly can be more useful even when it is less autonomous.
+
+### Long-term value
+
+The strongest AI deployments solve a recurring problem and improve measurable outcomes. Feature count is a poor substitute for value. Teams should compare the complete workflow before and after AI, including the time spent checking results. If the human review burden remains too high, the system may need better retrieval, narrower scope, a different model, or a redesigned process.
