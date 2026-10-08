@@ -19,14 +19,14 @@ a { color: inherit; }
 .container { width: min(calc(100% - 56px), var(--max)); margin-inline: auto; }
 
 .site-header { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.94); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
-.header-inner { min-height: 92px; display: flex; align-items: center; gap: 34px; }
-.brand-lockup { display: flex; align-items: center; gap: 18px; text-decoration: none; flex-shrink: 0; }
+.header-inner { min-height: 92px; display: flex; align-items: center; gap: 28px; min-width: 0; }
+.brand-lockup { display: flex; align-items: center; gap: 18px; text-decoration: none; flex-shrink: 0; min-width: 0; }
 .ata-logo { display:flex; align-items:flex-end; height:58px; font-family: Arial Black, Arial, Helvetica, sans-serif; font-size:3.55rem; line-height:.82; font-weight:900; letter-spacing:-.12em; }
 .logo-a,.logo-t { display:inline-block; color:#07101c; }
 .logo-a-last { position:relative; color:transparent; background:linear-gradient(135deg,#253243 8%,#1468ff 88%); -webkit-background-clip:text; background-clip:text; }
-/* The final A intentionally remains open at its lower-right foot, matching the ATA mark. */
-.logo-a-last::after { content:""; position:absolute; left:58%; bottom:-2px; width:48%; height:15px; background:#fff; transform:skewX(-18deg); }
-.logo-a-last { overflow:hidden; }
+/* The final A is an open geometric mark: its right leg stops above the baseline. */
+.logo-a-last { position:relative; overflow:hidden; }
+.logo-a-last::after { content:""; position:absolute; left:52%; top:57%; right:-4%; bottom:-2%; background:#fff; transform:skewX(-13deg); transform-origin:top left; }
 .brand-copy { display: flex; flex-direction: column; gap: 3px; }
 .brand-copy strong { font-size: 1.45rem; letter-spacing: .02em; line-height: 1; }
 .brand-copy small { color: var(--muted); font-size: .67rem; letter-spacing: .09em; white-space: nowrap; }
@@ -145,7 +145,10 @@ a { color: inherit; }
 @media (max-width: 720px) {
   .container, .latest-section, .editorial-strip { width: min(calc(100% - 32px), var(--max)); }
   .header-inner { flex-wrap: wrap; gap: 12px; padding: 12px 0; }
-  .ata-logo { font-size: 2.8rem; height:46px; }
+  .ata-logo { font-size: 2.8rem; height:46px; flex-shrink:0; }
+  .brand-copy { min-width:0; }
+  .brand-copy strong { font-size:1.08rem; }
+  .brand-copy small { font-size:.54rem; overflow:hidden; text-overflow:ellipsis; }
   .menu-toggle { display: block; margin-left: auto; border: 1px solid var(--line); background: white; border-radius: 8px; padding: 8px 12px; font: inherit; }
   .site-nav { display: none; order: 5; width: 100%; flex-direction: column; align-items: flex-start; gap: 0; padding: 8px 0 12px; }
   .site-nav.open { display: flex; }
