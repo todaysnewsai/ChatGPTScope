@@ -1,17 +1,14 @@
 ---
 layout: page
-title: AI Models
-permalink: /models/
+title: "AI Models"
 ---
-<p>This section will collect our latest ai models coverage.</p>
 
-<div class="post-list">
-{% assign items = site.posts | where_exp: "post", "post.categories contains 'models'" %}
-{% for post in items %}
-<article class="post-card">
-  <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-</article>
-{% endfor %}
-</div>
+The AI Models section explains new and established foundation models from OpenAI, Google, Anthropic, Meta, NVIDIA, open-model developers, and other research organizations.
+
+## What matters beyond benchmarks
+
+Model selection depends on capability, latency, cost, context handling, tool use, reliability, privacy, and the specific workload. A benchmark result alone does not determine which model is best for a real application.
+
+## Model coverage
+
+We distinguish official specifications from independent testing and explain where evidence remains limited.
