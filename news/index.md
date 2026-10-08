@@ -1,4 +1,5 @@
 ---
+category: news
 layout: page
 title: "AI News"
 ---
