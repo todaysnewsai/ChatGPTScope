@@ -50,3 +50,28 @@ Regularly, and especially after changes to models, prompts, tools, data, policie
 
 ### What should readers watch next?
 Watch real adoption, independent evaluations, operating costs, reliability, security practices, and whether users continue to rely on the system after the initial excitement fades.
+
+
+## Practical considerations
+
+The most important design decision is to define the problem before choosing the technology. Measure the existing workflow, identify where information is missing, and decide what an acceptable error looks like. This prevents teams from treating a model as the solution to a problem that was never clearly specified.
+
+### Data quality
+
+AI output depends heavily on the information surrounding the model. Data should be current, relevant, permissioned, and traceable. When the system relies on external sources, users should be able to understand where important information came from. Poor data can produce convincing but incorrect results regardless of model capability.
+
+### Evaluation
+
+Build tests from realistic examples. Include ordinary cases, edge cases, ambiguous inputs, and situations where the correct response is to decline or request clarification. Measure end-to-end outcomes rather than only model benchmarks. Repeat tests when models, prompts, data, or tools change.
+
+### Risk controls
+
+The higher the consequence of an error, the stronger the controls should be. Limit permissions, protect sensitive information, separate automated suggestions from executed actions, and require human approval for consequential decisions. Keep logs that allow incidents to be reconstructed.
+
+### Operational reality
+
+Latency, cost, availability, rate limits, and maintenance can matter as much as raw capability. A system that produces excellent answers but is too expensive or slow for the workflow may not be viable. Teams should calculate the cost of completing the task, including retries and human review.
+
+### What success looks like
+
+A successful AI system improves a measurable outcome. It may reduce time, increase throughput, improve access to information, reduce repetitive work, or help experts explore more possibilities. The objective should be visible in the metrics used to judge the project.
