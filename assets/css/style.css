@@ -161,3 +161,17 @@
   .site-footer{width:100%;overflow:hidden}
 }
 .article-cover{display:block;width:100%;max-height:620px;object-fit:cover;border-radius:12px;margin:24px 0 30px}.dek{font-size:1.2rem;color:#667085;line-height:1.6;margin:0 0 35px}@media(max-width:600px){.article-cover{max-height:340px;border-radius:9px;margin:18px 0 24px}.dek{font-size:1.05rem}}
+
+
+/* Category article listings */
+.page-category{width:min(calc(100% - 64px),var(--max));max-width:var(--max)}
+.category-articles{margin-top:52px}
+.category-articles-heading{display:flex;align-items:baseline;gap:14px;border-top:1px solid var(--line);padding-top:22px;margin-bottom:22px}
+.category-articles-heading span{color:var(--blue);font-size:.7rem;font-weight:800;letter-spacing:.1em}
+.category-articles-heading strong{font:600 2rem/1.1 var(--serif)}
+.page-category .news-grid{grid-template-columns:repeat(4,1fr)}
+@media(max-width:900px){.page-category .news-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){
+  .page-category{width:calc(100% - 24px)}
+  .page-category .news-grid{grid-template-columns:1fr}
+}
