@@ -40,7 +40,7 @@
           <span aria-hidden="true">⌕</span>
           <input type="search" placeholder="Search articles..." />
         </label>
-        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
+        
       </div>
     </div>
   </header>
@@ -67,17 +67,6 @@
     const menu = document.querySelector('.menu-toggle');
     const nav = document.querySelector('.site-nav');
 
-    if (localStorage.getItem('ata-theme') === 'dark') document.documentElement.classList.add('dark');
-
-    toggle?.addEventListener('click', () => {
-      document.documentElement.classList.toggle('dark');
-      localStorage.setItem('ata-theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
-    });
-
-    menu?.addEventListener('click', () => {
-      const open = nav.classList.toggle('open');
-      menu.setAttribute('aria-expanded', String(open));
-    });
     nav?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
       nav.classList.remove('open');
       menu?.setAttribute('aria-expanded', 'false');
