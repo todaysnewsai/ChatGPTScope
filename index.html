@@ -1,81 +1,72 @@
 ---
 layout: default
 title: "AI Tech Articles"
-description: "Independent reporting, explainers, tools, research, and analysis about artificial intelligence."
+description: "AI news, model coverage, tools, research, guides, and analysis."
 ---
 
-<section class="hero-feature">
-  <div class="hero-copy-panel">
-    <span class="feature-label">FEATURED</span>
-    <p class="story-kicker">AI & TECHNOLOGY <span>·</span> THE FUTURE OF AI</p>
-    <h1>The next generation of artificial intelligence is already taking shape.</h1>
-    <p class="hero-description">Clear reporting, practical explainers, model coverage, tools, research, and analysis for readers who want to understand what is actually changing.</p>
-    <a class="primary-button" href="{{ '/news/' | relative_url }}">Explore AI coverage <span>→</span></a>
-  </div>
-  <div class="hero-art" aria-label="Abstract artificial intelligence visual">
-    <div class="orb orb-one"></div>
-    <div class="orb orb-two"></div>
-    <div class="ai-face">
-      <div class="face-eye"></div>
-      <div class="face-line"></div>
-      <div class="face-jaw"></div>
+<section class="home-hero">
+  <div class="hero-main">
+    <div class="hero-text">
+      <span class="feature-pill">FEATURED</span>
+      <div class="hero-kicker">AI MODELS <span>·</span> OCT 8, 2026</div>
+      <h1>The Next Generation<br class="desktop-only"> of AI Models</h1>
+      <p>A practical guide to the latest AI model releases, key improvements, real-world use cases, and what they mean for developers and businesses.</p>
+      <a class="hero-button" href="{{ '/models/' | relative_url }}">Read the full article <span>→</span></a>
     </div>
-    <div class="tech-grid"></div>
+    <div class="hero-image hero-robot" role="img" aria-label="Futuristic AI robot portrait"></div>
   </div>
-  <aside class="feature-sidebar" aria-label="Featured sections">
-    <a href="{{ '/models/' | relative_url }}" class="side-story">
-      <span class="side-thumb thumb-models">AI</span>
-      <span><small>AI MODELS</small><strong>Understand the models shaping the AI landscape</strong><em>Explore models →</em></span>
+
+  <aside class="hero-list">
+    <a href="{{ '/news/' | relative_url }}" class="hero-list-item">
+      <div class="mini-image mini-openai"></div>
+      <div><span>OPENAI</span><strong>OpenAI’s Latest Updates: What’s New and What’s Next</strong><time>OCT 8, 2026</time></div>
     </a>
-    <a href="{{ '/tools/' | relative_url }}" class="side-story">
-      <span class="side-thumb thumb-tools">TOOLS</span>
-      <span><small>AI TOOLS</small><strong>Practical tools for work, research, and creation</strong><em>Explore tools →</em></span>
+    <a href="{{ '/research/' | relative_url }}" class="hero-list-item">
+      <div class="mini-image mini-google"></div>
+      <div><span>GOOGLE</span><strong>Google DeepMind Unveils New AI Research Breakthrough</strong><time>OCT 7, 2026</time></div>
     </a>
-    <a href="{{ '/guides/' | relative_url }}" class="side-story">
-      <span class="side-thumb thumb-guides">&lt;/&gt;</span>
-      <span><small>AI GUIDES</small><strong>Useful guides that explain how AI works</strong><em>Read guides →</em></span>
+    <a href="{{ '/tools/' | relative_url }}" class="hero-list-item">
+      <div class="mini-image mini-tools"></div>
+      <div><span>AI TOOLS</span><strong>10 Best AI Tools for Productivity in 2026</strong><time>OCT 6, 2026</time></div>
     </a>
-    <a href="{{ '/research/' | relative_url }}" class="side-story">
-      <span class="side-thumb thumb-research">R</span>
-      <span><small>RESEARCH</small><strong>Research, papers, and important technical ideas</strong><em>Read research →</em></span>
+    <a href="{{ '/guides/' | relative_url }}" class="hero-list-item">
+      <div class="mini-image mini-code"></div>
+      <div><span>AI GUIDES</span><strong>How to Build Your First AI Agent (Step by Step)</strong><time>OCT 5, 2026</time></div>
     </a>
   </aside>
 </section>
 
-<section class="latest-section">
-  <div class="section-intro">
+<section class="latest">
+  <div class="latest-heading">
     <div>
-      <p class="section-kicker">LATEST COVERAGE</p>
+      <div class="section-kicker"><i></i> LATEST NEWS</div>
       <h2>The Latest in AI</h2>
-      <p>Stay informed with useful coverage of artificial intelligence, models, tools, research, and the companies building them.</p>
+      <p>Stay updated with the most important developments in artificial intelligence.</p>
     </div>
-    <a class="outline-button" href="{{ '/news/' | relative_url }}">View all news <span>→</span></a>
+    <a class="view-all" href="{{ '/news/' | relative_url }}">View all news <span>→</span></a>
   </div>
 
-  <div class="category-grid">
-    <a class="category-card" href="{{ '/news/' | relative_url }}">
-      <div class="card-art art-news"><span>NEWS</span><i>AI</i></div>
-      <div class="card-content"><small>AI NEWS</small><h3>What matters in artificial intelligence right now</h3><p>Follow major launches, announcements, and developments.</p></div>
+  <div class="news-grid">
+    <a class="news-card" href="{{ '/news/' | relative_url }}">
+      <div class="news-image image-claude"></div>
+      <div class="news-body"><span>ANTHROPIC</span><h3>Anthropic Expands Claude with New Capabilities</h3><p>Explore how frontier AI assistants are becoming more capable across everyday work.</p><small>OCT 8, 2026 &nbsp; · &nbsp; 4 MIN READ</small></div>
     </a>
-    <a class="category-card" href="{{ '/models/' | relative_url }}">
-      <div class="card-art art-models"><span>MODELS</span><i>01</i></div>
-      <div class="card-content"><small>AI MODELS</small><h3>New models, capabilities, and how they compare</h3><p>Understand what changes when a new generation arrives.</p></div>
+    <a class="news-card" href="{{ '/models/' | relative_url }}">
+      <div class="news-image image-nvidia"></div>
+      <div class="news-body"><span>NVIDIA</span><h3>NVIDIA and the Hardware Behind Modern AI</h3><p>Why inference performance and specialized accelerators matter for the next generation of AI.</p><small>OCT 7, 2026 &nbsp; · &nbsp; 3 MIN READ</small></div>
     </a>
-    <a class="category-card" href="{{ '/tools/' | relative_url }}">
-      <div class="card-art art-tools"><span>TOOLS</span><i>✦</i></div>
-      <div class="card-content"><small>AI TOOLS</small><h3>Tools worth knowing for everyday work</h3><p>Practical coverage focused on usefulness, not hype.</p></div>
+    <a class="news-card" href="{{ '/analysis/' | relative_url }}">
+      <div class="news-image image-search"></div>
+      <div class="news-body"><span>AI SEARCH</span><h3>AI Search Is Changing How We Find Information</h3><p>How AI-powered search is reshaping discovery, answers, and the web.</p><small>OCT 6, 2026 &nbsp; · &nbsp; 5 MIN READ</small></div>
     </a>
-    <a class="category-card" href="{{ '/research/' | relative_url }}">
-      <div class="card-art art-research"><span>RESEARCH</span><i>∑</i></div>
-      <div class="card-content"><small>AI RESEARCH</small><h3>Research explained for curious readers</h3><p>Clear context around papers, methods, and breakthroughs.</p></div>
+    <a class="news-card" href="{{ '/companies/' | relative_url }}">
+      <div class="news-image image-microsoft"></div>
+      <div class="news-body"><span>MICROSOFT</span><h3>How Microsoft Is Integrating AI Across Its Products</h3><p>A look at the growing role of AI assistants and features across software.</p><small>OCT 5, 2026 &nbsp; · &nbsp; 4 MIN READ</small></div>
     </a>
   </div>
 </section>
 
-<section class="editorial-strip">
-  <div>
-    <p class="section-kicker">THE ATA EDITORIAL STANDARD</p>
-    <h2>Useful over noisy.</h2>
-  </div>
-  <p>We focus on accuracy, context, search intent, and original explanation — so every article has a reason to exist.</p>
+<section class="editorial-note">
+  <span>ATA</span>
+  <div><b>AI TECH ARTICLES</b><p>Independent reporting, useful explainers, and clear analysis of the technology shaping what comes next.</p></div>
 </section>
