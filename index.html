@@ -5,34 +5,24 @@ description: "AI news, model coverage, tools, research, guides, and analysis."
 ---
 
 <section class="home-hero">
+  {% assign featured = site.posts | first %}
   <div class="hero-main">
     <div class="hero-text">
       <span class="feature-pill">FEATURED</span>
-      <div class="hero-kicker">AI MODELS <span>·</span> OCT 8, 2026</div>
-      <h1>Google’s New Gemini Agent Moves AI Beyond Chat</h1>
-      <p>Google Cloud has introduced a universal Gemini agent designed to plan work, use tools, connect to business systems, and return finished results.</p>
-      <a class="hero-button" href="{{ '/news/2026/10/08/google-gemini-agent-work/' | relative_url }}">Read the full article <span>→</span></a>
+      <div class="hero-kicker">{{ featured.categories | first | upcase }} <span>·</span> {{ featured.date | date: "%b %-d, %Y" | upcase }}</div>
+      <h1>{{ featured.title }}</h1>
+      <p>{{ featured.description }}</p>
+      <a class="hero-button" href="{{ featured.url | relative_url }}">Read the full article <span>→</span></a>
     </div>
-    <div class="hero-image hero-robot" role="img" aria-label="Futuristic AI robot portrait"></div>
+    <div class="hero-image hero-robot" style="background-image:linear-gradient(90deg,rgba(5,14,26,.05),rgba(5,14,26,.1)),url('{{ featured.image }}')"></div>
   </div>
-
   <aside class="hero-list">
-    <a href="{{ '/news/2026/10/08/google-gemini-agent-work/' | relative_url }}" class="hero-list-item">
-      <div class="mini-image mini-openai"></div>
-      <div><span>GOOGLE</span><strong>Google Introduces Gemini Agent for Work</strong><time>OCT 8, 2026</time></div>
+    {% for post in site.posts limit:4 %}
+    <a href="{{ post.url | relative_url }}" class="hero-list-item">
+      <div class="mini-image" style="background-image:url('{{ post.image }}')"></div>
+      <div><span>{{ post.categories | first | upcase }}</span><strong>{{ post.title }}</strong><time>{{ post.date | date: "%b %-d, %Y" | upcase }}</time></div>
     </a>
-    <a href="{{ '/models/2026/10/08/claude-haiku-5-5/' | relative_url }}" class="hero-list-item">
-      <div class="mini-image mini-google"></div>
-      <div><span>ANTHROPIC</span><strong>Anthropic Introduces Claude Haiku 5.5</strong><time>OCT 7, 2026</time></div>
-    </a>
-    <a href="{{ '/research/2026/10/08/openai-ai-mathematics/' | relative_url }}" class="hero-list-item">
-      <div class="mini-image mini-tools"></div>
-      <div><span>OPENAI RESEARCH</span><strong>OpenAI Shares New Results on AI-Generated Mathematics</strong><time>OCT 6, 2026</time></div>
-    </a>
-    <a href="{{ '/news/' | relative_url }}" class="hero-list-item">
-      <div class="mini-image mini-code"></div>
-      <div><span>AI AGENTS</span><strong>Why AI Agents Are Becoming the Next Product Battleground</strong><time>OCT 5, 2026</time></div>
-    </a>
+    {% endfor %}
   </aside>
 </section>
 
@@ -41,28 +31,17 @@ description: "AI news, model coverage, tools, research, guides, and analysis."
     <div>
       <div class="section-kicker"><i></i> LATEST NEWS</div>
       <h2>The Latest in AI</h2>
-      <p>Stay updated with the most important developments in artificial intelligence.</p>
+      <p>Recent reporting, explainers, research, and analysis from AI Tech Articles.</p>
     </div>
     <a class="view-all" href="{{ '/news/' | relative_url }}">View all news <span>→</span></a>
   </div>
-
   <div class="news-grid">
-    <a class="news-card" href="{{ '/news/' | relative_url }}">
-      <div class="news-image image-claude"></div>
-      <div class="news-body"><span>ANTHROPIC</span><h3>Claude Haiku 5.5 Targets High-Volume AI Work</h3><p>Anthropic’s latest small model focuses on speed, cost efficiency, and repetitive workloads.</p><small>OCT 8, 2026 &nbsp; · &nbsp; 4 MIN READ</small></div>
+    {% for post in site.posts limit:8 %}
+    <a class="news-card" href="{{ post.url | relative_url }}">
+      <div class="news-image" style="background-image:url('{{ post.image }}')"></div>
+      <div class="news-body"><span>{{ post.categories | first | upcase }}</span><h3>{{ post.title }}</h3><p>{{ post.description }}</p><small>{{ post.date | date: "%b %-d, %Y" | upcase }}</small></div>
     </a>
-    <a class="news-card" href="{{ '/models/' | relative_url }}">
-      <div class="news-image image-nvidia"></div>
-      <div class="news-body"><span>GOOGLE</span><h3>Gemini Agent Brings Multi-Step AI Workflows to Businesses</h3><p>Google is pushing Gemini toward autonomous work across business software and connected systems.</p><small>OCT 7, 2026 &nbsp; · &nbsp; 3 MIN READ</small></div>
-    </a>
-    <a class="news-card" href="{{ '/analysis/' | relative_url }}">
-      <div class="news-image image-search"></div>
-      <div class="news-body"><span>OPENAI RESEARCH</span><h3>OpenAI Shares New AI Mathematics Results</h3><p>The company has released mathematical results from an internal frontier model for researchers to study.</p><small>OCT 6, 2026 &nbsp; · &nbsp; 5 MIN READ</small></div>
-    </a>
-    <a class="news-card" href="{{ '/companies/' | relative_url }}">
-      <div class="news-image image-microsoft"></div>
-      <div class="news-body"><span>AI AGENTS</span><h3>The AI Agent Race Is Moving Beyond Chatbots</h3><p>Google, OpenAI, Microsoft, and Meta are competing to make AI systems complete tasks on users’ behalf.</p><small>OCT 5, 2026 &nbsp; · &nbsp; 4 MIN READ</small></div>
-    </a>
+    {% endfor %}
   </div>
 </section>
 
