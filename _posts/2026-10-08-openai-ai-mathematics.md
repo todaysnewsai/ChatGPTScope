@@ -36,3 +36,23 @@ OpenAI's latest work is therefore worth watching not only as a mathematics story
 
 - [OpenAI: Sharing AI progress in mathematics](https://openai.com/index/sharing-ai-progress-in-mathematics/)
 - [OpenAI Research](https://openai.com/research/index/publication/)
+
+## Practical implementation notes
+
+The strongest way to assess an AI capability is to connect it to a clearly defined task and measure the complete workflow. Establish a baseline, test realistic examples, and decide what level of error is acceptable before deployment.
+
+### Context and evidence
+
+Give the system the information it actually needs. Relevant documents, metadata, examples, and instructions are more useful than indiscriminate context. When factual accuracy matters, preserve source information and make important evidence easy to inspect.
+
+### Controls and permissions
+
+An AI that can take action requires stronger controls than one that only produces text. Separate reading from writing, limit access to the minimum necessary, and require confirmation for consequential or irreversible actions. Keep logs for important operations.
+
+### Evaluation and maintenance
+
+Monitor quality, latency, cost, failures, and human corrections after launch. Models, tools, data, and policies change, so an evaluation that was successful during a pilot should be repeated after significant updates.
+
+### Measuring value
+
+The final measure should be the outcome users care about: a correct result, faster workflow, lower cost, better software, improved research, or another measurable benefit. AI output volume is not a useful substitute for real value.
