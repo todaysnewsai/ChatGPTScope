@@ -1,7 +1,7 @@
-title: "AI Tech Articles"
-description: "Independent articles on artificial intelligence, AI technology, tools, models, research, trends, and analysis."
-url: "https://todaysnewsai.github.io"
-repository: "todaysnewsai/ai-tech-articles"
+title: "ChatGPTScope"
+description: "Explore ChatGPT. Understand AI. Independent news, practical guides, troubleshooting, feature explainers, and analysis about ChatGPT and artificial intelligence."
+url: "https://chatgptscope.com"
+repository: "todaysnewsai/ChatGPTScope"
 baseurl: ""
 lang: "en-US"
 timezone: "UTC"
@@ -27,7 +27,7 @@ defaults:
       type: posts
     values:
       layout: post
-      author: "AI Tech Articles"
+      author: "ChatGPTScope"
   - scope:
       path: ""
       type: pages
