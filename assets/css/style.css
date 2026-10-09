@@ -288,3 +288,19 @@ a.roadmap-card:hover .topic-link-label span{transform:translateX(3px)}
  .menu-toggle{grid-column:2;grid-row:1}
  .site-nav{grid-column:1/-1;grid-row:2}
 }
+
+
+/* Mobile header correction: keep the complete brand on one line and avoid covering article text */
+@media(max-width:600px){
+  .site-header{position:relative!important;top:auto!important}
+  .header-inner{min-height:0!important}
+  .brand-lockup{display:block!important;width:100%!important;min-width:0!important;overflow:visible!important}
+  .brand-name{display:flex!important;flex-direction:row!important;align-items:center!important;gap:7px!important;white-space:nowrap!important;width:100%!important}
+  .brand-symbol{width:54px!important;height:31px!important;max-width:54px!important;flex:0 0 54px!important}
+  .brand-title{display:flex!important;flex-direction:row!important;align-items:center!important;gap:3px!important;white-space:nowrap!important;word-break:keep-all!important;overflow-wrap:normal!important;min-width:0!important;font-size:clamp(.86rem,4.1vw,1.08rem)!important;letter-spacing:-.055em!important;padding-left:7px!important;line-height:1.1!important}
+  .brand-tagline{padding-left:61px!important;margin-top:5px!important;font-size:.43rem!important;letter-spacing:.09em!important;white-space:nowrap!important}
+  .brand-tagline i{padding:0 1px!important}
+  .menu-toggle{align-self:center!important}
+  .footer-wordmark{font-family:var(--sans)!important;font-size:1.15rem!important;letter-spacing:-.04em!important}
+  .footer-mark{background:linear-gradient(120deg,#00c9f4,#2858ff 50%,#a51de9)!important;color:#fff!important;border-radius:8px!important}
+}
