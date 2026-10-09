@@ -5,8 +5,6 @@ permalink: /about/
 description: "Learn about Articles About AI, an independent publication covering AI news, reviews, comparisons, and practical guides."
 ---
 
-# About Articles About AI
-
 **Articles About AI** is an independent technology publication that helps readers understand the fast-changing world of artificial intelligence. We cover AI products, models, companies, and practical tools—not just one chatbot or provider.
 
 Our coverage includes:
