@@ -11,7 +11,7 @@ tags:
   - ChatGPT Plus
   - AI subscriptions
   - pricing
-image: "/ChatGPTScope/assets/images/chatgpt-free-vs-plus-access-doors.svg"
+image: "/assets/images/chatgpt-free-vs-plus-access-doors.svg"
 author: "Articles About AI Editorial Team"
 ---
 
