@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Mistral Large 4: an expert network at scale</title>
+<desc id="desc">A distinctive editorial poster for Mistral Large 4, using an ivory field, charcoal typography, and a vermilion orbital network to represent a large mixture-of-experts AI model.</desc>
+<rect width="1200" height="675" fill="#f2ead9"/>
+<path d="M0 535H1200" stroke="#d4c8b3" stroke-width="2"/>
+<text x="72" y="76" fill="#b53c28" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="5">ARTICLES ABOUT AI / MODEL BRIEFING</text>
+<text x="72" y="171" fill="#20211f" font-family="Georgia,serif" font-size="62" font-weight="700">Mistral</text>
+<text x="72" y="237" fill="#20211f" font-family="Georgia,serif" font-size="62" font-weight="700">Large 4</text>
+<text x="74" y="282" fill="#555046" font-family="Arial,sans-serif" font-size="21" letter-spacing="2">OPEN-WEIGHT · MULTIMODAL · MoE</text>
+<rect x="72" y="332" width="300" height="2" fill="#b53c28"/>
+<text x="72" y="386" fill="#20211f" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2">PUBLIC PREVIEW</text>
+<text x="72" y="427" fill="#20211f" font-family="Arial,sans-serif" font-size="16">1M-token context window</text>
+<text x="72" y="458" fill="#20211f" font-family="Arial,sans-serif" font-size="16">Weights planned for late October</text>
+<g transform="translate(800 328)">
+  <circle r="222" fill="none" stroke="#d7c6a8" stroke-width="1.5"/>
+  <circle r="174" fill="none" stroke="#c7b69a" stroke-width="1.5" stroke-dasharray="4 10"/>
+  <circle r="122" fill="none" stroke="#b53c28" stroke-width="2" stroke-dasharray="2 8"/>
+  <g stroke="#b53c28" stroke-width="2" opacity=".82">
+    <path d="M0 0L-140 -106 M0 0L-30 -165 M0 0L118 -120 M0 0L172 -10 M0 0L111 122 M0 0L-32 170 M0 0L-155 93 M0 0L-188 -12"/>
+    <path d="M-140 -106L-30 -165L118 -120L172 -10L111 122L-32 170L-155 93L-188 -12Z" fill="none"/>
+    <path d="M-140 -106L111 122 M-30 -165L-155 93 M118 -120L-32 170 M172 -10L-188 -12"/>
+  </g>
+  <g fill="#f2ead9" stroke="#20211f" stroke-width="3">
+    <circle cx="-140" cy="-106" r="14"/><circle cx="-30" cy="-165" r="14"/>
+    <circle cx="118" cy="-120" r="14"/><circle cx="172" cy="-10" r="14"/>
+    <circle cx="111" cy="122" r="14"/><circle cx="-32" cy="170" r="14"/>
+    <circle cx="-155" cy="93" r="14"/><circle cx="-188" cy="-12" r="14"/>
+  </g>
+  <circle r="72" fill="#20211f"/>
+  <circle r="56" fill="#b53c28"/>
+  <text x="0" y="-4" fill="#f8f0e2" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="2">ML</text>
+  <text x="0" y="23" fill="#f8f0e2" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700">4</text>
+  <g fill="#b53c28">
+    <circle cx="-224" cy="-82" r="5"/><circle cx="216" cy="75" r="5"/><circle cx="35" cy="-218" r="5"/><circle cx="-50" cy="217" r="5"/>
+  </g>
+</g>
+<text x="72" y="594" fill="#20211f" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="2">1.05T TOTAL PARAMETERS</text>
+<text x="72" y="625" fill="#665d4e" font-family="Arial,sans-serif" font-size="14">Vendor specifications; active-parameter figures vary across official pages.</text>
+<text x="1128" y="625" fill="#b53c28" text-anchor="end" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">AI MODEL WATCH / 2026</text>
+</svg>
