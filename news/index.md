@@ -1,15 +1,11 @@
 ---
-category: news
 layout: page
-title: "AI News"
+title: "ChatGPT News & Updates"
+permalink: /news/
+category: news
+description: "The latest verified ChatGPT updates, OpenAI announcements, new features, and important AI developments."
 ---
 
-News covers significant developments across artificial intelligence, AI companies, models, agents, tools, research, and policy.
+Follow important changes to ChatGPT and the wider AI landscape. We focus on confirmed product releases, feature updates, model announcements, availability changes, and news that affects how people use AI.
 
-## What belongs here
-
-We focus on confirmed product launches, important model releases, major research announcements, company decisions, regulatory developments, and meaningful changes in AI deployment.
-
-## Reporting standard
-
-We prioritize primary sources and independent confirmation. Developing stories are updated when material facts change.
+Our reporting prioritizes official announcements and primary sources. When details are uncertain or still developing, we say so clearly.
