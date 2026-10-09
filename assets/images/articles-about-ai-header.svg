@@ -11,6 +11,6 @@
  <path d="M190 320 L285 83 Q292 65 306 83 L400 320" stroke="url(#bluePurple)"/>
  <path d="M340 320 L435 83 Q442 65 456 83 L550 320" stroke="url(#purplePink)"/>
 </g>
-<text x="610" y="260" font-family="Arial,Helvetica,sans-serif" font-size="106" font-weight="800" letter-spacing="-4" fill="#101b35">Articles About</text>
-<text x="1110" y="260" font-family="Arial,Helvetica,sans-serif" font-size="106" font-weight="800" letter-spacing="-4" fill="url(#ai)">AI</text>
+<text x="610" y="260" font-family="Arial,Helvetica,sans-serif" font-size="82" font-weight="800" letter-spacing="-3" fill="#101b35">Articles About</text>
+<text x="1125" y="260" font-family="Arial,Helvetica,sans-serif" font-size="82" font-weight="800" letter-spacing="-3" fill="url(#ai)">AI</text>
 </svg>
