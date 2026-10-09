@@ -1,9 +1,11 @@
 ---
 layout: page
-title: "Writing, Work & Study"
+title: "ChatGPT for Writing, Work & Study"
 permalink: /writing-work-study/
 category: writing-work-study
-description: "Practical ways to use ChatGPT for writing, work, learning, and productivity."
+description: "Practical ways to use ChatGPT for writing, learning, research, planning, and productivity."
 ---
 
-Discover useful workflows for writing, studying, research, planning, and everyday productivity. Guides in this section should include clear examples, limitations, and advice for checking AI-generated results.
+Discover workflows for drafting, editing, studying, research, planning, and everyday productivity. Useful articles should include concrete examples, clear steps, and guidance for checking AI-generated information.
+
+We emphasize using ChatGPT as an aid to thinking and learning, not as a substitute for verifying facts or doing required original work.
