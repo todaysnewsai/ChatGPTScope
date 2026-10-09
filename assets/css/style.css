@@ -260,7 +260,7 @@ a.roadmap-card:hover .topic-link-label span{transform:translateX(3px)}
 .brand-tagline{padding-left:133px;margin-top:-1px;font:700 .61rem/1.4 var(--sans);letter-spacing:.28em;color:#4e5870}
 .brand-tagline i{font-style:normal;color:#a3a9b7;padding:0 .25em}
 .brand-mark{display:none}
-.footer-mark{background:linear-gradient(120deg,#00c9f4,#2858ff 50%,#a51de9);border-radius:8px}
+.footer-mark{background:linear-gradient(120deg,#39c6b0,#159b91 50%,#07363a);border-radius:8px}
 .footer-wordmark{font-family:var(--sans);font-weight:800;letter-spacing:-.04em}
 @media(max-width:1100px){
  .header-inner{gap:14px}
