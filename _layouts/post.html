@@ -4,7 +4,13 @@ layout: default
 <article class="article container">
   <p class="meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.categories %} · {{ page.categories | join: ", " }}{% endif %}</p>
   <h1>{{ page.title }}</h1>
-  {% if page.image %}<img class="article-cover" src="{{ page.image }}" alt="{{ page.title | escape }}" loading="eager">{% endif %}
+  {% if page.image %}
+    {% if page.image contains '://' %}
+      <img class="article-cover" src="{{ page.image }}" alt="{{ page.title | escape }}" loading="eager">
+    {% else %}
+      <img class="article-cover" src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}" loading="eager">
+    {% endif %}
+  {% endif %}
   {% if page.description %}<p class="dek">{{ page.description }}</p>{% endif %}
   <div class="article-body">{{ content }}</div>
 </article>
