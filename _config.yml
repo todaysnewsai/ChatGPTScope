@@ -8,13 +8,14 @@ timezone: "UTC"
 
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
-paginate: 10
+paginate: 9
 paginate_path: "/page:num/"
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
 collections:
   pages:
