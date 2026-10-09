@@ -1,18 +1,12 @@
 ---
 layout: page
-title: "About AI Tech Articles"
+title: "About ChatGPTScope"
+permalink: /about/
+description: "Independent coverage of ChatGPT and artificial intelligence."
 ---
 
-AI Tech Articles is an independent English-language publication focused on artificial intelligence and the technology changing how people work, build software, search for information, and conduct research.
+ChatGPTScope is an independent publication focused on making ChatGPT easier to understand and use. We publish practical tutorials, troubleshooting advice, feature explainers, product comparisons, and coverage of important developments in artificial intelligence.
 
-## What we cover
+Our goal is to help readers understand what has changed, how a feature works, where its limitations are, and how to use AI tools more effectively.
 
-We cover AI models, agents, tools, research, coding, AI search, robotics, enterprise AI, safety, regulation, and the companies building the technology.
-
-## Editorial approach
-
-We separate confirmed announcements from company claims, independent reporting, research findings, and analysis. We do not invent benchmarks, prices, quotations, release dates, or product capabilities.
-
-## Corrections
-
-If you find an error, contact the editorial team with the article URL and the relevant claim. Factual corrections are reviewed carefully.
+**Editorial independence:** ChatGPTScope is not affiliated with or endorsed by OpenAI. Product names and trademarks belong to their respective owners. See our [Disclaimer]({{ '/disclaimer/' | relative_url }}) for details.
