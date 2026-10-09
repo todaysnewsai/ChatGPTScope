@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 433" role="img" aria-labelledby="title">
+<title id="title">Articles About AI</title>
+<defs>
+ <linearGradient id="cyanBlue" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#00d7df"/><stop offset=".55" stop-color="#08a9f4"/><stop offset="1" stop-color="#0648f3"/></linearGradient>
+ <linearGradient id="bluePurple" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#0878f4"/><stop offset=".5" stop-color="#1737e8"/><stop offset="1" stop-color="#9b21f4"/></linearGradient>
+ <linearGradient id="purplePink" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#4a2df0"/><stop offset=".55" stop-color="#8a20f5"/><stop offset="1" stop-color="#df35ed"/></linearGradient>
+ <linearGradient id="ai" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00cde8"/><stop offset=".55" stop-color="#2457e8"/><stop offset="1" stop-color="#c72ded"/></linearGradient>
+</defs>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="44">
+ <path d="M40 320 L135 83 Q142 65 156 83 L250 320" stroke="url(#cyanBlue)"/>
+ <path d="M190 320 L285 83 Q292 65 306 83 L400 320" stroke="url(#bluePurple)"/>
+ <path d="M340 320 L435 83 Q442 65 456 83 L550 320" stroke="url(#purplePink)"/>
+</g>
+<text x="610" y="260" font-family="Arial,Helvetica,sans-serif" font-size="106" font-weight="800" letter-spacing="-4" fill="#101b35">Articles About</text>
+<text x="1110" y="260" font-family="Arial,Helvetica,sans-serif" font-size="106" font-weight="800" letter-spacing="-4" fill="url(#ai)">AI</text>
+</svg>
