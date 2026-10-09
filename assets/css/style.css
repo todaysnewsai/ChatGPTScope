@@ -134,3 +134,25 @@ a.roadmap-card:hover .topic-link-label span{transform:translateX(3px)}
   .newsletter p{font-size:1rem;line-height:1.6}
   .footer-inner nav{font-size:1rem}
 }
+
+/* Remove unused right-hand grid track in topic cards so copy uses the available width */
+@media(max-width:600px){
+  .roadmap-card{
+    position:relative;
+    grid-template-columns:44px minmax(0,1fr);
+    padding-right:48px;
+  }
+  .roadmap-card-copy{width:100%;min-width:0}
+  .roadmap-arrow{position:absolute;right:12px;top:13px}
+  .roadmap-card h3,.roadmap-card p{max-width:none;width:100%}
+  .latest-heading{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) auto;
+    align-items:start;
+    column-gap:12px;
+    row-gap:6px;
+  }
+  .latest-heading>div{min-width:0;width:100%}
+  .latest-heading p{max-width:none;width:100%;font-size:1.04rem;line-height:1.65}
+  .latest-heading .text-link{justify-self:end;white-space:nowrap}
+}
