@@ -4,7 +4,7 @@ categories:
 - news
 date: "2026-10-10 01:45:00 +0300"
 description: Anthropic's Usage Policy update takes effect November 12, 2026. Learn what changes for deceptive campaigns, elections, high-risk decisions, connected hardware, model interactions, and developers.
-image: "/ChatGPTScope/assets/images/policy-brief-nov-2026.svg"
+image: "/assets/images/policy-brief-nov-2026.svg"
 layout: post
 tags:
 - Anthropic
