@@ -4,6 +4,7 @@ categories:
 - news
 date: "2026-10-09 23:10:00 +0300"
 description: Anthropic's October 8 Cyber Mission introduces a critical-infrastructure defense program and free, opt-in AI security scans for eligible open-source projects, with important limitations maintainers should understand.
+image: "/assets/images/anthropic-cyber-mission.svg"
 layout: post
 tags:
 - Anthropic
