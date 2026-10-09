@@ -1,65 +1,78 @@
 ---
 layout: default
-title: "AI Tech Articles"
-description: "AI news, model coverage, tools, research, guides, and analysis."
+title: "ChatGPTScope — Explore ChatGPT. Understand AI."
+description: "Independent news, practical guides, troubleshooting, feature explainers, and analysis about ChatGPT and AI."
 ---
 
-{% assign featured = site.posts | where: "slug", "ai-enterprise" | first %}
+{% assign featured = site.posts | where: "slug", "chatgpt-memory-controls" | first %}
 {% if featured == nil %}{% assign featured = site.posts | first %}{% endif %}
-{% assign fallback_images = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1600&q=85|https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1633412802994-5c058f151b66?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?auto=format&fit=crop&w=900&q=85" | split: "|" %}
+{% assign fallback_images = "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=85|https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1633412802994-5c058f151b66?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=85" | split: "|" %}
 {% assign featured_image = featured.image | default: fallback_images[0] %}
 
-<section class="home-hero">
-  <div class="hero-main">
-    <div class="hero-text">
-      <span class="feature-pill">FEATURED</span>
-      <div class="hero-kicker">{{ featured.categories | first | upcase }} <span>·</span> {{ featured.date | date: "%b %-d, %Y" | upcase }}</div>
+<section class="home-hero container">
+  <div class="hero-copy">
+    <div class="section-eyebrow">LATEST NEWS <span></span></div>
+    {% if featured %}
       <h1>{{ featured.title }}</h1>
-      <p>{{ featured.description }}</p>
-      <a class="hero-button" href="{{ featured.url | relative_url }}">Read the full article <span>→</span></a>
-    </div>
-    <div class="hero-image hero-robot" style="background-image:linear-gradient(90deg,rgba(5,14,26,.05),rgba(5,14,26,.1)),url('{{ featured_image }}')"></div>
+      <p>{{ featured.description | default: "Independent news, clear explainers, and practical ways to use ChatGPT." }}</p>
+      <a class="primary-button" href="{{ featured.url | relative_url }}">Read the full story <span>→</span></a>
+    {% else %}
+      <h1>Understand ChatGPT. Keep up with AI.</h1>
+      <p>Independent reporting, practical guides, and clear explanations of ChatGPT's features, tools, and updates.</p>
+      <a class="primary-button" href="{{ '/guides/' | relative_url }}">Explore our guides <span>→</span></a>
+    {% endif %}
   </div>
-
-  <aside class="hero-list">
-    {% assign hero_count = 0 %}
-    {% for post in site.posts %}
-      {% if post.url != featured.url and hero_count < 4 %}
-        {% assign image_index = hero_count | plus: 1 | modulo: 8 %}
-        {% assign post_image = post.image | default: fallback_images[image_index] %}
-        <a href="{{ post.url | relative_url }}" class="hero-list-item">
-          <div class="mini-image" style="background-image:url('{{ post_image }}')"></div>
-          <div><span>{{ post.categories | first | upcase }}</span><strong>{{ post.title }}</strong><time>{{ post.date | date: "%b %-d, %Y" | upcase }}</time></div>
-        </a>
-        {% assign hero_count = hero_count | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-  </aside>
+  <a class="hero-visual" href="{% if featured %}{{ featured.url | relative_url }}{% else %}{{ '/news/' | relative_url }}{% endif %}" aria-label="Read featured story">
+    <img src="{{ featured_image }}" alt="Artificial intelligence and ChatGPT" fetchpriority="high">
+    <span class="hero-image-caption">CHATGPT · EXPLAINED</span>
+  </a>
 </section>
 
-<section class="latest">
-  <div class="latest-heading">
-    <div>
-      <div class="section-kicker"><i></i> LATEST NEWS</div>
-      <h2>The Latest in AI</h2>
-      <p>Recent reporting, explainers, research, and analysis from AI Tech Articles.</p>
-    </div>
-    <a class="view-all" href="{{ '/news/' | relative_url }}">View all news <span>→</span></a>
+<section class="roadmap container" aria-labelledby="roadmap-title">
+  <div class="center-heading">
+    <div class="section-eyebrow">OUR PLAN</div>
+    <h2 id="roadmap-title">Our Editorial Roadmap</h2>
+    <p>300 planned articles across 8 topic areas</p>
   </div>
+  {% assign roadmap_names = "ChatGPT News & Updates|Practical Guides & Tutorials|Troubleshooting & Fixes|Features & Use Cases|ChatGPT vs Competitors|OpenAI Models & Tools|Writing, Work & Study|API & Advanced Technology" | split: "|" %}
+  {% assign roadmap_descriptions = "Latest news, model updates, releases, and key developments.|Step-by-step guides, tips, and practical tutorials for real-world use.|Solutions for common problems, errors, and technical issues.|In-depth coverage of ChatGPT features and real-world applications.|Comparisons with alternative AI tools and models.|Coverage of OpenAI models, tools, and ecosystem.|How to use ChatGPT for writing, productivity, work, and learning.|Guides and insights on APIs, development, and advanced use cases." | split: "|" %}
+  {% assign roadmap_counts = "40|70|50|40|30|30|25|15" | split: "|" %}
+  {% assign roadmap_icons = "▤|⌑|⚒|✧|⚖|▦|✎|</>" | split: "|" %}
+  <div class="roadmap-grid">
+    {% for name in roadmap_names %}
+      {% assign item_index = forloop.index0 %}
+      <article class="roadmap-card">
+        <span class="roadmap-icon" aria-hidden="true">{{ roadmap_icons[item_index] }}</span>
+        <div class="roadmap-card-copy">
+          <h3>{{ name }}</h3>
+          <p>{{ roadmap_descriptions[item_index] }}</p>
+          <div class="roadmap-progress" aria-hidden="true"><span style="width:{{ roadmap_counts[item_index] | times: 100.0 | divided_by: 70 }}%"></span></div>
+        </div>
+        <div class="roadmap-count"><strong>{{ roadmap_counts[item_index] }}</strong><span>articles</span></div>
+      </article>
+    {% endfor %}
+  </div>
+  <div class="roadmap-total"><span></span><div><b>TOTAL</b><strong>300</strong><small>planned articles</small></div><span></span></div>
+</section>
 
-  <div class="news-grid">
+<section class="latest container">
+  <div class="latest-heading">
+    <div><h2>Latest Articles</h2><p>Practical answers and new developments from the world of ChatGPT.</p></div>
+    <a class="text-link" href="{{ '/news/' | relative_url }}">View all articles <span>→</span></a>
+  </div>
+  <div class="article-grid">
     {% assign card_index = 0 %}
     {% for post in site.posts %}
-      {% if card_index < 8 %}
+      {% if card_index < 4 %}
         {% assign image_index = card_index | modulo: 8 %}
         {% assign post_image = post.image | default: fallback_images[image_index] %}
-        <a class="news-card" href="{{ post.url | relative_url }}">
-          <div class="news-image" style="background-image:url('{{ post_image }}')"></div>
-          <div class="news-body">
-            <span>{{ post.categories | first | upcase }}</span>
+        <a class="article-card" href="{{ post.url | relative_url }}">
+          <img src="{{ post_image }}" alt="" loading="lazy">
+          <div class="article-card-content">
+            <span class="article-category">{{ post.categories | first | default: "GUIDES" | upcase }}</span>
             <h3>{{ post.title }}</h3>
             <p>{{ post.description }}</p>
-            <small>{{ post.date | date: "%b %-d, %Y" | upcase }}</small>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
           </div>
         </a>
         {% assign card_index = card_index | plus: 1 %}
@@ -68,7 +81,9 @@ description: "AI news, model coverage, tools, research, guides, and analysis."
   </div>
 </section>
 
-<section class="editorial-note">
-  <span>ATA</span>
-  <div><b>AI TECH ARTICLES</b><p>Independent reporting, useful explainers, and clear analysis of the technology shaping what comes next.</p></div>
+<section class="newsletter" id="newsletter">
+  <div class="container newsletter-inner">
+    <div><h2>Stay Updated</h2><p>Get the latest articles, guides, and AI news from ChatGPTScope.</p></div>
+    <a class="primary-button" href="{{ '/news/' | relative_url }}">Explore latest articles <span>→</span></a>
+  </div>
 </section>
