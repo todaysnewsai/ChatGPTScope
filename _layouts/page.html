@@ -8,23 +8,25 @@ layout: default
   <div class="page-content">{{ content }}</div>
 
   {% if page.category %}
-    {% assign fallback_images = "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1633412802994-5c058f151b66?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=85" | split: "|" %}
-    {% assign card_index = 0 %}
     {% assign category_posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
     <section class="category-articles" aria-label="{{ page.title }} articles">
       <div class="latest-heading category-heading">
         <div>
           <h2>Articles in this section</h2>
-          <p>Guides, explainers, and updates selected for this topic.</p>
+          <p>{{ category_posts.size }} articles selected for this topic.</p>
         </div>
       </div>
       {% if category_posts.size > 0 %}
         <div class="article-grid">
           {% for post in category_posts %}
-            {% assign image_index = card_index | modulo: 8 %}
-            {% assign post_image = post.image | default: fallback_images[image_index] %}
             <a class="article-card" href="{{ post.url | relative_url }}">
-              <img src="{{ post_image }}" alt="{{ post.title | escape }}" loading="lazy">
+              {% if post.image %}
+                {% if post.image contains '://' %}
+                  <img src="{{ post.image }}" alt="{{ post.title | escape }}" loading="lazy">
+                {% else %}
+                  <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+                {% endif %}
+              {% endif %}
               <div class="article-card-content">
                 <span class="article-category">{{ page.title | upcase }}</span>
                 <h3>{{ post.title }}</h3>
@@ -32,7 +34,6 @@ layout: default
                 <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
               </div>
             </a>
-            {% assign card_index = card_index | plus: 1 %}
           {% endfor %}
         </div>
       {% else %}
