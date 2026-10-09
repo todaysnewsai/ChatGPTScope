@@ -5,9 +5,9 @@ description: "Independent news, reviews, comparisons, and practical guides to AI
 ---
 
 {% assign featured = site.posts | first %}
-{% assign fallback_images = "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=85|https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1633412802994-5c058f151b66?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?auto=format&fit=crop&w=900&q=85|https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=85" | split: "|" %}
-{% assign featured_image = featured.image | default: fallback_images[0] %}
+{% assign featured_image = featured.image | default: '/assets/images/anthropic-cyber-mission.svg' %}
 
+{% if paginator.page == 1 %}
 <section class="home-hero container">
   <div class="hero-copy">
     <div class="section-eyebrow">ARTIFICIAL INTELLIGENCE, EXPLAINED <span></span></div>
@@ -21,8 +21,12 @@ description: "Independent news, reviews, comparisons, and practical guides to AI
       <a class="primary-button" href="{{ '/guides/' | relative_url }}">Explore our guides <span>→</span></a>
     {% endif %}
   </div>
-  <a class="hero-visual" href="{% if featured %}{{ featured.url | relative_url }}{% else %}{{ '/guides/' | relative_url }}{% endif %}" aria-label="Explore AI tools and guides">
-    <img src="{{ featured_image }}" alt="Artificial intelligence and AI tools" fetchpriority="high">
+  <a class="hero-visual" href="{% if featured %}{{ featured.url | relative_url }}{% else %}{{ '/guides/' | relative_url }}{% endif %}" aria-label="Read the featured article">
+    {% if featured_image contains '://' %}
+      <img src="{{ featured_image }}" alt="{{ featured.title | escape }}" fetchpriority="high">
+    {% else %}
+      <img src="{{ featured_image | relative_url }}" alt="{{ featured.title | escape }}" fetchpriority="high">
+    {% endif %}
     <span class="hero-image-caption">ARTIFICIAL INTELLIGENCE · EXPLAINED</span>
   </a>
 </section>
@@ -52,30 +56,70 @@ description: "Independent news, reviews, comparisons, and practical guides to AI
     {% endfor %}
   </div>
 </section>
+{% endif %}
 
 {% if site.posts.size > 0 %}
-<section class="latest container">
+<section class="latest container" aria-labelledby="latest-title">
   <div class="latest-heading">
-    <div><h2>Latest Articles</h2><p>Useful answers and important developments across the AI landscape.</p></div>
-    <a class="text-link" href="{{ '/news/' | relative_url }}">View all articles <span>→</span></a>
+    <div>
+      <h2 id="latest-title">{% if paginator.page == 1 %}Latest Articles{% else %}More Articles{% endif %}</h2>
+      <p>{% if paginator.page == 1 %}Useful answers and important developments across the AI landscape.{% else %}Continue exploring the latest AI news, guides, and analysis.{% endif %}</p>
+    </div>
+    <span class="article-total">{{ site.posts.size }} articles</span>
   </div>
   <div class="article-grid">
     {% assign card_index = 0 %}
-    {% for post in site.posts %}
-      {% assign image_index = card_index | modulo: 8 %}
-      {% assign post_image = post.image | default: fallback_images[image_index] %}
-      <a class="article-card" href="{{ post.url | relative_url }}">
-        <img src="{{ post_image }}" alt="" loading="lazy">
-        <div class="article-card-content">
-          <span class="article-category">{{ post.categories | first | default: "GUIDES" | upcase }}</span>
-          <h3>{{ post.title }}</h3>
-          <p>{{ post.description }}</p>
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-        </div>
-      </a>
-      {% assign card_index = card_index | plus: 1 %}
+    {% for post in paginator.posts %}
+      {% if paginator.page != 1 or post.url != featured.url %}
+        <a class="article-card" href="{{ post.url | relative_url }}">
+          {% if post.image %}
+            {% if post.image contains '://' %}
+              <img src="{{ post.image }}" alt="{{ post.title | escape }}" loading="lazy">
+            {% else %}
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+            {% endif %}
+          {% endif %}
+          <div class="article-card-content">
+            <span class="article-category">{{ post.categories | first | default: "ARTICLES" | upcase }}</span>
+            <h3>{{ post.title }}</h3>
+            {% if post.description %}<p>{{ post.description }}</p>{% else %}<p>{{ post.excerpt | strip_html | truncate: 145 }}</p>{% endif %}
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          </div>
+        </a>
+        {% assign card_index = card_index | plus: 1 %}
+      {% endif %}
     {% endfor %}
   </div>
+
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination" aria-label="Article pagination">
+    {% if paginator.previous_page %}
+      <a class="pagination-control" href="{{ paginator.previous_page_path | relative_url }}" rel="prev" aria-label="Previous page">← <span>Previous</span></a>
+    {% else %}
+      <span class="pagination-control is-disabled" aria-disabled="true">← <span>Previous</span></span>
+    {% endif %}
+    <div class="pagination-numbers">
+      {% for page_number in (1..paginator.total_pages) %}
+        {% if page_number == 1 %}
+          {% assign page_url = '/' | relative_url %}
+        {% else %}
+          {% assign page_url = site.paginate_path | replace: ':num', page_number | relative_url %}
+        {% endif %}
+        {% if page_number == paginator.page %}
+          <span class="pagination-number is-current" aria-current="page">{{ page_number }}</span>
+        {% else %}
+          <a class="pagination-number" href="{{ page_url }}" aria-label="Go to page {{ page_number }}">{{ page_number }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% if paginator.next_page %}
+      <a class="pagination-control" href="{{ paginator.next_page_path | relative_url }}" rel="next" aria-label="Next page"><span>Next</span> →</a>
+    {% else %}
+      <span class="pagination-control is-disabled" aria-disabled="true"><span>Next</span> →</span>
+    {% endif %}
+  </nav>
+  <p class="pagination-summary">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+  {% endif %}
 </section>
 {% endif %}
 
