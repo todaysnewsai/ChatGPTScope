@@ -1,24 +1,28 @@
 ---
 layout: page
 title: "Privacy Policy"
+permalink: /privacy/
+description: "How Articles About AI handles information when you visit this website or contact the publication."
 ---
 
-## Privacy
+This Privacy Policy explains the general information practices for Articles About AI. The site is a static publication and does not currently provide visitor accounts or an on-site contact form.
 
-AI Tech Articles aims to collect as little personal information as reasonably necessary to operate the publication.
+## Information you choose to share
 
-## Information you provide
+If you contact us through a public issue in our [GitHub repository](https://github.com/todaysnewsai/ChatGPTScope/issues), the information you post—including your GitHub profile and the contents of your message—may be publicly visible and processed by GitHub under its own policies. Do not post passwords, private account details, or sensitive personal information.
 
-If you contact us, we may receive the information you choose to include, such as your name, email address, and enquiry. It is used to respond and handle editorial matters.
+## Hosting and technical information
 
-## Technical information
+This website is hosted through GitHub Pages. GitHub may process technical information needed to deliver, protect, and maintain the service, in accordance with its policies. For details, review [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
-Hosting, security, performance, or analytics services may process technical information such as browser type, device information, referring page, and pages viewed, subject to their policies.
+## Cookies, analytics, and third-party services
 
-## External links
+The site may link to third-party websites and services, which operate under their own privacy and cookie policies. We do not claim responsibility for the data practices of external providers. If analytics, advertising, or other services are added to the site in the future, this policy should be updated to describe their relevant data practices.
 
-Articles may link to external websites. We are not responsible for third-party privacy practices.
+## Data retention and requests
 
-## Changes
+Information shared on a public third-party platform is subject to that platform's controls and retention practices. For information about data held by GitHub, please consult GitHub directly.
 
-This policy may be updated when services or legal requirements change.
+## Changes to this policy
+
+This policy may be updated if the website's features, services, or applicable requirements change. The version published on this page is the current version.
