@@ -11,7 +11,7 @@ tags:
   - data analysis
   - PDFs
   - spreadsheets
-image: "/ChatGPTScope/assets/images/chatgpt-file-analysis-workflow.svg"
+image: "/assets/images/chatgpt-file-analysis-workflow.svg"
 author: "Articles About AI Editorial Team"
 ---
 
