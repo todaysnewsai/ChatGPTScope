@@ -1,8 +1,8 @@
 title: "Articles About AI"
 description: "Independent news, reviews, comparisons, and practical guides to AI tools and assistants, including ChatGPT, Google Gemini, Claude, DeepSeek, Microsoft Copilot, Perplexity, and emerging AI models."
-url: "https://chatgptscope.com"
+url: "https://todaysnewsai.github.io"
 repository: "todaysnewsai/ChatGPTScope"
-baseurl: ""
+baseurl: "/ChatGPTScope"
 lang: "en-US"
 timezone: "UTC"
 
