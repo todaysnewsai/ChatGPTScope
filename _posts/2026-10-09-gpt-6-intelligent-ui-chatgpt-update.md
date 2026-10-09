@@ -1,4 +1,5 @@
 ---
+image: "/assets/images/gpt6-intelligent-ui.svg"
 layout: post
 title: "GPT-6 and Intelligent UI: What OpenAI’s New ChatGPT Experience Changes"
 description: "OpenAI is rolling out GPT-6 with Intelligent UI in ChatGPT. Learn how interactive answers work, who can access the feature, its limits, and what users should know."
