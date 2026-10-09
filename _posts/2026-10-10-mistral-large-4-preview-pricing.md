@@ -4,7 +4,7 @@ categories:
 - news
 date: "2026-10-10 00:47:00 +0300"
 description: Mistral Large 4 entered public preview on October 6, 2026, with 1.05 trillion total parameters, multimodal input, a one-million-token context window, and API access through Mistral Studio. Learn what is available now and what remains planned.
-image: "/ChatGPTScope/assets/images/mistral-large-4-expert-network.svg"
+image: "/assets/images/mistral-large-4-expert-network.svg"
 layout: post
 tags:
 - Mistral AI
