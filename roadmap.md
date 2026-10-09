@@ -5,8 +5,6 @@ permalink: /roadmap/
 description: "ChatGPTScope's planned coverage across eight topic areas."
 ---
 
-# Our Editorial Roadmap
-
 ChatGPTScope's content plan includes 300 planned articles across eight subject areas. These figures describe our editorial plan, not the number of articles already published.
 
 | Topic area | Planned articles |
