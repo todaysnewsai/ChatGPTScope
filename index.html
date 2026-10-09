@@ -61,7 +61,7 @@ description: "Independent news, reviews, comparisons, and practical guides to AI
   </div>
   <div class="article-grid">
     {% assign card_index = 0 %}
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts %}
       {% assign image_index = card_index | modulo: 8 %}
       {% assign post_image = post.image | default: fallback_images[image_index] %}
       <a class="article-card" href="{{ post.url | relative_url }}">
