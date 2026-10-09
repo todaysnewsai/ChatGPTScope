@@ -2,6 +2,8 @@
 category: tools
 layout: page
 title: "AI Tools"
+permalink: /tools/
+description: "Explore AI tools for writing, research, coding, design, automation, and productivity, with practical guidance on capabilities, limitations, and alternatives."
 ---
 
 AI tools are becoming part of everyday work, from writing and coding to research, design, automation, and data analysis.
