@@ -70,3 +70,28 @@ a.roadmap-card:hover .topic-link-label span{transform:translateX(3px)}
   .footer-inner nav{font-size:.92rem}
   .independence-note{font-size:.68rem}
 }
+
+/* Mobile readability refinement: keep editorial serif headings, use clean sans-serif for body copy */
+@media(max-width:600px){
+  .brand-tagline{font-family:Arial,sans-serif;font-weight:400}
+  .hero-copy p,
+  .center-heading p,
+  .roadmap-card p,
+  .latest-heading p,
+  .article-card p,
+  .article-card time,
+  .category-intro,
+  .page-content,
+  .category-empty p,
+  .newsletter p,
+  .footer-brand p,
+  .footer-inner nav,
+  .independence-note,
+  .dek{font-family:Arial,Helvetica,sans-serif;font-weight:400;letter-spacing:0}
+  .roadmap-card p{font-size:.88rem;line-height:1.55;color:#45494d}
+  .category-intro{font-size:1rem;line-height:1.65;color:#4d5256}
+  .page-content{font-size:1rem;line-height:1.75;color:#45494d}
+  .category-empty p{font-size:.94rem;line-height:1.6}
+  .latest-heading p,.article-card p{font-size:.92rem;line-height:1.6;color:#4d5256}
+  .brand-tagline{font-size:.72rem}
+}
