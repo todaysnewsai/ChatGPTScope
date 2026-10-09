@@ -1,20 +1,30 @@
 ---
 layout: page
-title: "Contact AI Tech Articles"
+title: "Contact Articles About AI"
+permalink: /contact/
+description: "Contact Articles About AI about corrections, sources, editorial questions, and company announcements."
 ---
 
-## Contact
+# Contact Articles About AI
 
-For editorial questions, corrections, source information, partnerships, and general enquiries, contact the editorial team through the contact address associated with this publication.
+We welcome factual corrections, source suggestions, questions about our coverage, and relevant announcements about AI products and research.
 
-## Corrections
+## Corrections and factual feedback
 
-Please include the article title, the specific passage, and a reliable source supporting a correction.
+To report a possible error, please open an issue in the [Articles About AI GitHub repository](https://github.com/todaysnewsai/ChatGPTScope/issues). Include:
 
-## Press and company communications
+- The article URL and headline.
+- The specific statement that may be inaccurate.
+- A reliable source—preferably an official announcement, product document, research paper, or original dataset.
 
-Companies and research organizations may submit announcements, documentation, research papers, and media materials for consideration. Submission does not guarantee publication.
+We review correction requests and update published material when a change is warranted.
+
+## Company and research announcements
+
+Companies, developers, and research organizations may submit official announcements, documentation, release notes, and research papers for editorial consideration. Sending material does not guarantee coverage, and coverage is not guaranteed to be favorable.
 
 ## Guest contributions
 
-We consider original technical analysis that provides genuine reader value. Promotional copy, copied material, and search-manipulation content are not accepted.
+We may consider original technical analysis and practical tutorials that offer clear value to readers. We do not accept copied articles, undisclosed promotional content, or submissions created primarily to manipulate search rankings.
+
+Please do not post passwords, private account details, or other sensitive personal information in public issues.
