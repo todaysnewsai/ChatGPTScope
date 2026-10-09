@@ -2,6 +2,8 @@
 category: research
 layout: page
 title: "AI Research"
+permalink: /research/
+description: "Accessible coverage of AI research in machine learning, reasoning, multimodal systems, agents, robotics, evaluation, and safety."
 ---
 
 Research follows advances in machine learning, reasoning, multimodal systems, agents, robotics, AI for science, evaluation, and safety.
