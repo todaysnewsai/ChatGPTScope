@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Mistral Managed Deployments: from repository to running workflow</title>
+<desc id="desc">A dark technical editorial illustration showing a GitHub repository moving through a build gateway into a managed cloud worker, with a separate telemetry panel for deployment logs. Electric blue, acid lime, and soft violet mark the stages.</desc>
+<rect width="1200" height="675" fill="#10131b"/>
+<g opacity=".18" stroke="#697184" stroke-width="1">
+<path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200M0 400H1200M0 480H1200M0 560H1200M80 0V675M160 0V675M240 0V675M320 0V675M400 0V675M480 0V675M560 0V675M640 0V675M720 0V675M800 0V675M880 0V675M960 0V675M1040 0V675M1120 0V675"/>
+</g>
+<text x="58" y="58" fill="#aab3c4" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="4">ARTICLES ABOUT AI / DEVELOPER INFRASTRUCTURE</text>
+<text x="58" y="118" fill="#f4f6fa" font-family="Arial,sans-serif" font-size="39" font-weight="700">Ship the workflow.</text>
+<text x="58" y="158" fill="#aab3c4" font-family="Arial,sans-serif" font-size="20">Mistral Managed Deployments · Public Preview</text>
+<!-- repo card -->
+<g transform="translate(58 230)">
+ <rect width="225" height="196" rx="18" fill="#1b2230" stroke="#3e4b62" stroke-width="2"/>
+ <rect x="22" y="22" width="46" height="46" rx="11" fill="#222c40"/>
+ <path d="M34 37l11-6 11 6v13l-11 6-11-6zM34 37l11 6 11-6M45 43v13" fill="none" stroke="#8d9bff" stroke-width="2.5" stroke-linejoin="round"/>
+ <text x="22" y="101" fill="#f4f6fa" font-family="Arial,sans-serif" font-size="21" font-weight="700">GitHub repo</text>
+ <text x="22" y="129" fill="#aab3c4" font-family="Arial,sans-serif" font-size="14">Source + Dockerfile</text>
+ <rect x="22" y="151" width="98" height="24" rx="12" fill="#2b3548"/>
+ <text x="71" y="168" text-anchor="middle" fill="#d9e0ef" font-family="Arial,sans-serif" font-size="11" font-weight="700">PUSH CODE</text>
+</g>
+<!-- arrow 1 -->
+<path d="M295 328H348" stroke="#b4f34a" stroke-width="3" stroke-linecap="round"/>
+<path d="M338 318l12 10-12 10" fill="none" stroke="#b4f34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- build card -->
+<g transform="translate(363 230)">
+ <rect width="225" height="196" rx="18" fill="#1b2230" stroke="#3e4b62" stroke-width="2"/>
+ <rect x="22" y="22" width="46" height="46" rx="11" fill="#273626"/>
+ <path d="M31 39h28M31 46h20M31 53h24" stroke="#b4f34a" stroke-width="2.5" stroke-linecap="round"/>
+ <circle cx="57" cy="39" r="3" fill="#b4f34a"/><circle cx="51" cy="46" r="3" fill="#b4f34a"/><circle cx="55" cy="53" r="3" fill="#b4f34a"/>
+ <text x="22" y="101" fill="#f4f6fa" font-family="Arial,sans-serif" font-size="21" font-weight="700">Build image</text>
+ <text x="22" y="129" fill="#aab3c4" font-family="Arial,sans-serif" font-size="14">Mistral Cloud + Docker</text>
+ <rect x="22" y="151" width="120" height="24" rx="12" fill="#2b3b28"/>
+ <text x="82" y="168" text-anchor="middle" fill="#d5ff8a" font-family="Arial,sans-serif" font-size="11" font-weight="700">BUILD / START</text>
+</g>
+<!-- arrow 2 -->
+<path d="M600 328H653" stroke="#b4f34a" stroke-width="3" stroke-linecap="round"/>
+<path d="M643 318l12 10-12 10" fill="none" stroke="#b4f34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- worker card -->
+<g transform="translate(668 230)">
+ <rect width="225" height="196" rx="18" fill="#1b2230" stroke="#5d59a8" stroke-width="2"/>
+ <path d="M23 51l22-18 22 18-22 18z" fill="#312e60" stroke="#a6a1ff" stroke-width="2"/>
+ <path d="M23 51v-17l22-13 22 13v17M45 69V51" fill="none" stroke="#a6a1ff" stroke-width="2"/>
+ <text x="22" y="101" fill="#f4f6fa" font-family="Arial,sans-serif" font-size="21" font-weight="700">Cloud worker</text>
+ <text x="22" y="129" fill="#aab3c4" font-family="Arial,sans-serif" font-size="14">Managed lifecycle</text>
+ <rect x="22" y="151" width="125" height="24" rx="12" fill="#332f59"/>
+ <text x="84" y="168" text-anchor="middle" fill="#c7c4ff" font-family="Arial,sans-serif" font-size="11" font-weight="700">RUN WORKFLOW</text>
+</g>
+<!-- telemetry panel -->
+<g transform="translate(922 230)">
+ <rect width="220" height="196" rx="18" fill="#1b2230" stroke="#3e4b62" stroke-width="2"/>
+ <text x="20" y="37" fill="#f4f6fa" font-family="Arial,sans-serif" font-size="17" font-weight="700">Deployment logs</text>
+ <g stroke-linecap="round" stroke-width="5">
+  <path d="M22 63h18" stroke="#b4f34a"/><path d="M50 63h112" stroke="#596477"/>
+  <path d="M22 88h18" stroke="#8d9bff"/><path d="M50 88h146" stroke="#596477"/>
+  <path d="M22 113h18" stroke="#b4f34a"/><path d="M50 113h95" stroke="#596477"/>
+  <path d="M22 138h18" stroke="#8d9bff"/><path d="M50 138h128" stroke="#596477"/>
+ </g>
+ <text x="20" y="173" fill="#aab3c4" font-family="Arial,sans-serif" font-size="12">Build + worker output in Studio</text>
+</g>
+<path d="M894 328H910" stroke="#b4f34a" stroke-width="3" stroke-linecap="round"/>
+<path d="M903 320l8 8-8 8" fill="none" stroke="#b4f34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="58" y="510" fill="#b4f34a" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">LESS INFRASTRUCTURE TO OPERATE</text>
+<text x="58" y="550" fill="#dfe4ed" font-family="Arial,sans-serif" font-size="17">Public preview · Paid plans only · Concurrent deployment quotas apply</text>
+<text x="1142" y="625" fill="#7c879b" text-anchor="end" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">PRODUCT UPDATE / 09 OCT 2026</text>
+</svg>
