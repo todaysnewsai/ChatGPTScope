@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "ChatGPTScope — Explore ChatGPT. Understand AI."
-description: "Independent news, practical guides, troubleshooting, feature explainers, and analysis about ChatGPT and AI."
+title: "Articles About AI — AI Tools, News, Reviews & Guides"
+description: "Independent news, reviews, comparisons, and practical guides to AI tools including ChatGPT, Google Gemini, Claude, DeepSeek, Microsoft Copilot, Perplexity, and more."
 ---
 
 {% assign featured = site.posts | first %}
@@ -10,20 +10,20 @@ description: "Independent news, practical guides, troubleshooting, feature expla
 
 <section class="home-hero container">
   <div class="hero-copy">
-    <div class="section-eyebrow">CHATGPT & AI EXPLAINED <span></span></div>
+    <div class="section-eyebrow">ARTIFICIAL INTELLIGENCE, EXPLAINED <span></span></div>
     {% if featured %}
       <h1>{{ featured.title }}</h1>
-      <p>{{ featured.description | default: "Independent news, clear explainers, and practical ways to use ChatGPT." }}</p>
+      <p>{{ featured.description | default: "Independent news, clear explainers, and practical guides to today's AI tools." }}</p>
       <a class="primary-button" href="{{ featured.url | relative_url }}">Read the full story <span>→</span></a>
     {% else %}
-      <h1>Explore ChatGPT. Understand AI.</h1>
-      <p>Independent news, practical guides, and clear explanations to help you understand ChatGPT and the wider world of artificial intelligence.</p>
+      <h1>Understand AI. Choose the right tools.</h1>
+      <p>Independent news, practical guides, reviews, and comparisons covering ChatGPT, Gemini, Claude, DeepSeek, and the wider world of artificial intelligence.</p>
       <a class="primary-button" href="{{ '/guides/' | relative_url }}">Explore our guides <span>→</span></a>
     {% endif %}
   </div>
-  <a class="hero-visual" href="{% if featured %}{{ featured.url | relative_url }}{% else %}{{ '/guides/' | relative_url }}{% endif %}" aria-label="Explore ChatGPT and AI">
-    <img src="{{ featured_image }}" alt="Artificial intelligence and ChatGPT" fetchpriority="high">
-    <span class="hero-image-caption">CHATGPT · EXPLAINED</span>
+  <a class="hero-visual" href="{% if featured %}{{ featured.url | relative_url }}{% else %}{{ '/guides/' | relative_url }}{% endif %}" aria-label="Explore AI tools and guides">
+    <img src="{{ featured_image }}" alt="Artificial intelligence and AI tools" fetchpriority="high">
+    <span class="hero-image-caption">ARTIFICIAL INTELLIGENCE · EXPLAINED</span>
   </a>
 </section>
 
@@ -31,12 +31,12 @@ description: "Independent news, practical guides, troubleshooting, feature expla
   <div class="center-heading">
     <div class="section-eyebrow">EXPLORE BY TOPIC</div>
     <h2 id="topics-title">Explore Our Topics</h2>
-    <p>Choose a topic to browse its articles and guides.</p>
+    <p>News, explanations, comparisons, and practical help for today's AI tools.</p>
   </div>
-  {% assign roadmap_names = "ChatGPT News & Updates|Practical Guides & Tutorials|Troubleshooting & Fixes|Features & Use Cases|ChatGPT vs Competitors|OpenAI Models & Tools|Writing, Work & Study|API & Advanced Technology" | split: "|" %}
-  {% assign roadmap_descriptions = "The latest AI developments, product releases, and important updates.|Step-by-step tutorials and practical workflows for using AI.|Clear fixes for common errors, account issues, and technical problems.|Understand ChatGPT features and how to use them in real situations.|Compare ChatGPT with other AI assistants, models, and tools.|Explore AI models, OpenAI products, and useful tools.|Use ChatGPT for writing, learning, research, and productivity.|Explore APIs, integrations, coding, and advanced AI technology." | split: "|" %}
+  {% assign roadmap_names = "AI News & Updates|Practical Guides & Tutorials|Troubleshooting & Fixes|AI Features & Use Cases|AI Tool Comparisons|AI Models & Tools|Writing, Work & Study|AI APIs & Technology" | split: "|" %}
+  {% assign roadmap_descriptions = "Important AI developments, product launches, and updates.|Step-by-step tutorials and workflows for using AI tools.|Clear fixes for common errors, account issues, and technical problems.|Understand features and practical uses across popular AI assistants.|Compare ChatGPT, Gemini, Claude, DeepSeek, Copilot, and other tools.|Explore models, assistants, apps, and useful AI services.|Use AI for writing, learning, research, and productivity.|Explore APIs, integrations, coding, and advanced AI technology." | split: "|" %}
   {% assign roadmap_icons = "▤|⌑|⚒|✧|⚖|▦|✎|⌘" | split: "|" %}
-  {% assign roadmap_urls = "/news/|/guides/|/troubleshooting/|/features/|/comparisons/|/models/|/writing-work-study/|/api-technology/" | split: "|" %}
+  {% assign roadmap_urls = "/news/|/guides/|/troubleshooting/|/features/|/comparisons/|/tools/|/writing-work-study/|/api-technology/" | split: "|" %}
   <div class="roadmap-grid">
     {% for name in roadmap_names %}
       {% assign item_index = forloop.index0 %}
@@ -56,7 +56,7 @@ description: "Independent news, practical guides, troubleshooting, feature expla
 {% if site.posts.size > 0 %}
 <section class="latest container">
   <div class="latest-heading">
-    <div><h2>Latest Articles</h2><p>Practical answers and new developments from the world of ChatGPT.</p></div>
+    <div><h2>Latest Articles</h2><p>Useful answers and important developments across the AI landscape.</p></div>
     <a class="text-link" href="{{ '/news/' | relative_url }}">View all articles <span>→</span></a>
   </div>
   <div class="article-grid">
@@ -81,7 +81,7 @@ description: "Independent news, practical guides, troubleshooting, feature expla
 
 <section class="newsletter" id="newsletter">
   <div class="container newsletter-inner">
-    <div><h2>Stay Updated</h2><p>Explore clear guides and independent coverage of ChatGPT and AI.</p></div>
+    <div><h2>Stay Updated</h2><p>Explore clear guides and independent coverage of AI tools and developments.</p></div>
     <a class="primary-button" href="{{ '/news/' | relative_url }}">Explore latest updates <span>→</span></a>
   </div>
 </section>
