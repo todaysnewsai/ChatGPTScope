@@ -19,3 +19,21 @@ a.roadmap-card:hover,a.roadmap-card:focus-visible{border-color:var(--teal);backg
 a.roadmap-card:hover .topic-link-label span{transform:translateX(3px)}
 .roadmap-arrow{display:grid;place-items:center;justify-self:end;align-self:start;width:30px;height:30px;border-radius:50%;background:var(--mint);color:var(--teal-dark);font-size:1rem}
 @media(max-width:600px){.topic-link-label{margin-top:9px;font-size:.7rem}.roadmap-arrow{width:27px;height:27px}}
+
+/* Category landing pages */
+.page-category{max-width:1120px;padding-top:52px;padding-bottom:76px}
+.page-category>.eyebrow{font-size:.68rem;letter-spacing:.18em;color:var(--teal);font-weight:700}
+.page-category>h1{margin:7px 0 12px;max-width:850px}
+.category-intro{max-width:780px;font:400 1.12rem/1.65 var(--serif);color:var(--muted);margin:0 0 18px}
+.page-content{font-family:var(--serif);font-size:1rem;line-height:1.65;color:#55595d}
+.page-content h2{font:600 1.35rem/1.25 var(--serif);color:var(--ink);margin:20px 0 8px}
+.category-articles{border-top:1px solid var(--line);margin-top:30px;padding-top:24px}
+.category-heading{margin-bottom:18px}
+.category-heading h2{font:600 1.8rem/1.2 var(--serif);margin:0}
+.category-heading p{font:400 .9rem/1.5 var(--serif);color:var(--muted);margin:4px 0 0}
+.category-empty{border:1px solid var(--line);border-radius:8px;background:#fbfaf6;padding:36px 24px;text-align:center}
+.category-empty-mark{display:grid;place-items:center;width:48px;height:48px;margin:0 auto 12px;border-radius:15px;background:var(--mint);color:var(--teal);font-size:1.4rem}
+.category-empty h3{font:600 1.45rem/1.2 var(--serif);margin:0 0 8px}
+.category-empty p{max-width:500px;margin:0 auto;color:var(--muted);font:400 .95rem/1.55 var(--serif)}
+.category-empty .text-link{display:inline-block;margin-top:16px;color:var(--teal)}
+@media(max-width:600px){.page-category{padding-top:34px;padding-bottom:50px}.page-category>h1{font-size:2.4rem}.category-intro{font-size:1rem}.category-articles{margin-top:24px;padding-top:20px}.category-heading h2{font-size:1.55rem}.category-empty{padding:28px 17px}.category-empty h3{font-size:1.3rem}}
