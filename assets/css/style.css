@@ -156,3 +156,59 @@ a.roadmap-card:hover .topic-link-label span{transform:translateX(3px)}
   .latest-heading p{max-width:none;width:100%;font-size:1.04rem;line-height:1.65}
   .latest-heading .text-link{justify-self:end;white-space:nowrap}
 }
+
+/* Definitive mobile spacing fix: let copy occupy the card, not the icon/arrow reserve */
+@media(max-width:600px){
+  a.roadmap-card{
+    grid-template-columns:44px minmax(0,1fr) !important;
+    column-gap:12px !important;
+    padding:14px 12px !important;
+  }
+  a.roadmap-card .roadmap-card-copy{
+    grid-column:2;
+    width:100% !important;
+    min-width:0 !important;
+    padding:0 !important;
+  }
+  a.roadmap-card .roadmap-arrow{
+    position:absolute !important;
+    right:12px !important;
+    top:13px !important;
+  }
+  a.roadmap-card .roadmap-card-copy h3,
+  a.roadmap-card .roadmap-card-copy p{
+    width:100% !important;
+    max-width:none !important;
+  }
+  .latest-heading{
+    position:relative !important;
+    display:block !important;
+    width:100% !important;
+    padding-top:0 !important;
+  }
+  .latest-heading>div{
+    display:block !important;
+    width:100% !important;
+    max-width:none !important;
+    min-width:0 !important;
+  }
+  .latest-heading h2{
+    width:100% !important;
+    max-width:none !important;
+    padding-right:0 !important;
+  }
+  .latest-heading p{
+    display:block !important;
+    width:100% !important;
+    max-width:none !important;
+    margin-top:6px !important;
+    font-size:1.04rem !important;
+    line-height:1.6 !important;
+  }
+  .latest-heading>.text-link{
+    position:absolute !important;
+    top:2px !important;
+    right:0 !important;
+    white-space:nowrap !important;
+  }
+}
