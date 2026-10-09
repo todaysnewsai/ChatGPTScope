@@ -2,6 +2,8 @@
 category: analysis
 layout: page
 title: "AI Analysis"
+permalink: /analysis/
+description: "Independent analysis of AI developments, product strategy, technical trade-offs, and their implications for users, developers, and businesses."
 ---
 
 Analysis goes beyond the announcement to examine what an AI development could mean for users, developers, companies, and the wider technology market.
