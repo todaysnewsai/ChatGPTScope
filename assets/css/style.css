@@ -212,3 +212,25 @@ a.roadmap-card:hover .topic-link-label span{transform:translateX(3px)}
     white-space:nowrap !important;
   }
 }
+
+/* Simplify mobile topic cards and move the article-list link below its heading */
+@media(max-width:600px){
+  a.roadmap-card .roadmap-arrow{display:none !important}
+  a.roadmap-card{padding-right:14px !important}
+  .latest-heading{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:flex-start !important;
+    gap:8px !important;
+  }
+  .latest-heading>div{width:100% !important}
+  .latest-heading h2{margin:0 !important}
+  .latest-heading p{max-width:none !important;width:100% !important}
+  .latest-heading>.text-link{
+    position:static !important;
+    display:inline-block !important;
+    margin-top:2px !important;
+    order:2 !important;
+    white-space:normal !important;
+  }
+}
