@@ -245,3 +245,46 @@ a.roadmap-card:hover .topic-link-label span{transform:translateX(3px)}
 .footer-mark{font-size:.72rem;padding:8px 6px}
 @media(max-width:1100px){.brand-title{font-size:1.05rem}.brand-mark{font-size:.85rem;padding:9px 7px}}
 @media(max-width:600px){.brand-name{gap:8px}.brand-title{font-size:1.05rem}.brand-mark{font-size:.78rem;padding:8px 6px}.brand-tagline{font-size:.72rem}}
+
+
+/* Refined multicolour Articles About AI identity */
+.site-header{background:rgba(255,255,255,.97);border-bottom-color:#e7e9ef}
+.header-inner{min-height:94px;gap:22px}
+.brand-lockup{gap:7px;min-width:0}
+.brand-name{display:flex;flex-direction:row;align-items:center;gap:17px;white-space:nowrap}
+.brand-symbol{display:block;width:116px;height:48px;flex:0 0 auto;overflow:visible}
+.brand-title{display:flex;align-items:center;gap:.22em;padding-left:18px;border-left:1px solid #c9ccd5;font-family:var(--sans);font-size:clamp(1.3rem,2.15vw,2.1rem);font-weight:800;line-height:1.05;letter-spacing:-.055em;color:#101b35!important}
+.brand-title>span:first-child{color:#101b35}
+.brand-about{background:linear-gradient(100deg,#1675ff 8%,#3157f5 55%,#7425ef 100%);background-clip:text;-webkit-background-clip:text;color:transparent!important}
+.brand-ai{background:linear-gradient(110deg,#5728f4,#9b18e9);background-clip:text;-webkit-background-clip:text;color:transparent!important}
+.brand-tagline{padding-left:133px;margin-top:-1px;font:700 .61rem/1.4 var(--sans);letter-spacing:.28em;color:#4e5870}
+.brand-tagline i{font-style:normal;color:#a3a9b7;padding:0 .25em}
+.brand-mark{display:none}
+.footer-mark{background:linear-gradient(120deg,#00c9f4,#2858ff 50%,#a51de9);border-radius:8px}
+.footer-wordmark{font-family:var(--sans);font-weight:800;letter-spacing:-.04em}
+@media(max-width:1100px){
+ .header-inner{gap:14px}
+ .brand-name{gap:12px}
+ .brand-symbol{width:90px;height:42px}
+ .brand-title{font-size:1.25rem;padding-left:12px}
+ .brand-tagline{padding-left:102px;font-size:.52rem;letter-spacing:.19em}
+}
+@media(max-width:900px){
+ .header-inner{min-height:82px}
+ .brand-lockup{grid-column:1;grid-row:1}
+ .brand-name{gap:10px}
+ .brand-symbol{width:76px;height:36px}
+ .brand-title{font-size:1.18rem;padding-left:10px;gap:.18em}
+ .brand-tagline{padding-left:86px;font-size:.48rem;letter-spacing:.16em;margin-top:2px}
+}
+@media(max-width:600px){
+ .header-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 8px;padding:13px 16px}
+ .brand-lockup{max-width:100%;overflow:hidden}
+ .brand-name{gap:8px;white-space:normal}
+ .brand-symbol{width:59px;height:33px}
+ .brand-title{font-size:clamp(.94rem,4.3vw,1.2rem);padding-left:8px;gap:.15em;letter-spacing:-.055em}
+ .brand-tagline{padding-left:67px;margin-top:4px;font-size:.42rem;letter-spacing:.11em;white-space:nowrap}
+ .brand-tagline i{padding:0 .1em}
+ .menu-toggle{grid-column:2;grid-row:1}
+ .site-nav{grid-column:1/-1;grid-row:2}
+}
