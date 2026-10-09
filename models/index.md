@@ -1,15 +1,11 @@
 ---
-category: models
 layout: page
-title: "AI Models"
+title: "OpenAI Models & Tools"
+permalink: /models/
+category: models
+description: "Clear explanations of OpenAI models, ChatGPT tools, product capabilities, and developer resources."
 ---
 
-This section explains foundation models from OpenAI, Google, Anthropic, Meta, NVIDIA, open-model developers, and research organizations.
+Understand the models and tools behind ChatGPT and the wider OpenAI ecosystem. We explain what each product is designed to do, how capabilities differ, and which official documentation to consult.
 
-## Beyond benchmarks
-
-Model selection depends on capability, latency, cost, context handling, tool use, reliability, privacy, and workload. A benchmark alone does not determine which model is best.
-
-## Evidence
-
-Official specifications are distinguished from independent testing and analysis.
+We distinguish official specifications from independent testing and analysis, and avoid treating a single benchmark as a complete measure of quality.
