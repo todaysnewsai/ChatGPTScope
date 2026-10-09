@@ -4,6 +4,7 @@ categories:
 - news
 date: "2026-10-10 00:23:00 +0300"
 description: Anthropic launched Claude Haiku 5.5 on October 7 with lower API prices, adjustable effort, and beta computer and browser tools. Here is what developers need to know.
+image: "/assets/images/claude-haiku-speed.svg"
 layout: post
 tags:
 - Anthropic
