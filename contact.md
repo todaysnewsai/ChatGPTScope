@@ -5,8 +5,6 @@ permalink: /contact/
 description: "Contact Articles About AI about corrections, sources, editorial questions, and company announcements."
 ---
 
-# Contact Articles About AI
-
 We welcome factual corrections, source suggestions, questions about our coverage, and relevant announcements about AI products and research.
 
 ## Corrections and factual feedback
