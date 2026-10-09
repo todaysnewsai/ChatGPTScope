@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 325" role="img" aria-labelledby="title">
+  <title id="title">AAA gradient ribbon logo</title>
+  <defs>
+    <linearGradient id="left" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d6df"/>
+      <stop offset="0.55" stop-color="#08a9f4"/>
+      <stop offset="1" stop-color="#0875f3"/>
+    </linearGradient>
+    <linearGradient id="middle" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0878f4"/>
+      <stop offset="0.52" stop-color="#0755f4"/>
+      <stop offset="1" stop-color="#1737e8"/>
+    </linearGradient>
+    <linearGradient id="right" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#4430ef"/>
+      <stop offset="0.55" stop-color="#8b20f5"/>
+      <stop offset="1" stop-color="#d62df3"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="34">
+    <path d="M48 265 L126 65 Q133 48 146 65 L224 265" stroke="url(#left)"/>
+    <path d="M176 265 L254 65 Q261 48 274 65 L352 265" stroke="url(#middle)"/>
+    <path d="M304 265 L382 65 Q389 48 402 65 L480 265" stroke="url(#right)"/>
+  </g>
+</svg>
