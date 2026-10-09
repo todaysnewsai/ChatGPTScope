@@ -10,7 +10,7 @@ tags:
   - prompting
   - prompt engineering
   - AI productivity
-image: "/ChatGPTScope/assets/images/chatgpt-prompt-blueprint.svg"
+image: "/assets/images/chatgpt-prompt-blueprint.svg"
 author: "Articles About AI Editorial Team"
 ---
 
