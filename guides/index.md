@@ -1,15 +1,11 @@
 ---
-category: guides
 layout: page
-title: "AI Guides"
+title: "Practical Guides & Tutorials"
+permalink: /guides/
+category: guides
+description: "Step-by-step ChatGPT tutorials, practical workflows, prompting advice, and clear explanations for everyday use."
 ---
 
-Our guides turn AI capabilities into practical workflows.
+Learn how to use ChatGPT with practical, step-by-step instructions. This section covers prompts, research, writing, file analysis, productivity workflows, and other useful tasks.
 
-## Topics
-
-Expect tutorials on prompting, AI agents, coding assistants, research workflows, AI search, automation, model selection, and responsible use.
-
-## Standard
-
-Each guide aims to explain prerequisites, steps, expected results, limitations, and common mistakes. Time-sensitive instructions identify the relevant software version or date.
+Each guide should explain the steps, expected result, relevant limitations, and any feature or plan requirements that readers need to know.
