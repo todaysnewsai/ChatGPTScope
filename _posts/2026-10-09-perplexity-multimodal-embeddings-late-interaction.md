@@ -6,6 +6,7 @@ date: "2026-10-09 21:50:00 +0300"
 description: Perplexity has released two late-interaction embedding
   models for text, images, and visual documents. Learn how multimodal
   retrieval works, where it may help, and how to evaluate it.
+image: "/assets/images/perplexity-multimodal-embeddings.svg"
 layout: post
 tags:
 - Perplexity
