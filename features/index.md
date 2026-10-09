@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Features & Use Cases"
+title: "ChatGPT Features & Use Cases"
 permalink: /features/
 category: features
-description: "Explanations of ChatGPT features and practical ways to use them."
+description: "Understand ChatGPT features, how they work, where to find them, and when they are useful."
 ---
 
-Explore what ChatGPT features do, how to use them, and where their limits matter. This section covers practical workflows, feature walkthroughs, and real-world use cases.
+Explore ChatGPT features and practical ways to use them. This section explains tools, settings, memory, voice, files, image capabilities, and other available functions as verified against current product information.
 
-Our articles aim to distinguish confirmed capabilities from features that vary by plan, region, or product version.
+We distinguish confirmed capabilities from features that vary by plan, region, account, or product version.
