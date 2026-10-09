@@ -3,20 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f8f6f0">
+  <meta name="theme-color" content="#ffffff">
   {% seo %}
   {% feed_meta %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body>
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand-lockup" href="{{ '/' | relative_url }}" aria-label="Articles About AI home">
-      <span class="brand-name"> <span class="brand-mark" aria-hidden="true">AAA</span> <span class="brand-title">Articles About AI</span></span>
-      <span class="brand-tagline">AI tools, news, reviews & practical guides.</span>
+      <span class="brand-name">
+        <svg class="brand-symbol" viewBox="0 0 210 82" role="img" aria-label="AAA ribbon mark">
+          <defs>
+            <linearGradient id="aaa-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#00d4ff"/>
+              <stop offset="34%" stop-color="#2457ff"/>
+              <stop offset="67%" stop-color="#5427ff"/>
+              <stop offset="100%" stop-color="#c51cff"/>
+            </linearGradient>
+          </defs>
+          <path d="M10 69 L39 15 Q43 7 48 15 L77 69 L105 15 Q109 7 114 15 L143 69 L171 15 Q175 7 180 15 L202 56" fill="none" stroke="url(#aaa-gradient)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M58 49 L77 69 L105 15 M124 49 L143 69 L171 15" fill="none" stroke="url(#aaa-gradient)" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" opacity=".96"/>
+        </svg>
+        <span class="brand-title"><span>Articles</span> <span class="brand-about">About</span> <span class="brand-ai">AI</span></span>
+      </span>
+      <span class="brand-tagline">NEWS <i>·</i> REVIEWS <i>·</i> GUIDES <i>·</i> AI TOOLS</span>
     </a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">☰</button>
     <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
