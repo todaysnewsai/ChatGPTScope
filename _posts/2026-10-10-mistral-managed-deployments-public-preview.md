@@ -7,7 +7,7 @@ description: Mistral AI launched Managed Deployments in public preview
   on October 9, 2026. Learn how hosted workflow workers work, which paid
   plans qualify, current quotas, setup requirements, security controls,
   and limitations.
-image: /ChatGPTScope/assets/images/mistral-managed-deployments-pipeline.svg
+image: /assets/images/mistral-managed-deployments-pipeline.svg
 layout: post
 tags:
 - Mistral AI
