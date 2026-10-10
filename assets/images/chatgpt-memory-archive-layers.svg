@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">How ChatGPT Memory Works</title>
+<desc id="desc">Editorial illustration of a translucent glass archive with small labeled memory cards, a central amber index token, and connected layers representing saved memories and chat context, using plum, amber, pale lilac, and ink.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#201d35"/><stop offset="1" stop-color="#39314e"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8e1fa" stop-opacity=".23"/><stop offset="1" stop-color="#b9c4e9" stop-opacity=".06"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4d59a"/><stop offset="1" stop-color="#c17a40"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="15" stdDeviation="14" flood-color="#0b0917" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<g stroke="#c4b8e7" stroke-opacity=".16" fill="none"><path d="M0 120H1200M0 548H1200M0 562H1200"/><circle cx="610" cy="324" r="255" stroke-dasharray="2 13"/><circle cx="610" cy="324" r="194" stroke-dasharray="2 13"/></g>
+<g font-family="Arial, Helvetica, sans-serif"><text x="62" y="58" fill="#e7dff5" font-size="15" font-weight="700" letter-spacing="3">ARTICLES ABOUT AI  /  MEMORY GUIDE</text><text x="62" y="628" fill="#d5cce8" font-size="13" letter-spacing="2">SAVED DETAILS  /  CHAT CONTEXT  /  USER CONTROL</text></g>
+<g filter="url(#shadow)" transform="translate(145 184) rotate(-8 150 130)">
+ <rect width="240" height="286" rx="14" fill="#eee8f7"/>
+ <rect x="15" y="15" width="210" height="256" rx="8" fill="#faf7ff"/>
+ <circle cx="43" cy="50" r="11" fill="#c17a40"/><rect x="65" y="45" width="116" height="8" rx="4" fill="#857b9f"/>
+ <rect x="35" y="83" width="165" height="6" rx="3" fill="#c5bfd5"/><rect x="35" y="100" width="141" height="6" rx="3" fill="#c5bfd5"/>
+ <rect x="35" y="132" width="170" height="48" rx="6" fill="#e9e2f4"/><circle cx="53" cy="156" r="7" fill="#8c80b8"/><rect x="70" y="150" width="111" height="6" rx="3" fill="#a69abb"/><rect x="70" y="163" width="92" height="5" rx="2" fill="#c5bfd5"/>
+ <rect x="35" y="200" width="170" height="48" rx="6" fill="#f2e3d3"/><circle cx="53" cy="224" r="7" fill="#c17a40"/><rect x="70" y="218" width="111" height="6" rx="3" fill="#bd9c7e"/><rect x="70" y="231" width="92" height="5" rx="2" fill="#d7c4b0"/>
+</g>
+<g filter="url(#shadow)" transform="translate(819 184) rotate(8 125 130)">
+ <rect width="240" height="286" rx="14" fill="#d5d6ec"/>
+ <rect x="15" y="15" width="210" height="256" rx="8" fill="#f7f4ff"/>
+ <text x="35" y="51" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.5" fill="#8c80b8">CHAT CONTEXT</text>
+ <rect x="35" y="70" width="165" height="6" rx="3" fill="#c5bfd5"/><rect x="35" y="87" width="141" height="6" rx="3" fill="#c5bfd5"/>
+ <rect x="35" y="118" width="170" height="58" rx="6" fill="#e7e8f6"/><rect x="49" y="134" width="137" height="5" rx="2" fill="#a7a9c9"/><rect x="49" y="148" width="115" height="5" rx="2" fill="#c1c2d9"/>
+ <rect x="35" y="194" width="170" height="48" rx="6" fill="#e5d8f0"/><rect x="49" y="210" width="137" height="5" rx="2" fill="#a69abb"/><rect x="49" y="224" width="115" height="5" rx="2" fill="#c5bfd5"/>
+</g>
+<g stroke="#d6c4f0" stroke-width="2.5" fill="none" stroke-dasharray="5 7"><path d="M380 280C442 280 453 307 500 316"/><path d="M819 285C761 285 748 310 713 318"/><path d="M380 416C443 416 455 382 500 371"/><path d="M819 413C761 413 747 385 713 374"/></g>
+<g filter="url(#shadow)">
+ <path d="M480 232L610 185L740 232V416L610 463L480 416Z" fill="url(#glass)" stroke="#d6c4f0" stroke-width="3"/>
+ <path d="M480 232L610 280L740 232M610 280V463" fill="none" stroke="#d6c4f0" stroke-opacity=".7" stroke-width="2"/>
+ <circle cx="610" cy="333" r="70" fill="#302947" stroke="#e8d8f6" stroke-width="3"/>
+ <path d="M610 281L656 307L656 359L610 385L564 359L564 307Z" fill="url(#gold)" stroke="#ffe7b8" stroke-width="2"/>
+ <circle cx="610" cy="333" r="18" fill="#3c2c48"/><circle cx="610" cy="333" r="7" fill="#ffe7b8"/>
+</g>
+<g fill="#e7c88d"><circle cx="450" cy="210" r="4"/><circle cx="770" cy="219" r="4"/><circle cx="448" cy="451" r="4"/><circle cx="770" cy="444" r="4"/></g>
+</svg>
