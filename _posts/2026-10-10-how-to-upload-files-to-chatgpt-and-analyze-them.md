@@ -225,3 +225,9 @@ Multiple-file workflows may be available, but the number of files you can attach
 Uploading a file is only the first step. The strongest workflow combines a supported, readable file with a specific question, a defined output format, and a verification step. Use ChatGPT to make documents easier to navigate and datasets easier to explore, but treat its response as analysis to review—not as automatic proof that every page, number, or conclusion is correct.
 
 For the latest supported formats, file limits, and feature-specific availability, rely on OpenAI's official [file upload documentation](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) and [data analysis guide](https://help.openai.com/en/articles/8437071-advanced-data-analysis).
+
+## Related Articles
+
+- [How to Use ChatGPT Effectively](https://articlesaboutai.com/guides/2026/10/09/how-to-use-chatgpt-effectively/)
+- [How to Write Better ChatGPT Prompts](https://articlesaboutai.com/guides/2026/10/09/how-to-write-better-chatgpt-prompts/)
+- [ChatGPT Free vs. Plus: What Is the Difference?](https://articlesaboutai.com/guides/2026/10/10/chatgpt-free-vs-plus-what-is-the-difference/)
