@@ -177,3 +177,8 @@ For developers, the most useful takeaway is to treat steering and queuing as two
 - [Codex for developers — official documentation](https://developers.openai.com/codex/)
 
 *ChatGPTScope is an independent publication and is not affiliated with or endorsed by OpenAI. This article describes the official documentation checked on October 9, 2026; rollout status and product behavior may change.*
+
+## Related Articles
+
+- [GPT-6 and Intelligent UI: What the ChatGPT Update Changes](https://articlesaboutai.com/news/2026/10/09/gpt-6-intelligent-ui-chatgpt-update/)
+- [How to Write Better ChatGPT Prompts](https://articlesaboutai.com/guides/2026/10/09/how-to-write-better-chatgpt-prompts/)
