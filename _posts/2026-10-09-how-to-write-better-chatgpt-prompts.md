@@ -203,3 +203,8 @@ Start with one recurring task—a report summary, an email draft, a study explan
 
 - [Prompt engineering best practices for ChatGPT — OpenAI Help Center](https://help.openai.com/en/articles/10032626)
 - [ChatGPT Enterprise Prompting Guide — OpenAI Cookbook](https://developers.openai.com/cookbook/examples/chatgpt/chatgpt_prompt_guide/chatgpt_prompt_guide)
+
+## Related Articles
+
+- [How to Use ChatGPT Effectively](https://articlesaboutai.com/guides/2026/10/09/how-to-use-chatgpt-effectively/)
+- [How to Upload Files to ChatGPT and Analyze Them](https://articlesaboutai.com/guides/2026/10/10/how-to-upload-files-to-chatgpt-and-analyze-them/)
