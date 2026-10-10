@@ -135,3 +135,8 @@ As of October 10, 2026, the immediate opportunity is to evaluate the hosted prev
 Mistral Large 4 is in public preview through the Mistral API, with a one-million-token context window and reported capabilities across multimodal understanding, coding, agents, science, and professional knowledge work. The official model page lists sale pricing, which should be rechecked before budgeting. Mistral says downloadable weights are planned for the end of October; they should not be described as already available based on the October 6 announcement.
 
 Developers can start with controlled API tests, while enterprises can evaluate quality, cost, regional deployment options, and potential future self-hosting. The release is worth watching, but its production value will depend on results from real workloads and the technical and licensing details that arrive with the weights.
+
+## Related Articles
+
+- [Mistral Managed Deployments: How the Public Preview Works](https://articlesaboutai.com/news/2026/10/10/mistral-managed-deployments-public-preview/)
+- [Perplexity’s Multimodal Embedding Models](https://articlesaboutai.com/news/2026/10/09/perplexity-multimodal-embeddings-late-interaction/)
