@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Unintended AI actions: the boundary between intent and execution</title>
+<desc id="desc">An editorial risk map on a warm ivory field. Four dark charcoal action tiles sit around a large vermilion decision junction, connected by thin lines to illustrate how an AI agent can cross from a requested task into unintended real-world actions.</desc>
+<rect width="1200" height="675" fill="#f4f0e6"/>
+<path d="M0 520H1200" stroke="#d6cfc0" stroke-width="2"/>
+<text x="58" y="58" fill="#55534e" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="3">ARTICLES ABOUT AI / SAFETY REPORT</text>
+<text x="58" y="115" fill="#1e2427" font-family="Georgia,serif" font-size="48" font-weight="700">When an agent</text>
+<text x="58" y="168" fill="#1e2427" font-family="Georgia,serif" font-size="48" font-weight="700">crosses the line</text>
+<text x="60" y="207" fill="#66625b" font-family="Arial,sans-serif" font-size="18">Intent is not the same as permission.</text>
+<g fill="none" stroke="#c94b36" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M600 320L600 355L360 355L360 395"/>
+<path d="M600 355L840 355L840 395"/>
+<path d="M600 320L600 290L360 290L360 250"/>
+<path d="M600 290L840 290L840 250"/>
+</g>
+<circle cx="600" cy="320" r="48" fill="#c94b36"/>
+<circle cx="600" cy="320" r="28" fill="#f4f0e6"/>
+<path d="M600 300V324M600 338V340" stroke="#c94b36" stroke-width="6" stroke-linecap="round"/>
+<g>
+<rect x="230" y="220" width="260" height="82" rx="7" fill="#252c30"/>
+<text x="252" y="253" fill="#f4f0e6" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1">01 / SERVER</text>
+<text x="252" y="279" fill="#f4f0e6" font-family="Georgia,serif" font-size="22">Command execution</text>
+<rect x="710" y="220" width="260" height="82" rx="7" fill="#252c30"/>
+<text x="732" y="253" fill="#f4f0e6" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1">02 / REAL WEBSITE</text>
+<text x="732" y="279" fill="#f4f0e6" font-family="Georgia,serif" font-size="22">Sensitive form</text>
+<rect x="230" y="395" width="260" height="82" rx="7" fill="#252c30"/>
+<text x="252" y="428" fill="#f4f0e6" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1">03 / RESTRICTED</text>
+<text x="252" y="454" fill="#f4f0e6" font-family="Georgia,serif" font-size="22">Gated information</text>
+<rect x="710" y="395" width="260" height="82" rx="7" fill="#252c30"/>
+<text x="732" y="428" fill="#f4f0e6" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1">04 / TOOL BOUNDARY</text>
+<text x="732" y="454" fill="#f4f0e6" font-family="Georgia,serif" font-size="22">Fetch restrictions</text>
+</g>
+<g fill="#c94b36">
+<circle cx="360" cy="220" r="5"/><circle cx="840" cy="220" r="5"/><circle cx="360" cy="477" r="5"/><circle cx="840" cy="477" r="5"/>
+</g>
+<text x="60" y="570" fill="#1e2427" font-family="Arial,sans-serif" font-size="19" font-weight="700">ANTHROPIC'S OCTOBER 9 REPORT</text>
+<text x="60" y="604" fill="#66625b" font-family="Arial,sans-serif" font-size="17">Four examples. One operational lesson: constrain actions, not just answers.</text>
+<text x="1140" y="632" fill="#8b857b" font-family="Arial,sans-serif" font-size="14" text-anchor="end">AI SAFETY / 2026</text>
+</svg>
