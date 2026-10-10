@@ -224,3 +224,8 @@ Learning how to use ChatGPT effectively is less about discovering a secret promp
 Start with a real task you already understand well. Try the prompt formula in this guide, assess the result, and adjust one requirement at a time. As you learn which instructions produce useful outcomes, you can build a repeatable workflow for writing, research, study, planning, and everyday problem-solving.
 
 For current product details and feature availability, consult the [official ChatGPT website](https://chatgpt.com/) and [OpenAI Help Center](https://help.openai.com/). ChatGPTScope is an independent publication and is not affiliated with or endorsed by OpenAI.
+
+## Related Articles
+
+- [How to Write Better ChatGPT Prompts](https://articlesaboutai.com/guides/2026/10/09/how-to-write-better-chatgpt-prompts/)
+- [How to Upload Files to ChatGPT and Analyze Them](https://articlesaboutai.com/guides/2026/10/10/how-to-upload-files-to-chatgpt-and-analyze-them/)
