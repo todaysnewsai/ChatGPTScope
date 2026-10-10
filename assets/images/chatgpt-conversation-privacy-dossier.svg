@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Are ChatGPT Conversations Private?</title>
+  <desc id="desc">An original editorial still life of a translucent document sleeve, papers with redaction bars, and a brass clasp on a warm stone desk, representing privacy controls and careful handling of chat data.</desc>
+  <defs>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f0e5"/>
+      <stop offset="1" stop-color="#ded3c2"/>
+    </linearGradient>
+    <linearGradient id="sleeve" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdfcf8" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#cbd6d2" stop-opacity=".64"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6c27a"/>
+      <stop offset=".52" stop-color="#a86e35"/>
+      <stop offset="1" stop-color="#70442b"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#29251f" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#stone)"/>
+  <path d="M0 0H1200V88C1000 115 865 44 690 91S310 145 0 91Z" fill="#fffaf1" opacity=".6"/>
+  <path d="M0 590C210 530 360 627 550 586S950 533 1200 591V675H0Z" fill="#c8b8a3" opacity=".35"/>
+  <g opacity=".5" fill="none" stroke="#b6a58e" stroke-width="1.5">
+    <path d="M55 114H330M55 126H265M930 580H1140M965 594H1140"/>
+    <path d="M0 475C160 446 230 498 380 474"/>
+  </g>
+  <g transform="translate(78 30)">
+    <path d="M0 0C54 31 80 68 94 122" fill="none" stroke="#52684f" stroke-width="3"/>
+    <g fill="#607b59">
+      <ellipse cx="30" cy="24" rx="25" ry="9" transform="rotate(26 30 24)"/>
+      <ellipse cx="52" cy="46" rx="26" ry="9" transform="rotate(-24 52 46)"/>
+      <ellipse cx="68" cy="76" rx="25" ry="9" transform="rotate(28 68 76)"/>
+      <ellipse cx="87" cy="100" rx="23" ry="8" transform="rotate(-21 87 100)"/>
+    </g>
+  </g>
+  <g transform="translate(260 110) rotate(-7 330 240)" filter="url(#shadow)">
+    <rect x="92" y="24" width="575" height="438" rx="8" fill="#173b39"/>
+    <rect x="48" y="4" width="575" height="438" rx="8" fill="#fbf7ef" stroke="#d8ccba" stroke-width="2"/>
+    <rect x="82" y="38" width="507" height="370" rx="5" fill="#f1e9dc"/>
+    <g fill="#b6afa3">
+      <rect x="120" y="77" width="204" height="8" rx="4"/>
+      <rect x="120" y="99" width="385" height="6" rx="3" opacity=".72"/>
+      <rect x="120" y="119" width="340" height="6" rx="3" opacity=".72"/>
+      <rect x="120" y="158" width="286" height="7" rx="3"/>
+      <rect x="120" y="179" width="395" height="6" rx="3" opacity=".72"/>
+      <rect x="120" y="199" width="316" height="6" rx="3" opacity=".72"/>
+      <rect x="120" y="239" width="345" height="7" rx="3"/>
+      <rect x="120" y="260" width="392" height="6" rx="3" opacity=".72"/>
+      <rect x="120" y="280" width="270" height="6" rx="3" opacity=".72"/>
+      <rect x="120" y="321" width="300" height="7" rx="3"/>
+      <rect x="120" y="342" width="380" height="6" rx="3" opacity=".72"/>
+    </g>
+    <g fill="#b94d32">
+      <rect x="274" y="72" width="222" height="18" rx="3"/>
+      <rect x="120" y="153" width="150" height="18" rx="3"/>
+      <rect x="303" y="234" width="192" height="18" rx="3"/>
+      <rect x="120" y="316" width="213" height="18" rx="3"/>
+    </g>
+    <path d="M30 66L585 9Q615 7 626 39L675 390Q679 420 648 429L90 493Q57 496 52 464L2 104Q-3 75 30 66Z" fill="url(#sleeve)" stroke="#9eaaa4" stroke-width="3"/>
+    <path d="M5 112L675 389" fill="none" stroke="#ffffff" stroke-opacity=".7" stroke-width="4"/>
+    <path d="M48 465L645 402" fill="none" stroke="#ffffff" stroke-opacity=".6" stroke-width="3"/>
+    <circle cx="344" cy="441" r="36" fill="#6e472b" opacity=".16"/>
+    <circle cx="340" cy="432" r="31" fill="url(#brass)" stroke="#78502d" stroke-width="3"/>
+    <circle cx="340" cy="432" r="19" fill="none" stroke="#f3d69a" stroke-width="2" opacity=".8"/>
+    <circle cx="340" cy="432" r="6" fill="#f4d59a"/>
+  </g>
+  <g transform="translate(815 116) rotate(8)">
+    <rect width="238" height="330" rx="8" fill="#e9dfd0" stroke="#c6b59e" stroke-width="2"/>
+    <rect x="20" y="22" width="198" height="286" rx="3" fill="#f8f4ec"/>
+    <g fill="#b8afa1">
+      <rect x="40" y="48" width="112" height="7" rx="3"/>
+      <rect x="40" y="68" width="156" height="5" rx="2"/>
+      <rect x="40" y="84" width="140" height="5" rx="2"/>
+      <rect x="40" y="128" width="156" height="5" rx="2"/>
+      <rect x="40" y="144" width="130" height="5" rx="2"/>
+      <rect x="40" y="160" width="150" height="5" rx="2"/>
+      <rect x="40" y="212" width="156" height="5" rx="2"/>
+      <rect x="40" y="228" width="120" height="5" rx="2"/>
+    </g>
+    <rect x="40" y="103" width="122" height="15" rx="2" fill="#b94d32"/>
+    <rect x="40" y="185" width="156" height="15" rx="2" fill="#b94d32"/>
+    <rect x="40" y="249" width="95" height="15" rx="2" fill="#b94d32"/>
+  </g>
+  <g transform="translate(78 520)">
+    <rect width="226" height="112" rx="10" fill="#102f35"/>
+    <path d="M27 28H197M27 43H153" stroke="#a5b9b0" stroke-width="3" stroke-linecap="round"/>
+    <path d="M28 69H73L86 55L100 81L116 64H197" fill="none" stroke="#d9a45b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="197" cy="64" r="5" fill="#d9a45b"/>
+  </g>
+  <g transform="translate(925 505)">
+    <ellipse cx="86" cy="61" rx="90" ry="54" fill="#153c38"/>
+    <ellipse cx="86" cy="53" rx="78" ry="45" fill="#214b45" stroke="#59756a" stroke-width="3"/>
+    <ellipse cx="86" cy="48" rx="51" ry="29" fill="#b78a50"/>
+    <ellipse cx="86" cy="45" rx="39" ry="20" fill="#e1c28a"/>
+    <path d="M67 44L82 29L98 45L82 61Z" fill="#fff0c7" opacity=".7"/>
+  </g>
+  <text x="54" y="650" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.5" fill="#51483d">ARTICLES ABOUT AI  /  PRIVACY GUIDE</text>
+</svg>
