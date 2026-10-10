@@ -1,5 +1,5 @@
 ---
-image: "/assets/images/codex-steering-controls.svg"
+image: "https://todaysnewsai.github.io/ChatGPTScope/assets/images/codex-steering-controls.svg"
 layout: post
 title: "OpenAI Speeds Up Codex Steering in ChatGPT Desktop: How Follow-Up Controls Work"
 description: "OpenAI is rolling out faster steering for Codex in the ChatGPT desktop app. Learn how steering and queued follow-ups differ, where to change the setting, and how to guide a coding task mid-run."
