@@ -39,7 +39,7 @@ Treat this as a starting point, not a test result. Both products have multiple m
 
 Both assistants can help produce a first draft, restructure a report, rewrite an email, summarize a long passage, brainstorm headlines, or explain a technical topic in plain language. In these tasks, the quality of the result depends heavily on the brief you provide, the context you share, and the amount of editing you do afterward.
 
-ChatGPT is worth trying if you want to build a repeatable writing workflow around projects, saved instructions, or custom GPTs where available. You can provide a clear role, audience, tone, constraints, and examples, then refine the response through follow-up instructions. Our guide to [writing better ChatGPT prompts](/guides/2026/10/09/how-to-write-better-chatgpt-prompts/) explains how to make those instructions more precise.
+ChatGPT is worth trying if you want to build a repeatable writing workflow around projects, saved instructions, or custom GPTs where available. You can provide a clear role, audience, tone, constraints, and examples, then refine the response through follow-up instructions. Our guide to [writing better ChatGPT prompts](/how-to-write-better-chatgpt-prompts/) explains how to make those instructions more precise.
 
 Gemini is a strong candidate when your writing begins with material already in Google’s ecosystem or when you want assistance inside supported Google products. Depending on the account, plan, and rollout, Gemini features may be available in services such as Gmail and Docs. That can reduce the need to copy material from one application to another, but it does not eliminate the need to review the output.
 
@@ -69,7 +69,7 @@ For spreadsheets, ask the assistant to explain the columns and assumptions befor
 
 The better choice often depends on where the files are stored and what you need to do with them. If you frequently upload files into ChatGPT and analyze them there, ChatGPT may be the simpler workflow. If your documents are maintained in Google Drive and your account supports the relevant Gemini connections, Gemini may make it easier to work from that existing context.
 
-For a step-by-step ChatGPT workflow, see our guide to [uploading files to ChatGPT and analyzing them](/guides/2026/10/10/how-to-upload-files-to-chatgpt-and-analyze-them/). It covers preparing a file, asking focused questions, and checking the result.
+For a step-by-step ChatGPT workflow, see our guide to [uploading files to ChatGPT and analyzing them](/how-to-upload-files-to-chatgpt-and-analyze-them/). It covers preparing a file, asking focused questions, and checking the result.
 
 ## 4. Images, audio, and other multimodal tasks
 
@@ -77,7 +77,7 @@ Multimodal capability means an assistant can work with more than plain text—fo
 
 For image understanding, try giving both assistants the same screenshot, chart, or photograph and asking a concrete question. Check whether each correctly identifies the relevant details, separates visible evidence from assumptions, and says when something is unclear. For image generation, compare whether the tool follows the brief, handles text accurately, and produces an image suitable for your intended use. One sample is not enough to establish a general performance ranking.
 
-For spoken interaction, compare speech recognition, interruption handling, response quality, accessibility, and how easily you can return to the transcript. A voice feature can be useful for language practice, hands-free brainstorming, or explaining a document, but it may be less suitable for a task that requires careful editing or exact quotations. See our [ChatGPT Voice Mode guide](/features/2026/10/10/how-to-use-chatgpt-voice-mode/) for details about that product’s workflow.
+For spoken interaction, compare speech recognition, interruption handling, response quality, accessibility, and how easily you can return to the transcript. A voice feature can be useful for language practice, hands-free brainstorming, or explaining a document, but it may be less suitable for a task that requires careful editing or exact quotations. See our [ChatGPT Voice Mode guide](/how-to-use-chatgpt-voice-mode/) for details about that product’s workflow.
 
 Do not assume that a feature available in a demonstration is available to every user. New capabilities often roll out gradually and can be restricted by subscription, country, age, account type, or administrator settings. Confirm availability in your own account before choosing a service for a recurring task.
 
@@ -121,7 +121,7 @@ Start with your usage pattern. If you only ask occasional questions, summarize s
 
 Compare the actual limits that affect your work: messages, model access, file uploads, research reports, image generation, audio or video features, and any service integrations you plan to use. A plan can be excellent value for one person and poor value for another. If a feature is essential, confirm that it is available in your country and account before paying.
 
-You can also test one subscription for a month, track the tasks where it saves measurable time, and cancel if the value is not clear. If you are comparing subscriptions, our guide to [ChatGPT Free vs. Plus](/guides/2026/10/10/chatgpt-free-vs-plus-what-is-the-difference/) explains why the paid tier should be judged by its limits and tools rather than by the assumption that every response is automatically better.
+You can also test one subscription for a month, track the tasks where it saves measurable time, and cancel if the value is not clear. If you are comparing subscriptions, our guide to [ChatGPT Free vs. Plus](/chatgpt-free-vs-plus-what-is-the-difference/) explains why the paid tier should be judged by its limits and tools rather than by the assumption that every response is automatically better.
 
 Official pricing pages:
 - [ChatGPT pricing — OpenAI](https://openai.com/chatgpt/pricing/)
