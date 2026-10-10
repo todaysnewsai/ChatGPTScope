@@ -401,3 +401,8 @@ results.
 the official announcement and model-card information checked on October
 9, 2026. Benchmark results are reported by Perplexity and should be
 validated against the requirements of each deployment.*
+
+## Related Articles
+
+- [Mistral Large 4: Preview, Pricing, and Availability](https://articlesaboutai.com/news/2026/10/10/mistral-large-4-preview-pricing/)
+- [Mistral Managed Deployments: How the Public Preview Works](https://articlesaboutai.com/news/2026/10/10/mistral-managed-deployments-public-preview/)
