@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Build a Custom Gemini Gem</title>
+<desc id="desc">A unique editorial illustration of a faceted violet crystal with jade and amber facets, accompanied by three small geometric symbols for instructions, knowledge, and testing on a warm ivory architectural backdrop.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbf6eb"/><stop offset="1" stop-color="#e9dece"/></linearGradient>
+  <linearGradient id="amethyst" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c7a5f2"/><stop offset=".48" stop-color="#7550b3"/><stop offset="1" stop-color="#39265f"/></linearGradient>
+  <linearGradient id="jade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a6d4c3"/><stop offset="1" stop-color="#31796c"/></linearGradient>
+  <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f1c776"/><stop offset="1" stop-color="#c66b43"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#483b55" flood-opacity=".18"/></filter>
+</defs>
+<rect width="1200" height="675" fill="url(#paper)"/>
+<path d="M0 0H270L420 675H0Z" fill="#e5d7c3" opacity=".55"/>
+<path d="M1200 0H925L780 675H1200Z" fill="#d9e4d7" opacity=".7"/>
+<path d="M0 555C210 498 310 603 495 565S830 495 1200 562V675H0Z" fill="#d7c4ae" opacity=".34"/>
+<g fill="none" stroke="#b8a58e" stroke-width="1.5" opacity=".55">
+ <path d="M68 130H245M68 144H192M944 522H1128M1000 536H1128"/>
+ <path d="M64 590L215 590L260 635M940 95L1080 95L1120 135"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif">
+ <text x="64" y="66" fill="#574660" font-size="16" font-weight="700" letter-spacing="3">ARTICLES ABOUT AI  /  GEMINI GUIDE</text>
+ <text x="64" y="620" fill="#675a62" font-size="13" font-weight="700" letter-spacing="2">INSTRUCTIONS  ·  KNOWLEDGE  ·  TESTING</text>
+</g>
+<!-- abstract architectural plinths, deliberately unlike the site's document-and-lens compositions -->
+<path d="M380 518L565 470L750 518L750 550L565 598L380 550Z" fill="#d0bda7"/>
+<path d="M380 518L565 566L750 518L565 470Z" fill="#f6eddf"/>
+<path d="M565 566V598" stroke="#b7a28b" stroke-width="2"/>
+<g filter="url(#shadow)">
+ <!-- central faceted crystal -->
+ <path d="M600 142L714 205L754 333L672 470L542 470L455 333L488 205Z" fill="url(#amethyst)"/>
+ <path d="M600 142L600 300L488 205Z" fill="#d4b9f5"/>
+ <path d="M600 142L714 205L600 300Z" fill="#a786df"/>
+ <path d="M714 205L754 333L600 300Z" fill="#6b4b9e"/>
+ <path d="M754 333L672 470L600 300Z" fill="#49336e"/>
+ <path d="M672 470L542 470L600 300Z" fill="#8661b7"/>
+ <path d="M542 470L455 333L600 300Z" fill="#b39adf"/>
+ <path d="M455 333L488 205L600 300Z" fill="#8c6bc2"/>
+ <path d="M488 205L600 142L600 300L455 333Z" fill="#bba0e7" opacity=".3"/>
+ <path d="M600 142L600 300L672 470" fill="none" stroke="#efe3ff" stroke-opacity=".62" stroke-width="2"/>
+ <path d="M488 205L600 300L714 205M455 333L600 300L754 333M542 470L600 300L672 470" fill="none" stroke="#eadbff" stroke-opacity=".55" stroke-width="2"/>
+ <!-- distinct jade and amber facets -->
+ <path d="M488 205L455 333L542 470L520 320Z" fill="url(#jade)" opacity=".92"/>
+ <path d="M714 205L754 333L672 470L686 319Z" fill="url(#amber)" opacity=".9"/>
+ <path d="M600 142L488 205L600 300L714 205Z" fill="#d7c3f3" opacity=".36"/>
+</g>
+<!-- instruction symbol: three precise sliders, no text-card -->
+<g transform="translate(170 230)">
+ <path d="M0 0H130M0 35H130M0 70H130" stroke="#8b7a92" stroke-width="5" stroke-linecap="round"/>
+ <path d="M0 0H130M0 35H130M0 70H130" stroke="#fff8ed" stroke-width="2" stroke-linecap="round"/>
+ <circle cx="38" cy="0" r="11" fill="#c66b43" stroke="#fff6e9" stroke-width="3"/>
+ <circle cx="92" cy="35" r="11" fill="#6c4ba0" stroke="#fff6e9" stroke-width="3"/>
+ <circle cx="59" cy="70" r="11" fill="#347e70" stroke="#fff6e9" stroke-width="3"/>
+ <path d="M65 95L65 116" stroke="#c3ad94" stroke-width="2"/>
+ <path d="M52 116H78" stroke="#c3ad94" stroke-width="2"/>
+</g>
+<!-- knowledge symbol: an abstract open-book geometry, not a stack of documents -->
+<g transform="translate(860 204)">
+ <path d="M0 18C42 0 70 8 91 28V132C65 112 34 108 0 126Z" fill="#3b7e70"/>
+ <path d="M91 28C116 8 146 0 186 18V126C151 108 121 112 91 132Z" fill="#8dc8b3"/>
+ <path d="M91 28V132" stroke="#f4ebdc" stroke-width="4"/>
+ <path d="M17 44C39 37 55 40 72 48M17 62C39 55 55 58 72 66M109 48C132 40 149 37 169 44M109 66C132 58 149 55 169 62" fill="none" stroke="#e9f2e7" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+ <path d="M91 144L91 164" stroke="#c3ad94" stroke-width="2"/>
+ <path d="M78 164H104" stroke="#c3ad94" stroke-width="2"/>
+</g>
+<!-- test symbol: a geometric speech bubble with an amber check -->
+<g transform="translate(885 400)">
+ <path d="M10 0H148Q165 0 165 17V72Q165 89 148 89H70L42 116V89H10Q-7 89-7 72V17Q-7 0 10 0Z" fill="#fff8ed" stroke="#b9a38b" stroke-width="2"/>
+ <path d="M40 46L62 66L106 25" fill="none" stroke="#c66b43" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+ <circle cx="138" cy="18" r="7" fill="#6b4a9b"/>
+</g>
+<!-- restrained glints -->
+<g fill="#bd854b">
+ <path d="M376 180L383 197L400 204L383 211L376 228L369 211L352 204L369 197Z"/>
+ <path d="M796 350L801 362L813 367L801 372L796 384L791 372L779 367L791 362Z"/>
+</g>
+<g fill="#4d8275"><circle cx="333" cy="414" r="5"/><circle cx="808" cy="145" r="5"/><circle cx="1000" cy="345" r="5"/></g>
+</svg>
