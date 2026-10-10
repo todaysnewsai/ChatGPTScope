@@ -383,3 +383,8 @@ people who depend on it.
     https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source
 -   Anthropic OSS Scanner enrollment and program details:
     https://red.anthropic.com/oss-scanner/
+
+## Related Articles
+
+- [Anthropic’s Updated Usage Policy: What Changes in November 2026](https://articlesaboutai.com/news/2026/10/10/anthropic-usage-policy-update-november-2026/)
+- [Claude Haiku 5.5: Pricing, Features, and Availability](https://articlesaboutai.com/news/2026/10/10/claude-haiku-5-5-pricing-availability/)
