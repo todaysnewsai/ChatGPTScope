@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">ChatGPT vs Google Gemini: choose by workflow</title>
+  <desc id="desc">An original editorial illustration of a balanced brass scale on an ivory field. A teal speech tile sits on one pan and a multicolour four-point star sits on the other, showing that the better AI assistant depends on the user's workflow rather than a universal winner.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf7ed"/>
+      <stop offset="1" stop-color="#eee5d5"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8f472e"/>
+      <stop offset="0.5" stop-color="#c58a4a"/>
+      <stop offset="1" stop-color="#7c3b2d"/>
+    </linearGradient>
+    <linearGradient id="tealTile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d5eee4"/>
+      <stop offset="1" stop-color="#a7d6ca"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#2a2924" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#paper)"/>
+  <path d="M0 535 C190 480 330 575 510 536 S875 485 1200 540 V675 H0Z" fill="#e4d8c5" opacity=".52"/>
+  <g fill="none" stroke="#cbbba3" stroke-width="1" opacity=".62">
+    <path d="M48 84H1152"/><path d="M48 594H1152"/>
+    <path d="M48 610H1152" stroke-dasharray="2 8"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="58" y="53" fill="#645a4c" font-size="15" font-weight="700" letter-spacing="2.5">ARTICLES ABOUT AI  /  COMPARISON GUIDE</text>
+    <text x="58" y="112" fill="#202421" font-size="44" font-weight="700" letter-spacing="-1.2">Two assistants. Different ecosystems.</text>
+    <text x="60" y="145" fill="#5e5b52" font-size="19">Choose the tool that fits the work—not the loudest model claim.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M597 236 L603 236 L642 518 L558 518Z" fill="url(#brass)"/>
+    <path d="M516 520 Q600 497 684 520 L704 544 Q600 560 496 544Z" fill="#262a26"/>
+    <path d="M535 548H665" stroke="#c58a4a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M305 260 L895 260" stroke="#242925" stroke-width="15" stroke-linecap="round"/>
+    <path d="M305 254 L895 254" stroke="#c58a4a" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="600" cy="260" r="23" fill="#282c27" stroke="#c58a4a" stroke-width="5"/>
+    <circle cx="600" cy="260" r="7" fill="#f8f0df"/>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M306 268 L306 356 M306 268 L230 268 M306 268 L382 268" fill="none" stroke="#6b5847" stroke-width="3"/>
+    <path d="M230 268 L183 367 M382 268 L429 367" fill="none" stroke="#8c7862" stroke-width="2.5"/>
+    <path d="M183 367 Q306 410 429 367" fill="#c58a4a" opacity=".22" stroke="#8c7862" stroke-width="3"/>
+    <path d="M190 366 Q306 391 422 366" fill="none" stroke="#8c7862" stroke-width="3"/>
+    <g filter="url(#shadow)">
+      <rect x="242" y="292" width="128" height="92" rx="22" fill="url(#tealTile)" stroke="#317f72" stroke-width="2"/>
+      <path d="M273 318 H338 Q348 318 348 328 V346 Q348 356 338 356 H305 L288 369 V356 H273 Q263 356 263 346 V328 Q263 318 273 318Z" fill="#176b61"/>
+      <path d="M282 334H329 M282 344H317" stroke="#e8f5ef" stroke-width="4"/>
+    </g>
+    <text x="306" y="432" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2" fill="#202421">CHATGPT</text>
+    <text x="306" y="456" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="1.2" fill="#5e5b52">TOOLS · PROJECTS</text>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M894 268 L894 356 M894 268 L818 268 M894 268 L970 268" fill="none" stroke="#6b5847" stroke-width="3"/>
+    <path d="M818 268 L771 367 M970 268 L1017 367" fill="none" stroke="#8c7862" stroke-width="2.5"/>
+    <path d="M771 367 Q894 410 1017 367" fill="#c58a4a" opacity=".22" stroke="#8c7862" stroke-width="3"/>
+    <path d="M778 366 Q894 391 1010 366" fill="none" stroke="#8c7862" stroke-width="3"/>
+    <g filter="url(#shadow)">
+      <rect x="830" y="292" width="128" height="92" rx="22" fill="#fffaf0" stroke="#c9bba4" stroke-width="2"/>
+      <path d="M894 304 C902 326 910 334 940 338 C910 342 902 350 894 372 C886 350 878 342 848 338 C878 334 886 326 894 304Z" fill="#4285f4"/>
+      <path d="M894 304 C902 326 910 334 940 338 L894 338Z" fill="#ea4335"/>
+      <path d="M894 338 L940 338 C910 342 902 350 894 372Z" fill="#34a853"/>
+      <path d="M894 338 L894 372 C886 350 878 342 848 338Z" fill="#fbbc04"/>
+    </g>
+    <text x="894" y="432" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2" fill="#202421">GEMINI</text>
+    <text x="894" y="456" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="1.2" fill="#5e5b52">GOOGLE CONTEXT</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#62594d" font-size="13" font-weight="700" letter-spacing="1.7">
+    <text x="600" y="616" text-anchor="middle">WRITING  ·  RESEARCH  ·  FILES  ·  APPS  ·  PRIVACY</text>
+  </g>
+  <g fill="#8e7b64" opacity=".75">
+    <circle cx="85" cy="205" r="3"/><circle cx="100" cy="205" r="3"/><circle cx="115" cy="205" r="3"/>
+    <circle cx="1085" cy="205" r="3"/><circle cx="1100" cy="205" r="3"/><circle cx="1115" cy="205" r="3"/>
+  </g>
+</svg>
