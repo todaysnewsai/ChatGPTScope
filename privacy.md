@@ -13,7 +13,7 @@ If you contact us through a public issue in our [GitHub repository](https://gith
 
 ## Hosting and technical information
 
-This website is hosted through GitHub Pages. GitHub may process technical information needed to deliver, protect, and maintain the service, in accordance with its policies. For details, review [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+This website is hosted through Cloudflare Pages. Cloudflare may process technical information, including request data and security-related information, to deliver, protect, and maintain the service. For details, review [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
 ## Cookies, analytics, and third-party services
 
