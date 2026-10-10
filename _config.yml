@@ -5,6 +5,7 @@ repository: "todaysnewsai/ChatGPTScope"
 baseurl: "/ChatGPTScope"
 lang: "en-US"
 timezone: "UTC"
+encoding: UTF-8
 
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
