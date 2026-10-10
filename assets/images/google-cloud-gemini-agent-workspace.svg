@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Gemini Agent enterprise work environment</title>
+<desc id="desc">An editorial illustration of a central AI work agent coordinating documents, messages, code, and business data in a dimensional digital workspace.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101c2b"/><stop offset="1" stop-color="#172b3d"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7f4ff" stop-opacity=".22"/><stop offset="1" stop-color="#8cc8dc" stop-opacity=".04"/></linearGradient>
+  <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5c56a"/><stop offset=".48" stop-color="#ee8b68"/><stop offset="1" stop-color="#a9d8d2"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+  <pattern id="grain" width="42" height="42" patternUnits="userSpaceOnUse"><circle cx="4" cy="8" r="1" fill="#d9e7ef" opacity=".14"/><circle cx="28" cy="30" r=".8" fill="#d9e7ef" opacity=".1"/></pattern>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect width="1600" height="900" fill="url(#grain)"/>
+<path d="M0 735 Q390 580 730 720 T1600 670 L1600 900 L0 900Z" fill="#0a1420" opacity=".52"/>
+<g fill="none" stroke="#b9d4df" stroke-opacity=".22">
+  <path d="M310 450 C430 260 650 230 800 350 S1170 590 1320 390" stroke-width="2" stroke-dasharray="7 12"/>
+  <path d="M350 540 C510 690 710 680 820 530 S1080 250 1280 340" stroke-width="1.5" stroke-dasharray="3 10"/>
+  <ellipse cx="820" cy="458" rx="430" ry="250" transform="rotate(-18 820 458)" stroke-width="1.5"/>
+  <ellipse cx="820" cy="458" rx="320" ry="185" transform="rotate(28 820 458)" stroke-width="1.2"/>
+</g>
+<g opacity=".4" filter="url(#shadow)"><ellipse cx="810" cy="490" rx="170" ry="130" fill="#e98f70"/></g>
+<!-- central agent: a faceted glass prism, not a generic chat bubble -->
+<g transform="translate(810 448)">
+  <path d="M0 -132 L104 -73 L104 48 L0 108 L-104 48 L-104 -73Z" fill="#06111b" stroke="#d4e4e8" stroke-opacity=".72" stroke-width="2"/>
+  <path d="M0 -132 L0 -14 L-104 -73Z" fill="#f4c66f" fill-opacity=".86"/>
+  <path d="M0 -132 L104 -73 L0 -14Z" fill="#ef9272" fill-opacity=".9"/>
+  <path d="M-104 -73 L0 -14 L-104 48Z" fill="#7dbcc6" fill-opacity=".8"/>
+  <path d="M104 -73 L0 -14 L104 48Z" fill="#a8d9cc" fill-opacity=".85"/>
+  <path d="M-104 48 L0 -14 L0 108Z" fill="#254a5d"/>
+  <path d="M104 48 L0 -14 L0 108Z" fill="#d2a56b" fill-opacity=".72"/>
+  <circle cx="0" cy="-14" r="24" fill="#f8f5e9" fill-opacity=".95"/>
+  <path d="M-8 -14 L-1 -25 L5 -7 L14 -17" fill="none" stroke="#1b2b37" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="0" y="151" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" letter-spacing="5" fill="#f3f0e6" text-anchor="middle">GEMINI AGENT</text>
+  <text x="0" y="180" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3" fill="#b7ccd5" text-anchor="middle">PLAN · ACT · COORDINATE</text>
+</g>
+<!-- document workspace -->
+<g transform="translate(285 290) rotate(-8)">
+  <rect x="0" y="0" width="200" height="248" rx="15" fill="#0b1723" stroke="#d6e6eb" stroke-opacity=".55" stroke-width="2"/>
+  <rect x="14" y="14" width="172" height="220" rx="8" fill="url(#glass)" stroke="#c9e1e7" stroke-opacity=".2"/>
+  <path d="M36 45 H142 M36 61 H165 M36 77 H130" stroke="#dcebf0" stroke-opacity=".62" stroke-width="5" stroke-linecap="round"/>
+  <rect x="36" y="103" width="126" height="56" rx="5" fill="#e9b96d" fill-opacity=".82"/>
+  <path d="M36 179 H154 M36 194 H128 M36 209 H144" stroke="#c1d9e0" stroke-opacity=".55" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="164" cy="32" r="5" fill="#f19a76"/>
+</g>
+<!-- messages panel -->
+<g transform="translate(1090 220) rotate(7)">
+  <rect x="0" y="0" width="228" height="158" rx="18" fill="#0c1b28" stroke="#cce0e7" stroke-opacity=".58" stroke-width="2"/>
+  <rect x="17" y="18" width="194" height="122" rx="10" fill="url(#glass)"/>
+  <circle cx="43" cy="47" r="10" fill="#ef9474"/>
+  <path d="M63 43 H174 M63 53 H144" stroke="#d9e7ed" stroke-opacity=".72" stroke-width="4" stroke-linecap="round"/>
+  <rect x="36" y="75" width="150" height="25" rx="7" fill="#8fc9c9" fill-opacity=".7"/>
+  <path d="M45 113 H151" stroke="#d9e7ed" stroke-opacity=".55" stroke-width="4" stroke-linecap="round"/>
+</g>
+<!-- code panel -->
+<g transform="translate(1070 580) rotate(-5)">
+  <rect x="0" y="0" width="240" height="155" rx="16" fill="#0a1622" stroke="#cce0e7" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M0 35 H240" stroke="#d0e2e8" stroke-opacity=".3"/>
+  <circle cx="19" cy="18" r="4" fill="#e88f73"/><circle cx="34" cy="18" r="4" fill="#edc56e"/><circle cx="49" cy="18" r="4" fill="#8bc9c5"/>
+  <path d="M24 61 H98 M24 78 H152 M24 95 H123 M24 112 H181 M24 129 H102" stroke-linecap="round" stroke-width="5" stroke="#9fcdd0" stroke-opacity=".72"/>
+  <path d="M164 61 H212 M176 78 H212 M149 95 H212" stroke-linecap="round" stroke-width="5" stroke="#f1b56e" stroke-opacity=".85"/>
+</g>
+<!-- data stack -->
+<g transform="translate(360 635)">
+  <path d="M0 0 L105 -35 L212 0 L106 40Z" fill="#a4d5d2" fill-opacity=".82" stroke="#dce9e8" stroke-opacity=".6"/>
+  <path d="M0 0 V37 L106 76 L212 37 V0 L106 40Z" fill="#1d4659" stroke="#c3dce2" stroke-opacity=".5"/>
+  <path d="M0 22 L106 62 L212 22 M0 44 L106 83 L212 44" fill="none" stroke="#c5e1e1" stroke-opacity=".42" stroke-width="2"/>
+</g>
+<!-- small connector nodes -->
+<g fill="#f1c16f" stroke="#f5e5bd" stroke-width="2">
+  <circle cx="540" cy="270" r="7"/><circle cx="1030" cy="355" r="6"/><circle cx="1012" cy="580" r="7"/><circle cx="580" cy="630" r="6"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="2" fill="#c7dce4">
+  <text x="282" y="264">DOCUMENTS</text>
+  <text x="1091" y="198">MESSAGES</text>
+  <text x="1090" y="562">CODE</text>
+  <text x="360" y="735">BUSINESS DATA</text>
+</g>
+<text x="80" y="82" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="4" fill="#b8d0d8">ARTICLES ABOUT AI / ENTERPRISE AGENTS</text>
+<text x="80" y="830" font-family="Georgia, 'Times New Roman', serif" font-size="42" fill="#f2eee3">From prompts to completed work.</text>
+<text x="82" y="861" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2" fill="#a8c3ce">A new operating layer for business workflows</text>
+</svg>
