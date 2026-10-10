@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">ChatGPT Voice Mode: the shape of a spoken conversation</title>
+<desc id="desc">An original abstract editorial soundscape: a sculptural ear-like spiral on the left receives sweeping ribbons of sound that unfold into a bright, irregular waveform on the right. A deep cobalt field, pale lavender arcs, and a sharp citron accent depict listening and speaking without imitating an app interface.</desc>
+<defs>
+  <linearGradient id="field" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101A49"/><stop offset="1" stop-color="#292B72"/></linearGradient>
+  <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4EFFF"/><stop offset=".55" stop-color="#B7B8FF"/><stop offset="1" stop-color="#777DFF"/></linearGradient>
+  <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7F36B"/><stop offset="1" stop-color="#C6F26D"/></linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#777DFF" stop-opacity=".36"/><stop offset="1" stop-color="#777DFF" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="675" fill="url(#field)"/>
+<circle cx="345" cy="345" r="290" fill="url(#glow)"/>
+<g fill="none" stroke="#858AFF" stroke-width="1.5" opacity=".32">
+  <circle cx="345" cy="344" r="248"/><circle cx="345" cy="344" r="214"/><circle cx="345" cy="344" r="180"/>
+</g>
+<text x="70" y="68" fill="#D4D7FF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="4">ARTICLES ABOUT AI  /  PRACTICAL GUIDE</text>
+<text x="70" y="125" fill="#FFFFFF" font-family="Georgia,serif" font-size="48" font-weight="700">ChatGPT Voice Mode</text>
+<text x="72" y="162" fill="#C9CBF8" font-family="Arial,Helvetica,sans-serif" font-size="19">A conversation shaped by sound</text>
+<!-- abstract ear / listening spiral -->
+<path d="M360 515C250 515 192 428 197 326C202 228 260 177 335 181C410 184 459 242 456 311C454 355 430 382 398 407C373 427 363 446 368 469" fill="none" stroke="#F4EFFF" stroke-width="30" stroke-linecap="round"/>
+<path d="M350 449C299 447 270 404 271 348C272 294 300 263 338 264C377 264 399 292 396 326C394 348 382 363 363 377C343 391 338 414 350 430" fill="none" stroke="url(#ribbon)" stroke-width="20" stroke-linecap="round"/>
+<path d="M338 329C325 319 325 301 339 294C354 286 371 297 369 312" fill="none" stroke="#C6F26D" stroke-width="9" stroke-linecap="round"/>
+<circle cx="343" cy="348" r="7" fill="#C6F26D"/>
+<!-- sound ribbons travel across the canvas -->
+<path d="M444 278C514 218 547 222 596 278S683 342 736 287S828 205 890 263S977 337 1113 257" fill="none" stroke="url(#ribbon)" stroke-width="15" stroke-linecap="round"/>
+<path d="M449 319C510 287 544 291 591 326S678 367 730 334S823 274 883 313S977 369 1116 315" fill="none" stroke="#A8ABFF" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+<path d="M453 365C517 351 548 356 590 374S670 399 721 380S821 345 882 367S985 411 1114 372" fill="none" stroke="#E3DEFF" stroke-width="3" stroke-linecap="round" opacity=".72"/>
+<!-- irregular spoken waveform, deliberately not a generic equalizer -->
+<g fill="url(#wave)">
+  <path d="M615 455C624 455 630 467 630 489C630 511 624 523 615 523C606 523 600 511 600 489C600 467 606 455 615 455Z"/>
+  <path d="M660 430C672 430 680 449 680 486C680 523 672 542 660 542C648 542 640 523 640 486C640 449 648 430 660 430Z"/>
+  <path d="M710 447C721 447 728 461 728 487C728 513 721 527 710 527C699 527 692 513 692 487C692 461 699 447 710 447Z"/>
+  <path d="M758 404C772 404 781 431 781 484C781 537 772 564 758 564C744 564 735 537 735 484C735 431 744 404 758 404Z"/>
+  <path d="M810 438C821 438 828 456 828 486C828 516 821 534 810 534C799 534 792 516 792 486C792 456 799 438 810 438Z"/>
+  <path d="M858 462C866 462 872 472 872 489C872 506 866 516 858 516C850 516 844 506 844 489C844 472 850 462 858 462Z"/>
+  <path d="M903 425C914 425 921 445 921 486C921 527 914 547 903 547C892 547 885 527 885 486C885 445 892 425 903 425Z"/>
+  <path d="M951 451C960 451 966 464 966 488C966 512 960 525 951 525C942 525 936 512 936 488C936 464 942 451 951 451Z"/>
+  <path d="M996 436C1006 436 1013 454 1013 487C1013 520 1006 538 996 538C986 538 979 520 979 487C979 454 986 436 996 436Z"/>
+  <path d="M1042 465C1050 465 1055 475 1055 489C1055 503 1050 513 1042 513C1034 513 1029 503 1029 489C1029 475 1034 465 1042 465Z"/>
+</g>
+<path d="M594 590H1070" stroke="#8187F7" stroke-width="1.5" opacity=".55"/>
+<text x="70" y="610" fill="#D4D7FF" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="2">LISTEN  ·  SPEAK  ·  FOLLOW UP</text>
+<text x="70" y="642" fill="#8E94E5" font-family="Arial,Helvetica,sans-serif" font-size="13">VOICE IS CONVERSATION, NOT JUST DICTATION</text>
+</svg>
