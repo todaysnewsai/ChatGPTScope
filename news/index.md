@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "ChatGPT News & Updates"
+title: "AI News & Updates"
 permalink: /news/
 category: news
-description: "The latest verified ChatGPT updates, OpenAI announcements, new features, and important AI developments."
+description: "Verified AI news, model launches, product updates, and important developments across OpenAI, Google, Anthropic, Mistral, and the wider AI industry."
 ---
 
-Follow important changes to ChatGPT and the wider AI landscape. We focus on confirmed product releases, feature updates, model announcements, availability changes, and news that affects how people use AI.
+Follow important changes across the artificial intelligence landscape. We cover confirmed product releases, feature updates, model announcements, availability changes, research, and policy developments from OpenAI, Google, Anthropic, Mistral, Perplexity, and other AI companies.
 
 Our reporting prioritizes official announcements and primary sources. When details are uncertain or still developing, we say so clearly.
