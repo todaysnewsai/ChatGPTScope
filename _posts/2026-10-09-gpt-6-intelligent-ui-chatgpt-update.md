@@ -169,3 +169,8 @@ For readers, the best way to assess the update is to test it against a real, low
 - [GPT-6 Astra: A new generation of intelligence — OpenAI](https://openai.com/index/gpt-6-astra/)
 
 *ChatGPTScope is an independent publication and is not affiliated with or endorsed by OpenAI. Product details in this article reflect OpenAI’s official documentation checked on October 9, 2026; availability and behavior may change as the rollout continues.*
+
+## Related Articles
+
+- [Faster Codex Steering in ChatGPT Desktop](https://articlesaboutai.com/news/2026/10/09/faster-codex-steering-chatgpt-desktop/)
+- [ChatGPT Free vs. Plus: What Is the Difference?](https://articlesaboutai.com/guides/2026/10/10/chatgpt-free-vs-plus-what-is-the-difference/)
