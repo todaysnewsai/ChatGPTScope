@@ -162,3 +162,8 @@ For developers, the main task is to review the entire system rather than the pro
 - [Anthropic Usage Policy, effective November 12, 2026](https://www.anthropic.com/legal/aup)
 - [Anthropic Supported Regions Policy](https://www.anthropic.com/supported-countries)
 - [Anthropic: Claude Opus 4 and 4.1 can now end a rare subset of conversations](https://www.anthropic.com/research/end-subset-conversations)
+
+## Related Articles
+
+- [Anthropic’s Cyber Mission and Open-Source Security Scanner](https://articlesaboutai.com/news/2026/10/09/anthropic-cyber-mission-oss-scanner/)
+- [Claude Haiku 5.5: Pricing, Features, and Availability](https://articlesaboutai.com/news/2026/10/10/claude-haiku-5-5-pricing-availability/)
