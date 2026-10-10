@@ -129,3 +129,8 @@ The strongest use case is not necessarily to make Haiku the only model in an app
 - Anthropic Newsroom: https://www.anthropic.com/news
 - Claude Platform documentation: https://platform.claude.com/docs
 - Anthropic Help Center: https://support.claude.com/
+
+## Related Articles
+
+- [Anthropic’s Updated Usage Policy: What Changes in November 2026](https://articlesaboutai.com/news/2026/10/10/anthropic-usage-policy-update-november-2026/)
+- [Mistral Large 4: Preview, Pricing, and Availability](https://articlesaboutai.com/news/2026/10/10/mistral-large-4-preview-pricing/)
