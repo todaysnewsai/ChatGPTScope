@@ -6,9 +6,11 @@ baseurl: ""
 lang: "en-US"
 timezone: "UTC"
 encoding: UTF-8
+include:
+  - _redirects
 
 markdown: kramdown
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:title/
 paginate: 9
 paginate_path: "/page:num/"
 
