@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Diagnosing a ChatGPT network error</title>
+<desc id="desc">A technical network map with browser, router, broken connection, and service nodes. A coral interruption and teal alternate route show how to isolate the source of a connection problem.</desc>
+<rect width="1200" height="675" fill="#13232c"/>
+<g stroke="#29434c" stroke-width="1"><path d="M0 50H1200M0 100H1200M0 150H1200M0 200H1200M0 250H1200M0 300H1200M0 350H1200M0 400H1200M0 450H1200M0 500H1200M0 550H1200M0 600H1200M0 650H1200"/><path d="M50 0V675M100 0V675M150 0V675M200 0V675M250 0V675M300 0V675M350 0V675M400 0V675M450 0V675M500 0V675M550 0V675M600 0V675M650 0V675M700 0V675M750 0V675M800 0V675M850 0V675M900 0V675M950 0V675M1000 0V675M1050 0V675M1100 0V675M1150 0V675" opacity=".55"/></g>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="54" y="48" fill="#73d5c4" font-size="15" font-weight="700" letter-spacing="3">ARTICLES ABOUT AI / TROUBLESHOOTING</text>
+<text x="54" y="83" fill="#f5f2e8" font-size="28" font-weight="700">Trace the route. Isolate the fault.</text>
+<text x="1144" y="50" text-anchor="end" fill="#9ab0b4" font-size="12" letter-spacing="2">NETWORK TRACE 01</text>
+</g>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M154 300H305L355 250H454L500 295" stroke="#73d5c4" stroke-width="5"/>
+<path d="M626 295L674 247H802L850 300H1010" stroke="#f17a68" stroke-width="5" stroke-dasharray="9 11"/>
+<path d="M454 250V423H590L635 466H800V380" stroke="#73d5c4" stroke-width="3" stroke-dasharray="3 10"/>
+<path d="M305 300V450H205V505H408M802 247V183H956V218M1010 300V427H1090" stroke="#557780" stroke-width="3"/>
+</g>
+<g transform="translate(100 250)"><circle cx="54" cy="50" r="54" fill="#203b44" stroke="#73d5c4" stroke-width="2"/><rect x="24" y="29" width="60" height="43" rx="4" fill="none" stroke="#f4f1e7" stroke-width="3"/><path d="M24 41H84M35 35H36M44 35H45M53 35H54M39 57H70M39 64H61" stroke="#73d5c4" stroke-width="3" stroke-linecap="round"/><text x="54" y="126" text-anchor="middle" fill="#f4f1e7" font-size="14" font-weight="700">BROWSER</text><text x="54" y="146" text-anchor="middle" fill="#9ab0b4" font-size="12">session / cache</text></g>
+<g transform="translate(355 195)"><circle cx="50" cy="55" r="50" fill="#203b44" stroke="#73d5c4" stroke-width="2"/><path d="M24 59H76V72H24ZM34 54L29 30M66 54L71 30M39 39Q50 28 61 39M44 47Q50 41 56 47" fill="none" stroke="#f4f1e7" stroke-width="3" stroke-linecap="round"/><text x="50" y="126" text-anchor="middle" fill="#f4f1e7" font-size="14" font-weight="700">LOCAL NETWORK</text><text x="50" y="146" text-anchor="middle" fill="#9ab0b4" font-size="12">Wi-Fi / DNS / VPN</text></g>
+<g transform="translate(563 295)"><circle r="42" fill="#33252b" stroke="#f17a68" stroke-width="3"/><path d="M-15 -15L15 15M15 -15L-15 15" stroke="#f17a68" stroke-width="7" stroke-linecap="round"/><text x="0" y="73" text-anchor="middle" fill="#ff9d8c" font-size="13" font-weight="700" letter-spacing="1">BROKEN LINK?</text></g>
+<g transform="translate(1010 300)"><circle r="56" fill="#203b44" stroke="#73d5c4" stroke-width="2"/><path d="M-25 -25H25V-10H-25ZM-25 -1H25V14H-25ZM-25 23H25V38H-25Z" fill="none" stroke="#f4f1e7" stroke-width="3"/><circle cx="14" cy="-17" r="3" fill="#73d5c4"/><circle cx="14" cy="6" r="3" fill="#73d5c4"/><circle cx="14" cy="30" r="3" fill="#73d5c4"/><text x="0" y="89" text-anchor="middle" fill="#f4f1e7" font-size="14" font-weight="700">CHATGPT SERVICE</text><text x="0" y="108" text-anchor="middle" fill="#9ab0b4" font-size="12">check status first</text></g>
+<g transform="translate(635 466)"><circle r="18" fill="#173c3b" stroke="#73d5c4" stroke-width="2"/><path d="M-7 0L-1 6L8 -7" fill="none" stroke="#73d5c4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(800 380)"><circle r="18" fill="#173c3b" stroke="#73d5c4" stroke-width="2"/><path d="M-7 0L-1 6L8 -7" fill="none" stroke="#73d5c4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g font-family="Arial,Helvetica,sans-serif"><text x="205" y="545" fill="#9ab0b4" font-size="13" letter-spacing="1">TRY A PRIVATE WINDOW</text><text x="480" y="510" fill="#73d5c4" font-size="13" letter-spacing="1">TEST ANOTHER NETWORK</text><text x="956" y="170" fill="#9ab0b4" font-size="13" letter-spacing="1">SERVICE STATUS</text><text x="54" y="630" fill="#f1c56d" font-size="13" font-weight="700" letter-spacing="1.5">CHANGE ONE VARIABLE AT A TIME</text><text x="1144" y="630" text-anchor="end" fill="#9ab0b4" font-size="12">BROWSER → ROUTER → SERVICE</text></g>
+<g fill="#f1c56d"><circle cx="305" cy="300" r="5"/><circle cx="454" cy="250" r="5"/><circle cx="802" cy="247" r="5"/><circle cx="1010" cy="300" r="5"/></g>
+</svg>
