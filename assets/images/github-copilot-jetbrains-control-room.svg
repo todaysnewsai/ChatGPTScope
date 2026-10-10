@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Copilot for JetBrains October 2026 update</title>
+<desc id="desc">A unique four-panel infographic about managed default models, diagnostic fixes, MCP server startup controls, and JetBrains IDE 2025.2 compatibility.</desc>
+<rect width="1200" height="675" fill="#f2f0ff"/>
+<text x="60" y="55" fill="#5a5685" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">ARTICLES ABOUT AI / DEVELOPER TOOLS</text>
+<text x="60" y="112" fill="#242348" font-family="Georgia,serif" font-size="44" font-weight="700">More control inside the IDE</text>
+<text x="62" y="145" fill="#686784" font-family="Arial,sans-serif" font-size="18">Copilot for JetBrains · October 10, 2026</text>
+<rect x="55" y="177" width="1090" height="332" rx="20" fill="#fff" stroke="#d6d8eb" stroke-width="2"/>
+<rect x="55" y="177" width="1090" height="46" rx="20" fill="#28264f"/>
+<path d="M55 201H1145V223H55Z" fill="#28264f"/>
+<circle cx="83" cy="200" r="6" fill="#ff8b86"/><circle cx="104" cy="200" r="6" fill="#ffd36d"/><circle cx="125" cy="200" r="6" fill="#9be5c1"/>
+<text x="158" y="206" fill="#fff" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">COPILOT SETTINGS / JETBRAINS</text>
+<g font-family="Arial,sans-serif">
+<rect x="82" y="249" width="247" height="222" rx="15" fill="#f1effb" stroke="#ddd9f4"/>
+<rect x="350" y="249" width="247" height="222" rx="15" fill="#eef6f3" stroke="#cce8de"/>
+<rect x="618" y="249" width="247" height="222" rx="15" fill="#fff3ec" stroke="#f3d9ca"/>
+<rect x="886" y="249" width="231" height="222" rx="15" fill="#f0f2f9" stroke="#d7dcec"/>
+<circle cx="111" cy="279" r="15" fill="#6655c7"/><text x="111" y="285" fill="#fff" text-anchor="middle" font-size="15" font-weight="700">1</text>
+<text x="136" y="283" fill="#292650" font-size="17" font-weight="700">DEFAULT MODEL</text>
+<rect x="103" y="308" width="204" height="36" rx="8" fill="#fff" stroke="#d6d0f1"/><text x="117" y="331" fill="#57517c" font-size="14">Admin-managed choice</text>
+<path d="M120 366H280M120 383H248" stroke="#c9c4e6" stroke-width="5" stroke-linecap="round"/>
+<text x="103" y="430" fill="#68638b" font-size="14">New conversations</text><text x="103" y="450" fill="#68638b" font-size="14">Model picker remains</text>
+<circle cx="379" cy="279" r="15" fill="#178568"/><text x="379" y="285" fill="#fff" text-anchor="middle" font-size="15" font-weight="700">2</text>
+<text x="404" y="283" fill="#173f36" font-size="17" font-weight="700">DIAGNOSTICS</text>
+<rect x="371" y="309" width="204" height="54" rx="8" fill="#fff" stroke="#c9e3d9"/><circle cx="390" cy="329" r="5" fill="#d65f4d"/><path d="M403 329H550M388 347H511" stroke="#cde4dc" stroke-width="5" stroke-linecap="round"/>
+<rect x="371" y="378" width="204" height="39" rx="8" fill="#178568"/><text x="473" y="403" fill="#fff" text-anchor="middle" font-size="15" font-weight="700">Fix → Inline Chat</text>
+<text x="371" y="450" fill="#4f786d" font-size="14">Agent or Ask mode</text>
+<circle cx="647" cy="279" r="15" fill="#d96a43"/><text x="647" y="285" fill="#fff" text-anchor="middle" font-size="15" font-weight="700">3</text>
+<text x="672" y="283" fill="#5a3228" font-size="17" font-weight="700">MCP STARTUP</text>
+<rect x="642" y="311" width="196" height="44" rx="8" fill="#fff" stroke="#efd0c0"/><text x="654" y="338" fill="#795348" font-size="15">Auto-start servers</text>
+<rect x="790" y="321" width="31" height="18" rx="9" fill="#d96a43"/><circle cx="810" cy="330" r="6.5" fill="#fff"/>
+<path d="M648 380H820" stroke="#efc8b6" stroke-width="2"/><text x="642" y="408" fill="#8a5d4e" font-size="14">Choose when tools</text><text x="642" y="428" fill="#8a5d4e" font-size="14">become active</text>
+<circle cx="914" cy="279" r="15" fill="#4d639a"/><text x="914" y="285" fill="#fff" text-anchor="middle" font-size="15" font-weight="700">4</text>
+<text x="939" y="283" fill="#293957" font-size="17" font-weight="700">COMPATIBILITY</text>
+<text x="908" y="337" fill="#343e60" font-family="Georgia,serif" font-size="29" font-weight="700">2025.2+</text><path d="M908 355H1090" stroke="#b8c4e1" stroke-width="2"/>
+<text x="908" y="386" fill="#596887" font-size="14">2025.1 support</text><text x="908" y="406" fill="#bd5149" font-size="14" font-weight="700">has ended</text><text x="908" y="449" fill="#596887" font-size="13">Update the IDE first</text>
+</g>
+<rect x="55" y="535" width="1090" height="78" rx="16" fill="#28264f"/>
+<text x="83" y="565" fill="#d6d4ff" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">THE PRACTICAL CHANGE</text>
+<text x="83" y="592" fill="#fff" font-family="Arial,sans-serif" font-size="18">Set the starting model, control tool startup, and fix diagnostics with fewer steps.</text>
+<rect x="1017" y="555" width="96" height="31" rx="15" fill="#c8f36c"/><text x="1065" y="575" fill="#29371b" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="700">OCT 2026</text>
+</svg>
