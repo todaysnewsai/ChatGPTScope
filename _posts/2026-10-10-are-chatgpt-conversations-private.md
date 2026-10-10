@@ -88,7 +88,7 @@ This is why it is important to distinguish the price of a subscription from its 
 
 For an organization evaluating ChatGPT, the relevant questions include who administers the workspace, what retention policies apply, whether administrators can manage shared links, what contractual commitments are in place, and which data is permitted under company policy. Employees should not assume that using a work email address alone turns a personal account into a managed business workspace.
 
-For more context on plan differences, see our guide to [ChatGPT Free vs. Plus](/guides/2026/10/10/chatgpt-free-vs-plus-what-is-the-difference/). Always read the terms for the specific plan and workspace before uploading confidential information.
+For more context on plan differences, see our guide to [ChatGPT Free vs. Plus](/chatgpt-free-vs-plus-what-is-the-difference/). Always read the terms for the specific plan and workspace before uploading confidential information.
 
 ## What happens when you use a custom GPT, connector, or external tool?
 
