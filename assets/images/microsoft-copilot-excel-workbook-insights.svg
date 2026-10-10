@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">How to Use Microsoft Copilot in Excel</title>
+  <desc id="desc">A distinctive isometric spreadsheet landscape with a green-highlighted cell matrix, a rising column chart, and a floating formula token on a pale periwinkle field. The illustration represents turning structured worksheet data into formulas and insights.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f0ff"/>
+      <stop offset="1" stop-color="#dce5f4"/>
+    </linearGradient>
+    <linearGradient id="sheet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eaf0f7"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4ab981"/>
+      <stop offset="1" stop-color="#14784f"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a49bff"/>
+      <stop offset="1" stop-color="#6155c9"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#25324a" flood-opacity=".2"/>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#26304a" flood-opacity=".16"/>
+    </filter>
+    <pattern id="fineGrid" width="36" height="28" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V28" fill="none" stroke="#c9d2e0" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1030" cy="115" r="150" fill="#c9f36a" opacity=".24"/>
+  <circle cx="130" cy="575" r="185" fill="#8fa3f6" opacity=".18"/>
+  <path d="M0 160C215 110 345 190 500 144S890 76 1200 140" fill="none" stroke="#ffffff" stroke-width="3" opacity=".7"/>
+  <path d="M0 185C220 135 350 215 505 169S890 101 1200 165" fill="none" stroke="#ffffff" stroke-width="1.5" opacity=".6"/>
+  <g transform="translate(112 168) rotate(-8 430 180)" filter="url(#shadow)">
+    <path d="M45 0H865Q884 0 884 20V355Q884 376 863 376H25Q5 376 5 355V38Z" fill="#b7c2d5" opacity=".55"/>
+    <rect x="0" y="0" width="860" height="350" rx="12" fill="url(#sheet)" stroke="#c4cedd" stroke-width="2"/>
+    <path d="M0 0H860V52H0Z" fill="#17243a"/>
+    <circle cx="27" cy="26" r="5" fill="#c9f36a"/>
+    <circle cx="45" cy="26" r="5" fill="#8fa3f6"/>
+    <circle cx="63" cy="26" r="5" fill="#f07861"/>
+    <rect x="88" y="17" width="168" height="18" rx="9" fill="#31435d"/>
+    <rect x="26" y="69" width="808" height="252" rx="4" fill="#fbfcff"/>
+    <rect x="26" y="69" width="808" height="252" fill="url(#fineGrid)"/>
+    <rect x="26" y="69" width="808" height="28" fill="#dcefe5"/>
+    <rect x="26" y="69" width="54" height="252" fill="#e8edf5"/>
+    <path d="M80 69V321M188 69V321M296 69V321M404 69V321M512 69V321M620 69V321M728 69V321" stroke="#c9d2e0" stroke-width="1.5"/>
+    <path d="M26 97H834M26 125H834M26 153H834M26 181H834M26 209H834M26 237H834M26 265H834M26 293H834" stroke="#c9d2e0" stroke-width="1.5"/>
+    <g fill="#688073" opacity=".85">
+      <rect x="92" y="78" width="61" height="9" rx="3"/>
+      <rect x="200" y="78" width="61" height="9" rx="3"/>
+      <rect x="308" y="78" width="61" height="9" rx="3"/>
+      <rect x="416" y="78" width="61" height="9" rx="3"/>
+      <rect x="524" y="78" width="61" height="9" rx="3"/>
+      <rect x="632" y="78" width="61" height="9" rx="3"/>
+      <rect x="740" y="78" width="61" height="9" rx="3"/>
+    </g>
+    <g fill="#b4c1d0">
+      <rect x="39" y="106" width="27" height="7" rx="3"/><rect x="39" y="134" width="27" height="7" rx="3"/>
+      <rect x="39" y="162" width="27" height="7" rx="3"/><rect x="39" y="190" width="27" height="7" rx="3"/>
+      <rect x="39" y="218" width="27" height="7" rx="3"/><rect x="39" y="246" width="27" height="7" rx="3"/>
+      <rect x="39" y="274" width="27" height="7" rx="3"/><rect x="39" y="302" width="27" height="7" rx="3"/>
+    </g>
+    <rect x="188" y="125" width="108" height="28" fill="#c9f36a" opacity=".8"/>
+    <rect x="404" y="153" width="108" height="28" fill="#9fe2c0" opacity=".85"/>
+    <rect x="512" y="181" width="108" height="28" fill="#d9d5ff" opacity=".95"/>
+    <rect x="620" y="209" width="108" height="28" fill="#f7c7b8" opacity=".85"/>
+    <rect x="296" y="237" width="108" height="28" fill="#b9e8d2" opacity=".9"/>
+    <rect x="404" y="265" width="108" height="28" fill="#c9f36a" opacity=".8"/>
+    <rect x="188" y="125" width="108" height="28" fill="none" stroke="#178452" stroke-width="3"/>
+    <circle cx="296" cy="153" r="5" fill="#178452"/>
+    <g transform="translate(540 118)">
+      <path d="M0 120H250" stroke="#9daabd" stroke-width="2"/>
+      <path d="M0 90H250M0 60H250M0 30H250" stroke="#d9e0ea" stroke-width="1.5" stroke-dasharray="4 6"/>
+      <rect x="22" y="73" width="34" height="47" rx="3" fill="#8ca2f5"/>
+      <rect x="70" y="48" width="34" height="72" rx="3" fill="#6155c9"/>
+      <rect x="118" y="24" width="34" height="96" rx="3" fill="#1e9865"/>
+      <rect x="166" y="2" width="34" height="118" rx="3" fill="#c9f36a" stroke="#6c8e31" stroke-width="1.5"/>
+      <path d="M22 66L87 40L135 16L183 -6" fill="none" stroke="#f07861" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="22" cy="66" r="5" fill="#f07861"/><circle cx="87" cy="40" r="5" fill="#f07861"/><circle cx="135" cy="16" r="5" fill="#f07861"/><circle cx="183" cy="-6" r="5" fill="#f07861"/>
+    </g>
+  </g>
+  <g transform="translate(760 70) rotate(7)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="240" height="105" rx="18" fill="#17243a"/>
+    <circle cx="43" cy="52" r="25" fill="url(#green)"/>
+    <path d="M31 52L40 61L57 42" fill="none" stroke="#f4fff8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M84 34H207M84 52H185M84 70H165" stroke="#d9e2ef" stroke-width="6" stroke-linecap="round" opacity=".85"/>
+  </g>
+  <g transform="translate(830 474) rotate(7)" filter="url(#softShadow)">
+    <rect width="224" height="102" rx="20" fill="#ffffff" stroke="#d2d9e7" stroke-width="2"/>
+    <rect x="18" y="18" width="64" height="64" rx="14" fill="#e1f5e8"/>
+    <path d="M34 63L45 49L54 56L69 34" fill="none" stroke="#18885a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="99" y="27" width="103" height="9" rx="4" fill="#17243a"/>
+    <rect x="99" y="45" width="78" height="7" rx="3" fill="#8b96a9"/>
+    <rect x="99" y="61" width="90" height="7" rx="3" fill="#8b96a9"/>
+  </g>
+  <g transform="translate(62 60)">
+    <circle cx="36" cy="36" r="36" fill="#ffffff" opacity=".92"/>
+    <circle cx="36" cy="36" r="27" fill="#dff5e8"/>
+    <path d="M22 38L32 48L51 27" fill="none" stroke="#178452" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="56" y="641" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4" fill="#34435b">ARTICLES ABOUT AI  /  MICROSOFT COPILOT GUIDE</text>
+</svg>
