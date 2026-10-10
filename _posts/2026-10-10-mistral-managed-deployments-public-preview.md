@@ -406,3 +406,8 @@ production architecture.
     deployments](https://docs.mistral.ai/studio/workflows/managing-workflows-in-production/managed-deployments/secrets)
 -   [Hardened
     deployments](https://docs.mistral.ai/studio/workflows/managing-workflows-in-production/hardened_deployments)
+
+## Related Articles
+
+- [Mistral Large 4: Preview, Pricing, and Availability](https://articlesaboutai.com/news/2026/10/10/mistral-large-4-preview-pricing/)
+- [Perplexity’s Multimodal Embedding Models](https://articlesaboutai.com/news/2026/10/09/perplexity-multimodal-embeddings-late-interaction/)
