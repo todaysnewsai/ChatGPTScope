@@ -82,7 +82,7 @@ A useful test is to compare plans on your own real tasks rather than on a single
 
 Do not treat a fluent answer as proof of accuracy. ChatGPT can misunderstand a question, omit a qualification, or confidently state something incorrect on either plan. For research, ask for sources and open them. For calculations, check the method. For uploaded files, compare the summary with the original. A subscription can increase capacity, but it cannot replace verification.
 
-If you are still learning the product, our [beginner's guide to using ChatGPT effectively](https://todaysnewsai.github.io/ChatGPTScope/guides/2026/10/09/how-to-use-chatgpt-effectively/) explains how to frame requests, use follow-up questions, and check the result. Our guide to [writing better ChatGPT prompts](https://todaysnewsai.github.io/ChatGPTScope/guides/2026/10/09/how-to-write-better-chatgpt-prompts/) covers more detailed techniques for improving output.
+If you are still learning the product, our [beginner's guide to using ChatGPT effectively](https://articlesaboutai.com/guides/2026/10/09/how-to-use-chatgpt-effectively/) explains how to frame requests, use follow-up questions, and check the result. Our guide to [writing better ChatGPT prompts](https://articlesaboutai.com/guides/2026/10/09/how-to-write-better-chatgpt-prompts/) covers more detailed techniques for improving output.
 
 ## 5. Which plan is better for file uploads and data analysis?
 
@@ -94,7 +94,7 @@ For important analysis, define the question and the output format. Ask ChatGPT t
 
 If document work is a major reason you are considering Plus, first test your usual tasks on Free. Notice whether you reach an upload or analysis limit, whether a required tool is unavailable, and how often you need to split the work into smaller steps. If Free completes the job reliably within its limits, a subscription may not add enough value. If limits repeatedly interrupt important work, Plus becomes a stronger candidate.
 
-For a practical workflow, see our guide to [uploading files to ChatGPT and analyzing them](https://todaysnewsai.github.io/ChatGPTScope/guides/2026/10/10/how-to-upload-files-to-chatgpt-and-analyze-them/).
+For a practical workflow, see our guide to [uploading files to ChatGPT and analyzing them](https://articlesaboutai.com/guides/2026/10/10/how-to-upload-files-to-chatgpt-and-analyze-them/).
 
 ## 6. Is Plus better for voice, images, and research?
 
